@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aufgabe2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;digitsResult>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0R-WJ-eMd">
+                                <rect key="frame" x="216" y="541" width="349" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="215" y="628" width="349" height="32"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHP-mk-L44">
+                                <rect key="frame" x="132" y="543" width="76" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="131" y="630" width="76" height="30"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;digitInput>" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zz9-V0-0pX">
+                                <rect key="frame" x="222" y="126" width="156" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxV-wU-rFj">
+                                <rect key="frame" x="187" y="251" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="1"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="114" y="256" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PoQ-l4-bit"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jw1-ow-FbO">
+                                <rect key="frame" x="260" y="250" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="2"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="255" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8mk-ec-bdL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5d1-Aj-U5S">
+                                <rect key="frame" x="332" y="250" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="3"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="259" y="255" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vZB-2c-kw3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3g6-9y-ZoG">
+                                <rect key="frame" x="260" y="316" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="5"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="321" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W7F-Ot-tFf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eci-X5-Cpu">
+                                <rect key="frame" x="187" y="317" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="4"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="114" y="322" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DEe-48-aWK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ve1-7s-MQC">
+                                <rect key="frame" x="260" y="381" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="8"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="386" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Pr-PY-J3H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVr-nT-Uum">
+                                <rect key="frame" x="332" y="381" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="9"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="259" y="386" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zmB-fm-4o8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTn-rQ-XQa">
+                                <rect key="frame" x="187" y="382" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="7"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="114" y="387" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdZ-sM-19b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PG1-G4-Qvo">
+                                <rect key="frame" x="260" y="442" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="0"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="187" y="447" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Rk-FI-snq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ikp-3c-7UN">
+                                <rect key="frame" x="409" y="250" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.95710640037601125" green="0.95734969429347827" blue="0.77666646502800629" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="+">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="336" y="255" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gk6-Mh-DPa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDc-pc-Lkb">
+                                <rect key="frame" x="409" y="315" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.95710640037601125" green="0.95734969429347827" blue="0.77666646502800629" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="-">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="336" y="320" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="subtract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Zd-HH-Kff"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoq-27-Fd8">
+                                <rect key="frame" x="409" y="380" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.95710640037601125" green="0.95734969429347827" blue="0.77666646502800629" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="*">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="336" y="385" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="multiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sE8-Qt-NEk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwR-cY-bOC">
+                                <rect key="frame" x="409" y="441" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.95710640037601125" green="0.95734969429347827" blue="0.77666646502800629" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="/">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="336" y="446" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="divideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XQA-uo-BjG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6G-ar-tnl">
+                                <rect key="frame" x="332" y="316" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.8168215564246859" green="0.91298748043546085" blue="0.95734969429347827" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="6">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="259" y="321" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="247-fK-PqN"/>
+                                    <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="nfb-Ai-uFX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH1-ST-IPC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.86100002202596826" green="0.95613960597826086" blue="0.81554733919943545" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="406" y="256" width="101" height="221"/>
+                                </variation>
+                                <connections>
+                                    <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5CK-tk-7zI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="QH1-ST-IPC"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="QH1-ST-IPC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="digitsInput" destination="zz9-V0-0pX" id="1Bf-hj-PJk"/>
+                        <outlet property="digitsResult" destination="j0R-WJ-eMd" id="w5a-wn-t2m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="136.5"/>
+        </scene>
+    </scenes>
+</document>
