@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var digitsInput: UILabel!
     
+    @IBOutlet weak var operationd: UILabel!
+    
+    var operatorArray = Array<String>()
+
     var currentDigit = ""
     
     var previousDigit = ""
@@ -22,6 +26,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         digitsInput.text = ""
+        operationd.text = ""
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,7 +45,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addButton(sender: AnyObject) {
-        
+        operationd.text? += "+ "
         if (previousDigit.isEmpty || digitsInput.text!.isEmpty){
            println("enter additional number first")
         } else {
@@ -51,12 +57,13 @@ class ViewController: UIViewController {
             digitsInput.text = ""
             currentDigit = ""
             digitsResult.text = previousDigit
-
         }
+        trimOperator()
 
     }
 
     @IBAction func subtract(sender: AnyObject) {
+        operationd.text? += "- "
         if (previousDigit.isEmpty || digitsInput.text!.isEmpty){
             println("enter additional number first")
         } else {
@@ -68,13 +75,14 @@ class ViewController: UIViewController {
             digitsInput.text = ""
             currentDigit = ""
             digitsResult.text = previousDigit
-            
         }
+        trimOperator()
+
 
     }
     
     @IBAction func multiplyButton(sender: AnyObject) {
-        
+        operationd.text? += "* "
         if (previousDigit.isEmpty || digitsInput.text!.isEmpty){
             println("enter additional number first")
         } else {
@@ -86,26 +94,27 @@ class ViewController: UIViewController {
             digitsInput.text = ""
             currentDigit = ""
             digitsResult.text = previousDigit
-            
         }
+        trimOperator()
 
     }
     
     @IBAction func divideButton(sender: AnyObject) {
-        
+        operationd.text? += "/ "
+
         if (previousDigit.isEmpty || digitsInput.text!.isEmpty){
             println("enter additional number first")
         } else {
             currentDigit = digitsInput.text!
             var currentDig = String(currentDigit).toInt()
             var previousDig =  String(previousDigit).toInt()
-            var finalRes = previousDig! * currentDig!
+            var finalRes = previousDig! / currentDig!
             previousDigit = String(finalRes)
             digitsInput.text = ""
             currentDigit = ""
             digitsResult.text = previousDigit
-            
         }
+        trimOperator()
 
     }
     
@@ -123,5 +132,26 @@ class ViewController: UIViewController {
         
     }
     
+    func trimOperator() {
+        var op = operationd.text!
+        var stringLength = countElements(op)
+        if (stringLength > 20){
+            println("now trimming")
+           op = op.substringFromIndex(op.startIndex.successor().successor())
+            operationd.text = op
+
+        }
+    }
+    
+    func checkNegPos() {
+        var op = digitsResult.text!
+        var stringLength = countElements(op)
+        if (stringLength > 20){
+            println("now trimming")
+            op = op.substringFromIndex(op.startIndex.successor().successor())
+            operationd.text = op
+            
+        }
+    }
 }
 

@@ -22,7 +22,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="215" y="628" width="349" height="32"/>
+                                    <rect key="frame" x="195" y="446" width="349" height="32"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHP-mk-L44">
@@ -31,7 +31,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="131" y="630" width="76" height="30"/>
+                                    <rect key="frame" x="111" y="448" width="76" height="30"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;digitInput>" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zz9-V0-0pX">
@@ -39,6 +39,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="207" y="108" width="156" height="37"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxV-wU-rFj">
                                 <rect key="frame" x="187" y="251" width="30" height="30"/>
@@ -46,7 +49,7 @@
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="1"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="114" y="256" width="30" height="30"/>
+                                    <rect key="frame" x="99" y="173" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PoQ-l4-bit"/>
@@ -58,7 +61,7 @@
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="2"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="187" y="255" width="30" height="30"/>
+                                    <rect key="frame" x="172" y="172" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8mk-ec-bdL"/>
@@ -70,7 +73,7 @@
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="3"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="259" y="255" width="30" height="30"/>
+                                    <rect key="frame" x="244" y="172" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vZB-2c-kw3"/>
@@ -82,7 +85,7 @@
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="5"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="187" y="321" width="30" height="30"/>
+                                    <rect key="frame" x="172" y="238" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W7F-Ot-tFf"/>
@@ -94,7 +97,7 @@
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="4"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="114" y="322" width="30" height="30"/>
+                                    <rect key="frame" x="99" y="239" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DEe-48-aWK"/>
@@ -106,7 +109,7 @@
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="8"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="187" y="386" width="30" height="30"/>
+                                    <rect key="frame" x="172" y="303" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Pr-PY-J3H"/>
@@ -118,7 +121,7 @@
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="9"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="259" y="386" width="30" height="30"/>
+                                    <rect key="frame" x="244" y="303" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zmB-fm-4o8"/>
@@ -130,7 +133,7 @@
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="7"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="114" y="387" width="30" height="30"/>
+                                    <rect key="frame" x="99" y="304" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdZ-sM-19b"/>
@@ -142,7 +145,7 @@
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="0"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="187" y="447" width="30" height="30"/>
+                                    <rect key="frame" x="172" y="364" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Rk-FI-snq"/>
@@ -155,7 +158,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="336" y="255" width="30" height="30"/>
+                                    <rect key="frame" x="321" y="172" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="addButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gk6-Mh-DPa"/>
@@ -168,7 +171,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="336" y="320" width="30" height="30"/>
+                                    <rect key="frame" x="321" y="237" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="subtract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Zd-HH-Kff"/>
@@ -181,7 +184,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="336" y="385" width="30" height="30"/>
+                                    <rect key="frame" x="321" y="302" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="multiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sE8-Qt-NEk"/>
@@ -194,7 +197,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="336" y="446" width="30" height="30"/>
+                                    <rect key="frame" x="321" y="363" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="divideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XQA-uo-BjG"/>
@@ -208,7 +211,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="259" y="321" width="30" height="30"/>
+                                    <rect key="frame" x="244" y="238" width="30" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="247-fK-PqN"/>
@@ -222,28 +225,73 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="406" y="256" width="101" height="221"/>
+                                    <rect key="frame" x="391" y="173" width="101" height="221"/>
                                 </variation>
                                 <connections>
                                     <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5CK-tk-7zI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Awesome Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJ0-X9-Dmt">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="156" y="33" width="284" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Operations:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLW-fV-tmE">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="30" y="591" width="180" height="30"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;last 10 operations>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dX8-bU-aca">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="218" y="594" width="346" height="27"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;P>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWA-Gx-Oko">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="195" y="479" width="32" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="QH1-ST-IPC"/>
+                                <exclude reference="gJ0-X9-Dmt"/>
+                                <exclude reference="tLW-fV-tmE"/>
+                                <exclude reference="dX8-bU-aca"/>
+                                <exclude reference="wWA-Gx-Oko"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="QH1-ST-IPC"/>
+                                <include reference="gJ0-X9-Dmt"/>
+                                <include reference="tLW-fV-tmE"/>
+                                <include reference="dX8-bU-aca"/>
+                                <include reference="wWA-Gx-Oko"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="digitsInput" destination="zz9-V0-0pX" id="1Bf-hj-PJk"/>
                         <outlet property="digitsResult" destination="j0R-WJ-eMd" id="w5a-wn-t2m"/>
+                        <outlet property="operationd" destination="dX8-bU-aca" id="bGy-RO-FT6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
