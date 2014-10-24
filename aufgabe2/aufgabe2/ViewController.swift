@@ -57,12 +57,56 @@ class ViewController: UIViewController {
     }
 
     @IBAction func subtract(sender: AnyObject) {
+        if (previousDigit.isEmpty || digitsInput.text!.isEmpty){
+            println("enter additional number first")
+        } else {
+            currentDigit = digitsInput.text!
+            var currentDig = String(currentDigit).toInt()
+            var previousDig =  String(previousDigit).toInt()
+            var finalRes = previousDig! - currentDig!
+            previousDigit = String(finalRes)
+            digitsInput.text = ""
+            currentDigit = ""
+            digitsResult.text = previousDigit
+            
+        }
+
     }
     
     @IBAction func multiplyButton(sender: AnyObject) {
+        
+        if (previousDigit.isEmpty || digitsInput.text!.isEmpty){
+            println("enter additional number first")
+        } else {
+            currentDigit = digitsInput.text!
+            var currentDig = String(currentDigit).toInt()
+            var previousDig =  String(previousDigit).toInt()
+            var finalRes = previousDig! * currentDig!
+            previousDigit = String(finalRes)
+            digitsInput.text = ""
+            currentDigit = ""
+            digitsResult.text = previousDigit
+            
+        }
+
     }
     
     @IBAction func divideButton(sender: AnyObject) {
+        
+        if (previousDigit.isEmpty || digitsInput.text!.isEmpty){
+            println("enter additional number first")
+        } else {
+            currentDigit = digitsInput.text!
+            var currentDig = String(currentDigit).toInt()
+            var previousDig =  String(previousDigit).toInt()
+            var finalRes = previousDig! * currentDig!
+            previousDigit = String(finalRes)
+            digitsInput.text = ""
+            currentDigit = ""
+            digitsResult.text = previousDigit
+            
+        }
+
     }
     
     @IBAction func enterButton(sender: AnyObject) {
