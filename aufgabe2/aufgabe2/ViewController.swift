@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var operationd: UILabel!
     
+    @IBOutlet weak var negPos: UILabel!
+    
     var operatorArray = Array<String>()
 
     var currentDigit = ""
@@ -26,6 +28,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         digitsInput.text = ""
+        negPos.text = ""
         operationd.text = ""
         
     }
@@ -59,6 +62,7 @@ class ViewController: UIViewController {
             digitsResult.text = previousDigit
         }
         trimOperator()
+        checkNegPos()
 
     }
 
@@ -77,6 +81,7 @@ class ViewController: UIViewController {
             digitsResult.text = previousDigit
         }
         trimOperator()
+        checkNegPos()
 
 
     }
@@ -96,6 +101,7 @@ class ViewController: UIViewController {
             digitsResult.text = previousDigit
         }
         trimOperator()
+        checkNegPos()
 
     }
     
@@ -115,6 +121,7 @@ class ViewController: UIViewController {
             digitsResult.text = previousDigit
         }
         trimOperator()
+        checkNegPos()
 
     }
     
@@ -125,7 +132,6 @@ class ViewController: UIViewController {
             digitsInput.text = ""
 
         } else {
-            digitsResult.text = previousDigit
             println("not available")
         }
         
@@ -144,14 +150,20 @@ class ViewController: UIViewController {
     }
     
     func checkNegPos() {
-        var op = digitsResult.text!
-        var stringLength = countElements(op)
-        if (stringLength > 20){
-            println("now trimming")
-            op = op.substringFromIndex(op.startIndex.successor().successor())
-            operationd.text = op
+        var result = ""
+        var digitsr = digitsResult.text!
+        var position = 0
+        let index = advance(digitsr.startIndex, position)
+        var firstChar = digitsr[index]
+        println(firstChar)
+        if (firstChar == "-"){
             
+            result = "N"
+        } else {
+            result = "P"
         }
+        negPos.text = result
+       
     }
 }
 
