@@ -9,30 +9,46 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
-   
+    var playTurn = true
+    
+    @IBOutlet weak var playerName: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let image = drawField()
-//        
-//        let imageSize = CGSize(width: 300, height: 300)
-//        let imageView = UIImageView(frame: CGRect(origin: CGPoint(x:10, y: 135), size: imageSize))
-//        self.view.addSubview(imageView)
-//        
-//        imageView.image = image
-//        // Do any additional setup after loading the view, typically from a nib.
+                let image = drawField()
+        
+                let imageSize = CGSize(width: 300, height: 300)
+                let imageView = UIImageView(frame: CGRect(origin: CGPoint(x:10, y: 150), size: imageSize))
+                self.view.addSubview(imageView)
+        
+                imageView.image = image
+                // Do any additional setup after loading the view, typically from a nib.
+                playerName.text = "Jessi's"
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    
+    @IBAction func pressButton(sender: AnyObject) {
+        if (playTurn == true){
+            sender.setTitle("X", forState: UIControlState.Normal)
+            playTurn = false
+            playerName.text = "Robin's"
 
-    @IBAction func bvcbvc(sender: AnyObject) {
+        } else {
+            sender.setTitle("O", forState: UIControlState.Normal)
+            playTurn = true
+            playerName.text = "Jessi's"
+
+        }
+        println("LOL")
     }
+    
     func drawField () -> UIImage {
         let offset = 10
         let opaque = false
@@ -67,7 +83,7 @@ class ViewController: UIViewController {
         return image
         
     }
-
-
-   }
+    
+    
+}
 
