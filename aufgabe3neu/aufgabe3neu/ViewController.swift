@@ -12,20 +12,31 @@ class ViewController: UIViewController {
     
     var playTurn = true
     
+    var tttBrain = TTTBrain()
+    let white = UIColor(red:1.0, green:0.0,blue:0.0,alpha:0.0)
+    let red = UIColor(red:1.0, green:0.0,blue:0.0,alpha:0.8)
+    let green = UIColor(red:0.0, green:1.0,blue:0.0,alpha:0.8)
+
+    
+    @IBOutlet var playButtons: [UIButton]!
+    
     @IBOutlet weak var playerName: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-                let image = drawField()
+        prepareButtons()
         
-                let imageSize = CGSize(width: 300, height: 300)
-                let imageView = UIImageView(frame: CGRect(origin: CGPoint(x:10, y: 150), size: imageSize))
-                self.view.addSubview(imageView)
+        let image = drawField()
         
-                imageView.image = image
-                // Do any additional setup after loading the view, typically from a nib.
-                playerName.text = "Jessi's"
+        let imageSize = CGSize(width: 300, height: 300)
+        let imageView = UIImageView(frame: CGRect(origin: CGPoint(x:10, y: 150), size: imageSize))
+        self.view.addSubview(imageView)
+        
+        imageView.image = image
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        playerName.text = "Jessi's"
     }
     
     override func didReceiveMemoryWarning() {
@@ -35,18 +46,24 @@ class ViewController: UIViewController {
     
     
     @IBAction func pressButton(sender: AnyObject) {
+        var button = sender as UIButton
+        tttBrain.saveTurn(playTurn, field: button.titleForState(UIControlState.Normal)!)
+        
         if (playTurn == true){
             sender.setTitle("X", forState: UIControlState.Normal)
+            sender.setTitleColor(red, forState: UIControlState.Normal)
             playTurn = false
             playerName.text = "Robin's"
 
         } else {
             sender.setTitle("O", forState: UIControlState.Normal)
+            sender.setTitleColor(green, forState: UIControlState.Normal)
             playTurn = true
             playerName.text = "Jessi's"
 
         }
-        println("LOL")
+        button.enabled = false
+
     }
     
     func drawField () -> UIImage {
@@ -84,6 +101,85 @@ class ViewController: UIViewController {
         
     }
     
+    func prepareButtons() {
+        var counter = 1
+        
+        for (button) in playButtons {
+            button.setTitle(counter.description, forState: UIControlState.Normal)
+            button.setTitleColor(white, forState: UIControlState.Normal)
+            counter++
+            
+        }
+
+    }
     
+    class TTTBrain{
+        
+        var gameCounter = 0
+        
+        var robinArray = [String]()
+        var jessiArray = [String]()
+        
+        func saveTurn (player: Bool, field: String) {
+            gameCounter++
+            if (player){
+                println(field)
+                jessiArray.append(field)
+                validate(jessiArray)
+            } else {
+                println(field)
+                robinArray.append(field)
+                validate(jessiArray)
+            }
+        }
+        
+        
+        func validate(array: [String]){
+            
+            array.count
+            
+            if (array.count < 3){
+                return
+            }
+            
+            if (true){
+                
+            
+                
+            } else if (gameCounter == 9){
+                let alert = UIAlertView()
+                alert.title = "LOL!"
+                alert.message = "You both lost!"
+                alert.addButtonWithTitle("Replay")
+                alert.show()
+            }
+        }
+        
+        
+        func winAlert(player: Bool) {
+            
+            if (player){
+                let alert = UIAlertView()
+                alert.title = "Congratulations!"
+                alert.message = "Jessi wins!"
+                alert.addButtonWithTitle("Replay")
+                alert.show()
+            } else {
+                
+                let alert = UIAlertView()
+                alert.title = "Congratulations!"
+                alert.message = "Robin Wins!"
+                alert.addButtonWithTitle("Replay")
+                alert.show()
+            }
+        }
+    }
 }
 
+
+//                let alertController = UIAlertController(title: "Tic Tac Toe", message:
+//                    "LOL, ihr habt beide verloren!", preferredStyle: UIAlertControllerStyle.Alert)
+//                alertController.addAction(UIAlertAction(title: "Play Again", style: UIAlertActionStyle.Default,handler: nil))
+//
+//                self.presentViewController(alertController, animated: true, completion: nil)
+                

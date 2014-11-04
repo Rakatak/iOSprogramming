@@ -137,6 +137,15 @@
                     </view>
                     <connections>
                         <outlet property="playerName" destination="lIg-Jz-tWL" id="dbg-X0-Rcc"/>
+                        <outletCollection property="playButtons" destination="cX3-0k-IZq" collectionClass="NSMutableArray" id="V0t-34-pWv"/>
+                        <outletCollection property="playButtons" destination="gmO-Qi-XwE" collectionClass="NSMutableArray" id="UIj-80-EVr"/>
+                        <outletCollection property="playButtons" destination="nQg-0f-ISX" collectionClass="NSMutableArray" id="I0s-eu-X4C"/>
+                        <outletCollection property="playButtons" destination="uqe-T5-v5P" collectionClass="NSMutableArray" id="sOU-Xl-MI3"/>
+                        <outletCollection property="playButtons" destination="6Wz-N2-fqg" collectionClass="NSMutableArray" id="oXu-pE-dmb"/>
+                        <outletCollection property="playButtons" destination="DuD-1O-vnQ" collectionClass="NSMutableArray" id="nK0-LX-bpk"/>
+                        <outletCollection property="playButtons" destination="SaR-I8-fEm" collectionClass="NSMutableArray" id="E32-BU-oVd"/>
+                        <outletCollection property="playButtons" destination="H7d-ff-MUN" collectionClass="NSMutableArray" id="301-Kr-saE"/>
+                        <outletCollection property="playButtons" destination="hjI-Wm-qST" collectionClass="NSMutableArray" id="MT8-p8-2pq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
