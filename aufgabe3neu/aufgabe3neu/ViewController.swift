@@ -199,7 +199,6 @@ class ViewController: UIViewController {
             if contains(array, "4"){
                 one++;
                 five++;
-                seven++;
             }
             if contains(array, "5"){
                 three++;
