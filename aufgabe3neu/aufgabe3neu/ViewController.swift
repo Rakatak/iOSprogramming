@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIAlertViewDelegate {
     
     var playTurn = true
-    
     var tttBrain = TTTBrain()
+    var alertView = UIAlertView()
+
+    
     let white = UIColor(red:1.0, green:0.0,blue:0.0,alpha:0.0)
     let red = UIColor(red:1.0, green:0.0,blue:0.0,alpha:0.8)
     let green = UIColor(red:0.0, green:1.0,blue:0.0,alpha:0.8)
@@ -44,10 +46,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func alertView(alertView: UIAlertView!, clickedButtonAtIndex buttonIndex: Int){
+        println("Start new Game!")
+        prepareButtons()
+        
+    }
     
     @IBAction func pressButton(sender: AnyObject) {
         var button = sender as UIButton
-        tttBrain.saveTurn(playTurn, field: button.titleForState(UIControlState.Normal)!)
+        var msg = tttBrain.saveTurn(playTurn, field: button.titleForState(UIControlState.Normal)!)
+        
+        if (msg == "Robin" || msg == "Jessi"){
+            winAlert(msg, alert: alertView)
+        } else if msg == "LOL"{
+            winAlert(msg, alert: alertView)
+        }
         
         if (playTurn == true){
             sender.setTitle("X", forState: UIControlState.Normal)
@@ -66,8 +79,6 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func replay(sender: AnyObject){
-    }
     
     func drawField () -> UIImage {
         let offset = 10
@@ -108,141 +119,28 @@ class ViewController: UIViewController {
         var counter = 1
         
         for (button) in playButtons {
+            button.enabled = true
             button.setTitle(counter.description, forState: UIControlState.Normal)
             button.setTitleColor(white, forState: UIControlState.Normal)
             counter++
-            
         }
-        
     }
     
-    class TTTBrain{
-        
-        var one = 0;
-        var two = 0;
-        var three = 0;
-        var four = 0;
-        var five = 0;
-        var six = 0;
-        var seven = 0;
-        var eight = 0;
-        
-        let alert = UIAlertView()
-        
-        
-        var gameCounter = 0
-        
-        var robinArray = [String]()
-        var jessiArray = [String]()
-        
-        func saveTurn (player: Bool, field: String) {
-            gameCounter++
-            if (player){
-                println(field)
-                jessiArray.append(field)
-                validate(jessiArray, player:player)
-            } else {
-                println(field)
-                robinArray.append(field)
-                validate(robinArray, player:player)
-            }
-        }
-        
-        
-        func validate(array: [String], player:Bool){
-            alert.delegate = ViewController()
-            resetCounters()
-            
-            if (array.count >= 3){
-                checkArray(array)
-                
-                if (one == 3 || two == 3 || three == 3 || four == 3 || five == 3 || six == 3 || seven == 3 || eight == 3){
-                    winAlert(player)
-                    
-                } else if (gameCounter == 9){
-                    alert.title = "LOL!"
-                    alert.message = "You both lost!"
-                    alert.addButtonWithTitle("Replay")
-                    alert.show()
-                }
-            }
-        }
-        
-        func winAlert(player: Bool) {
-            alert.title = "Congratulations!"
-            alert.addButtonWithTitle("Replay")
-            if (player){
-                alert.message = "Jessi wins!"
-            } else {
-                alert.message = "Robin Wins!"
-            }
-            alert.show()
-
-            return
-        }
-        
-        func checkArray(array: [String]){
-            if contains(array, "1"){
-                one++;
-                four++;
-                seven++;
-            }
-            if contains(array, "2"){
-                three++;
-                four++;
-            }
-            if contains(array, "3"){
-                two++;
-                four++;
-                eight++;
-            }
-            if contains(array, "4"){
-                one++;
-                five++;
-            }
-            if contains(array, "5"){
-                three++;
-                five++;
-                seven++;
-                eight++;
-            }
-            if contains(array, "6"){
-                two++;
-                five++;
-            }
-            if contains(array, "7"){
-                one++;
-                six++;
-                eight++;
-            }
-            if contains(array, "8"){
-                three++;
-                six++;
-            }
-            if contains(array, "9"){
-                two++;
-                six++;
-                seven++;
-            }
-        }
-        
-        func resetCounters(){
-            one = 0
-            two = 0
-            three = 0
-            four = 0
-            five = 0
-            six = 0
-            seven = 0
-            eight = 0
-        }
+    func winAlert(player: String, alert: UIAlertView) {
+        alert.delegate = self
+        alert.title = "Congratulations!"
+        alert.addButtonWithTitle("Replay")
+        alert.message = player + " wins!"
+        alert.show()
     }
+    
+    func drawAlert(player: String, alert: UIAlertView) {
+        alert.delegate = self
+        alert.title = "LOL!"
+        alert.addButtonWithTitle("Replay")
+        alert.message = "You both lost!"
+        alert.show()
+    }
+    
+    
 }
-
-
-
-//                let alertController = UIAlertController(title: "Tic Tac Toe", message:
-//                    "LOL, ihr habt beide verloren!", preferredStyle: UIAlertControllerStyle.Alert)
-//                alertController.addAction(UIAlertAction(title: "Play Again", style: UIAlertActionStyle.Default,handler: nil))
-//
-//                self.presentViewController(alertController, animated: true, completion: nil)
