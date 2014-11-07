@@ -13,7 +13,6 @@ class ViewController: UIViewController, UIAlertViewDelegate {
     var playTurn = true
     var tttBrain = TTTBrain()
     var alertView = UIAlertView()
-
     
     let white = UIColor(red:1.0, green:0.0,blue:0.0,alpha:0.0)
     let red = UIColor(red:1.0, green:0.0,blue:0.0,alpha:0.8)
