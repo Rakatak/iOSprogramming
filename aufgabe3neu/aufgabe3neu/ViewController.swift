@@ -26,16 +26,14 @@ class ViewController: UIViewController, UIAlertViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         prepareButtons()
-        
         let image = drawField()
-        
         let imageSize = CGSize(width: 300, height: 300)
         let imageView = UIImageView(frame: CGRect(origin: CGPoint(x:10, y: 150), size: imageSize))
         self.view.addSubview(imageView)
-        
         imageView.image = image
-        // Do any additional setup after loading the view, typically from a nib.
         
         playerName.text = "Jessi's"
     }
@@ -58,7 +56,7 @@ class ViewController: UIViewController, UIAlertViewDelegate {
         if (msg == "Robin" || msg == "Jessi"){
             winAlert(msg, alert: alertView)
         } else if msg == "LOL"{
-            winAlert(msg, alert: alertView)
+            drawAlert(msg, alert: alertView)
         }
         
         if (playTurn == true){
@@ -75,7 +73,7 @@ class ViewController: UIViewController, UIAlertViewDelegate {
             
         }
         button.enabled = false
-        
+                
     }
     
     

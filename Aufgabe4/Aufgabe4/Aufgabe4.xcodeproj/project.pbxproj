@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4FF60C1A0CFD9500D90DDF /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FF60B1A0CFD9500D90DDF /* Vehicles.swift */; };
 		AFD877941A0CE48F0062BA33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD877931A0CE48F0062BA33 /* AppDelegate.swift */; };
 		AFD877961A0CE48F0062BA33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD877951A0CE48F0062BA33 /* ViewController.swift */; };
 		AFD877991A0CE48F0062BA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD877971A0CE48F0062BA33 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF4FF60B1A0CFD9500D90DDF /* Vehicles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
 		AFD8778E1A0CE48F0062BA33 /* Aufgabe4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aufgabe4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD877921A0CE48F0062BA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD877931A0CE48F0062BA33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				AFD877931A0CE48F0062BA33 /* AppDelegate.swift */,
 				AFD877951A0CE48F0062BA33 /* ViewController.swift */,
 				AFD877971A0CE48F0062BA33 /* Main.storyboard */,
+				AF4FF60B1A0CFD9500D90DDF /* Vehicles.swift */,
 				AFD8779A1A0CE48F0062BA33 /* Images.xcassets */,
 				AFD8779C1A0CE48F0062BA33 /* LaunchScreen.xib */,
 				AFD877911A0CE48F0062BA33 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				AFD877961A0CE48F0062BA33 /* ViewController.swift in Sources */,
 				AFD877941A0CE48F0062BA33 /* AppDelegate.swift in Sources */,
+				AF4FF60C1A0CFD9500D90DDF /* Vehicles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				AFD877AF1A0CE48F0062BA33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFD877B01A0CE48F0062BA33 /* Build configuration list for PBXNativeTarget "Aufgabe4Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				AFD877B21A0CE48F0062BA33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
