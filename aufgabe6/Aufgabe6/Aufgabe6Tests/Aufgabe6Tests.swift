@@ -1,15 +1,15 @@
 //
-//  Aufgabe4Tests.swift
-//  Aufgabe4Tests
+//  Aufgabe6Tests.swift
+//  Aufgabe6Tests
 //
-//  Created by master on 07.11.14.
-//  Copyright (c) 2014 s797459. All rights reserved.
+//  Created by master on 23.11.14.
+//  Copyright (c) 2014 797459. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class Aufgabe4Tests: XCTestCase {
+class Aufgabe6Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()

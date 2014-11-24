@@ -9,8 +9,6 @@ enum VehicleClass {
 
 println("Hello Test")
 
-
-
 var honda = VehicleClass.PKW(serial: "ISAMEN76UHW6")
 var toyota = VehicleClass.PKW(serial: "IWBABA76UHW6")
 var daewoo = VehicleClass.PKW(serial: "USIAHF")
@@ -35,7 +33,7 @@ func plausibilityTest(vehicle: VehicleClass) -> String {
             return "That is not a valid truck, something's wrong with the serial!"
         }
         if (weight/axis > 2){
-            return "Trucks's maximum weight exceeded!"
+            return "Trucks' maximum weight exceeded!"
         }
         return "It's a real truck!"
         

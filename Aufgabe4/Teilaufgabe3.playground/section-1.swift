@@ -7,42 +7,26 @@ var str = "Hello, playground"
 struct Rec {
     var x: Int
     var y: Int
+    var size: (Int, Int)
 }
 
 struct Figure {
-    var x1: Int
-    var y1: Int
-    var x2: Int
-    var y2: Int
-    
-    var rE1: Rec  {
-        get {
-            return Rec(x: x1, y: y1)
-        }
-        set(newRec) {
-            println("changed x and y")
-            x2 = newRec.x - x1
-            y2 = newRec.y - y1
-            x1 = newRec.x
-            y1 = newRec.y
-            
+    var rec1: Rec {
+        willSet(newRec) {
+            rec2.x += newRec.x - rec1.x
+            rec2.y += newRec.y - rec1.y
         }
     }
-    
-    var rE2: Rec{
-        get {
-            return Rec(x: x2, y: y2)
-        }
-    }
+    var rec2: Rec
 }
 
-var lol = Figure(x1:3, y1:3, x2:1, y2:1)
+var no1 = Rec(x: 1, y: 1, size: (2, 2))
+var no2 = Rec(x: 10, y: 10, size: (22, 22))
 
-lol.rE1
-lol.rE2
+var figure = Figure(rec1: no1, rec2: no2)
 
-lol.rE1 = Rec(x: 2, y: 2)
+figure.rec1 = Rec(x: 90, y: 1, size: (2, 2))
+figure.rec2
 
-lol.rE1
-lol.rE2
+
 

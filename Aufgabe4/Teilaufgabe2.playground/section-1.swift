@@ -8,7 +8,7 @@ class Employee {
     var employeeID: Int
     var employDate: Int
     var workingHours: Int
-    lazy var salary = Double()
+    lazy var salary: Double = self.bS()
     class var hourlyPay: Double {
         return 7.99
     }
@@ -19,38 +19,39 @@ class Employee {
         self.employeeID = employeeID
         self.employDate = employDate
         self.workingHours = workingHours
-        self.salary = Double(workingHours) * myHourlyPay
+    }
+    
+    func bS()->Double {
+        return Double(workingHours) * myHourlyPay
+        
     }
     
     var years: Int {
         get {
-            return 2014 - employDate
+            var cal = NSCalendar.currentCalendar()
+            var comp = cal.component(NSCalendarUnit.YearCalendarUnit, fromDate: NSDate())
+            return comp - employDate
         }
     }
     
     var myHourlyPay: Double {
         get {
-            return Employee.hourlyPay + Double(years)*0.75
+            return Employee.hourlyPay + Double(years) * 0.75
         }
-    }
-    
-    func showSalary(){
-        println("\(salary)€")
     }
 }
 
 println("Hello Test")
-
-
+println("Pos1")
 
 var brianFury = Employee(firstName: "Brian", lastName: "Fury", employeeID: 77, employDate: 1999, workingHours: 20)
 var leiWulong = Employee(firstName: "Lei", lastName: "Wulong", employeeID: 231, employDate: 1976, workingHours: 40)
 var uweBoll = Employee(firstName: "Uwe", lastName: "Boll", employeeID: 1, employDate: 2002, workingHours: 8)
 
+println("Pos2")
+
 println(leiWulong.salary)
 println(uweBoll.salary)
 println(brianFury.salary)
-
-brianFury.showSalary()
 
 println(leiWulong.myHourlyPay)

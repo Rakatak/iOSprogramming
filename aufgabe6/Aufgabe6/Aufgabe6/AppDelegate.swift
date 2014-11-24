@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Aufgabe4
+//  Aufgabe6
 //
-//  Created by master on 07.11.14.
-//  Copyright (c) 2014 s797459. All rights reserved.
+//  Created by master on 23.11.14.
+//  Copyright (c) 2014 797459. All rights reserved.
 //
 
 import UIKit
