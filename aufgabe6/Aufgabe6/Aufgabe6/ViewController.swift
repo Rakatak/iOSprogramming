@@ -39,6 +39,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
     {
         
         var loc = locations.last as CLLocation
+        
 //        var latValue = Double(loc.coordinate.latitude)
 //        var lonValue = loc.coordinate.longitude
 //        println("**** from locations:")
@@ -50,16 +51,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         println("LAT:" + latValue.description + "    LON:" + lonValue.description)
         var curPos = (latValue, lonValue)
         
-        for loc in stationLocations {
-            stationReached(loc, currentPos: curPos)
+        for locs in stationLocations {
+            stationReached(locs, currentPos: loc)
         }
         
     }
     
-    func stationReached(stationPos: (Double, Double, String), currentPos: (Double, Double)) {
+    func stationReached(stationPos: (Double, Double, String), currentPos: CLLocation) {
+
         var (lat, lon, msg) = stationPos
-        var (curLat, curLon) = currentPos
-        if (lat)
+        var stationLoc = CLLocation(latitude: lat , longitude: lon)
+        if (stationLoc.distanceFromLocation(currentPos) <= 20 ){
+            println("Zu Erledigen: " + msg)
+        }
         
     }
     
