@@ -12,10 +12,10 @@ import CoreLocation
 class ViewController: UIViewController, CLLocationManagerDelegate{
     
     @IBOutlet var stations: [UIButton]!
-    
     var locationManager = CLLocationManager()
-    var locationButtons = [AnyObject]()
     var stationLocations = [Double, Double, String]()
+    
+    @IBOutlet weak var activity: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,24 +45,26 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
 //        println("**** from locations:")
 //        println("LAT:" + latValue.description + "    LON:" + lonValue.description)
         
-        println("**** from locationManager:")
+//        println("**** from locationManager:")
         var latValue =  Double(locationManager.location.coordinate.latitude)
         var lonValue = Double(locationManager.location.coordinate.longitude)
         println("LAT:" + latValue.description + "    LON:" + lonValue.description)
         var curPos = (latValue, lonValue)
         
-        for locs in stationLocations {
-            stationReached(locs, currentPos: loc)
+        for (index, locs) in enumerate(stationLocations) {
+            stationReached(index, stationPos: locs, currentPos: loc)
         }
         
     }
     
-    func stationReached(stationPos: (Double, Double, String), currentPos: CLLocation) {
+    func stationReached(index: Int, stationPos: (Double, Double, String), currentPos: CLLocation) {
 
         var (lat, lon, msg) = stationPos
         var stationLoc = CLLocation(latitude: lat , longitude: lon)
         if (stationLoc.distanceFromLocation(currentPos) <= 20 ){
             println("Zu Erledigen: " + msg)
+            stations[index].backgroundColor = UIColor.redColor()
+            activity.text = msg
         }
         
     }
