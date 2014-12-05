@@ -8,12 +8,16 @@
 
 import UIKit
 import CoreLocation
+import MapKit
 
-class ViewController: UIViewController, CLLocationManagerDelegate{
+class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate{
     
     @IBOutlet var stations: [UIButton]!
+
+    @IBOutlet weak var mapView: MKMapView!
+    
     var locationManager = CLLocationManager()
-    var stationLocations = [Double, Double, String]()
+    var stationLocations = [Double, Double, String, String]()
     
     @IBOutlet weak var activity: UILabel!
     
@@ -25,13 +29,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestAlwaysAuthorization()
         locationManager.startUpdatingLocation()
-        
-        // Do any additional setup after loading the view, typically from a nib.
+        self.mapView.delegate = self
+        mapView.showsUserLocation = true
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func locationManager(manager:CLLocationManager,
@@ -39,13 +42,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
     {
         
         var loc = locations.last as CLLocation
-        
-//        var latValue = Double(loc.coordinate.latitude)
-//        var lonValue = loc.coordinate.longitude
-//        println("**** from locations:")
-//        println("LAT:" + latValue.description + "    LON:" + lonValue.description)
-        
-//        println("**** from locationManager:")
         var latValue =  Double(locationManager.location.coordinate.latitude)
         var lonValue = Double(locationManager.location.coordinate.longitude)
         println("LAT:" + latValue.description + "    LON:" + lonValue.description)
@@ -57,9 +53,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         
     }
     
-    func stationReached(index: Int, stationPos: (Double, Double, String), currentPos: CLLocation) {
+    func mapView(mapView: MKMapView!, didUpdateUserLocation userLocation: MKUserLocation!) {
+        let currentLocation = userLocation.location.coordinate
+        self.mapView.region = MKCoordinateRegionMakeWithDistance(currentLocation, 1000, 1000)
+    }
+    
+    func stationReached(index: Int, stationPos: (Double, Double, String, String), currentPos: CLLocation) {
 
-        var (lat, lon, msg) = stationPos
+        var (lat, lon, msg, desc) = stationPos
         var stationLoc = CLLocation(latitude: lat , longitude: lon)
         if (stationLoc.distanceFromLocation(currentPos) <= 20 ){
             println("Zu Erledigen: " + msg)
@@ -70,19 +71,43 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
     }
     
     func prepareLocations(){
-        stationLocations.append(52.506493 , 13.332582, "Zeitung kaufen")
-        stationLocations.append(52.505546 , 13.332595, "Beten gehen")
-        stationLocations.append(52.503706 , 13.346214, "Emma grüßen")
-        stationLocations.append(52.517792 , 13.372954, "Cool sein")
-        stationLocations.append(52.518118 , 13.380085, "Hund streicheln")
-        stationLocations.append(52.516682 , 13.387436, "Blumen holen")
-        stationLocations.append(52.519574 , 13.403986, "Eis essen")
-        stationLocations.append(52.520458 , 13.405418, "Hundefutter kaufen")
-        stationLocations.append(52.518000 , 13.374486, "Fahrrad checken lassen")
-        stationLocations.append(52.517344 , 13.366505, "Post abgeben")
-        stationLocations.append(52.506560 , 13.351831, "Zigaretten kaufen")
-        stationLocations.append(52.504608 , 13.343148, "Nach Hause fahren")
+        stationLocations.append(52.506493 , 13.332582, "Zeitung kaufen", "Kiosk")
+        stationLocations.append(52.505546 , 13.332595, "Beten gehen", "Kirche")
+        stationLocations.append(52.503706 , 13.346214, "Emma grüßen", "Emmas Haus")
+        stationLocations.append(52.517792 , 13.372954, "Cool sein", "Half Pipe")
+        stationLocations.append(52.518118 , 13.380085, "Hund streicheln", "Tierheim")
+        stationLocations.append(52.516682 , 13.387436, "Blumen holen", "Blumenladen")
+        stationLocations.append(52.519574 , 13.403986, "Eis essen", "Eisdiele")
+        stationLocations.append(52.520458 , 13.405418, "Hundefutter kaufen", "Fressnapf")
+        stationLocations.append(52.518000 , 13.374486, "Fahrrad checken lassen", "Fahrradwerkstatt")
+        stationLocations.append(52.517344 , 13.366505, "Post abgeben", "Postamt")
+        stationLocations.append(52.506560 , 13.351831, "Zigaretten kaufen", "Kiosk")
+        stationLocations.append(52.504608 , 13.343148, "Nach Hause fahren", "Busstation")
+        
+        
+        for element in stationLocations {
+            var poi = Waypoint()
+            var (lat, lon, msg, desc) = element
+            poi.coordinate = CLLocationCoordinate2DMake(lat, lon)
+            poi.title = desc
+            poi.subtitle = msg
+            mapView.addAnnotation(poi)
+            
+            
+        }
     }
+    
+    /**
+    Es gibt keine PDF von der aktuellen Übung... Da steht nur:
+    Diese Aufgabe ist eine Erweiterung der Aufgabe "Kaisers Wegpunkte"
+    Die Position des Benutzers soll auf der Karte angezeigt werden.
+    Die 12 definierten Wegpunkte sollen als Pins auf der Karte vorhanden sein.
+    Die Pins sollen beschriftet sein (Kurzname des Wegpunktes)
+    Beim Erreichen des Wegpunktes soll entsprechende Meldung ausgegeben werden.
+    Die Wegpunkte werden aus der Aufgabe "Kaisers Wegpunkte" übernommen.
+    Viel Spaß!
+    DM
+    **/
     
 }
 

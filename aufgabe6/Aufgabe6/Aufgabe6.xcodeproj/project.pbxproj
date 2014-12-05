@@ -14,6 +14,8 @@
 		AFA4223A1A222CE800A8A295 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA422381A222CE800A8A295 /* LaunchScreen.xib */; };
 		AFA422461A222CE800A8A295 /* Aufgabe6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA422451A222CE800A8A295 /* Aufgabe6Tests.swift */; };
 		AFA422501A222D3D00A8A295 /* FriedrichKrause.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AFA4224F1A222D3D00A8A295 /* FriedrichKrause.gpx */; };
+		AFA422521A2905E600A8A295 /* BerlinBus100.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AFA422511A2905E600A8A295 /* BerlinBus100.gpx */; };
+		AFA422541A32187400A8A295 /* Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA422531A32187400A8A295 /* Waypoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		AFA422441A222CE800A8A295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFA422451A222CE800A8A295 /* Aufgabe6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aufgabe6Tests.swift; sourceTree = "<group>"; };
 		AFA4224F1A222D3D00A8A295 /* FriedrichKrause.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = FriedrichKrause.gpx; path = ../FriedrichKrause.gpx; sourceTree = "<group>"; };
+		AFA422511A2905E600A8A295 /* BerlinBus100.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BerlinBus100.gpx; sourceTree = "<group>"; };
+		AFA422531A32187400A8A295 /* Waypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waypoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		AFA422211A222CE800A8A295 = {
 			isa = PBXGroup;
 			children = (
+				AFA422511A2905E600A8A295 /* BerlinBus100.gpx */,
 				AFA4224F1A222D3D00A8A295 /* FriedrichKrause.gpx */,
 				AFA4222C1A222CE800A8A295 /* Aufgabe6 */,
 				AFA422421A222CE800A8A295 /* Aufgabe6Tests */,
@@ -86,6 +91,7 @@
 				AFA422361A222CE800A8A295 /* Images.xcassets */,
 				AFA422381A222CE800A8A295 /* LaunchScreen.xib */,
 				AFA4222D1A222CE800A8A295 /* Supporting Files */,
+				AFA422531A32187400A8A295 /* Waypoint.swift */,
 			);
 			path = Aufgabe6;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 				AFA422351A222CE800A8A295 /* Main.storyboard in Resources */,
 				AFA4223A1A222CE800A8A295 /* LaunchScreen.xib in Resources */,
 				AFA422371A222CE800A8A295 /* Images.xcassets in Resources */,
+				AFA422521A2905E600A8A295 /* BerlinBus100.gpx in Resources */,
 				AFA422501A222D3D00A8A295 /* FriedrichKrause.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +225,7 @@
 			files = (
 				AFA422321A222CE800A8A295 /* ViewController.swift in Sources */,
 				AFA422301A222CE800A8A295 /* AppDelegate.swift in Sources */,
+				AFA422541A32187400A8A295 /* Waypoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
