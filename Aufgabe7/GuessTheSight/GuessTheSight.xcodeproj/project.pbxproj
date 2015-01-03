@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4241321A56F35600BEB7B0 /* HTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF42412F1A56F35600BEB7B0 /* HTMLDocument.swift */; };
+		AF4241331A56F35600BEB7B0 /* HTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4241301A56F35600BEB7B0 /* HTMLNode.swift */; };
+		AF4241341A56F35600BEB7B0 /* HTMLNode+XPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4241311A56F35600BEB7B0 /* HTMLNode+XPath.swift */; };
+		AF4241361A56F60E00BEB7B0 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4241351A56F60E00BEB7B0 /* libxml2.dylib */; };
+		AF868C351A56E22F006CD2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF868C341A56E22F006CD2DE /* AppDelegate.swift */; };
+		AF868C381A56E22F006CD2DE /* GuessTheSight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF868C361A56E22F006CD2DE /* GuessTheSight.xcdatamodeld */; };
+		AF868C3A1A56E22F006CD2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF868C391A56E22F006CD2DE /* ViewController.swift */; };
+		AF868C3D1A56E22F006CD2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF868C3B1A56E22F006CD2DE /* Main.storyboard */; };
+		AF868C3F1A56E22F006CD2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF868C3E1A56E22F006CD2DE /* Images.xcassets */; };
+		AF868C421A56E22F006CD2DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF868C401A56E22F006CD2DE /* LaunchScreen.xib */; };
+		AF868C4E1A56E22F006CD2DE /* GuessTheSightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF868C4D1A56E22F006CD2DE /* GuessTheSightTests.swift */; };
+		AFB81B111A58415D00530899 /* DataRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB81B101A58415D00530899 /* DataRetriever.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF868C481A56E22F006CD2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF868C271A56E22F006CD2DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF868C2E1A56E22F006CD2DE;
+			remoteInfo = GuessTheSight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF42412E1A56F35600BEB7B0 /* GuessTheSight-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GuessTheSight-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF42412F1A56F35600BEB7B0 /* HTMLDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLDocument.swift; sourceTree = "<group>"; };
+		AF4241301A56F35600BEB7B0 /* HTMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLNode.swift; sourceTree = "<group>"; };
+		AF4241311A56F35600BEB7B0 /* HTMLNode+XPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTMLNode+XPath.swift"; sourceTree = "<group>"; };
+		AF4241351A56F60E00BEB7B0 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		AF868C2F1A56E22F006CD2DE /* GuessTheSight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheSight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF868C331A56E22F006CD2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF868C341A56E22F006CD2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF868C371A56E22F006CD2DE /* GuessTheSight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuessTheSight.xcdatamodel; sourceTree = "<group>"; };
+		AF868C391A56E22F006CD2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF868C3C1A56E22F006CD2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF868C3E1A56E22F006CD2DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF868C411A56E22F006CD2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF868C471A56E22F006CD2DE /* GuessTheSightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheSightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF868C4C1A56E22F006CD2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF868C4D1A56E22F006CD2DE /* GuessTheSightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheSightTests.swift; sourceTree = "<group>"; };
+		AFB81B101A58415D00530899 /* DataRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRetriever.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF868C2C1A56E22F006CD2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4241361A56F60E00BEB7B0 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF868C441A56E22F006CD2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF868C261A56E22F006CD2DE = {
+			isa = PBXGroup;
+			children = (
+				AF4241351A56F60E00BEB7B0 /* libxml2.dylib */,
+				AF868C311A56E22F006CD2DE /* GuessTheSight */,
+				AF868C4A1A56E22F006CD2DE /* GuessTheSightTests */,
+				AF868C301A56E22F006CD2DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF868C301A56E22F006CD2DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF868C2F1A56E22F006CD2DE /* GuessTheSight.app */,
+				AF868C471A56E22F006CD2DE /* GuessTheSightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF868C311A56E22F006CD2DE /* GuessTheSight */ = {
+			isa = PBXGroup;
+			children = (
+				AF868C341A56E22F006CD2DE /* AppDelegate.swift */,
+				AFB81B101A58415D00530899 /* DataRetriever.swift */,
+				AF868C391A56E22F006CD2DE /* ViewController.swift */,
+				AF868C3B1A56E22F006CD2DE /* Main.storyboard */,
+				AF42412E1A56F35600BEB7B0 /* GuessTheSight-Bridging-Header.h */,
+				AF42412F1A56F35600BEB7B0 /* HTMLDocument.swift */,
+				AF4241301A56F35600BEB7B0 /* HTMLNode.swift */,
+				AF4241311A56F35600BEB7B0 /* HTMLNode+XPath.swift */,
+				AF868C3E1A56E22F006CD2DE /* Images.xcassets */,
+				AF868C401A56E22F006CD2DE /* LaunchScreen.xib */,
+				AF868C361A56E22F006CD2DE /* GuessTheSight.xcdatamodeld */,
+				AF868C321A56E22F006CD2DE /* Supporting Files */,
+			);
+			path = GuessTheSight;
+			sourceTree = "<group>";
+		};
+		AF868C321A56E22F006CD2DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF868C331A56E22F006CD2DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF868C4A1A56E22F006CD2DE /* GuessTheSightTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF868C4D1A56E22F006CD2DE /* GuessTheSightTests.swift */,
+				AF868C4B1A56E22F006CD2DE /* Supporting Files */,
+			);
+			path = GuessTheSightTests;
+			sourceTree = "<group>";
+		};
+		AF868C4B1A56E22F006CD2DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF868C4C1A56E22F006CD2DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF868C2E1A56E22F006CD2DE /* GuessTheSight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF868C511A56E22F006CD2DE /* Build configuration list for PBXNativeTarget "GuessTheSight" */;
+			buildPhases = (
+				AF868C2B1A56E22F006CD2DE /* Sources */,
+				AF868C2C1A56E22F006CD2DE /* Frameworks */,
+				AF868C2D1A56E22F006CD2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessTheSight;
+			productName = GuessTheSight;
+			productReference = AF868C2F1A56E22F006CD2DE /* GuessTheSight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF868C461A56E22F006CD2DE /* GuessTheSightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF868C541A56E22F006CD2DE /* Build configuration list for PBXNativeTarget "GuessTheSightTests" */;
+			buildPhases = (
+				AF868C431A56E22F006CD2DE /* Sources */,
+				AF868C441A56E22F006CD2DE /* Frameworks */,
+				AF868C451A56E22F006CD2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF868C491A56E22F006CD2DE /* PBXTargetDependency */,
+			);
+			name = GuessTheSightTests;
+			productName = GuessTheSightTests;
+			productReference = AF868C471A56E22F006CD2DE /* GuessTheSightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF868C271A56E22F006CD2DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = 797459;
+				TargetAttributes = {
+					AF868C2E1A56E22F006CD2DE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AF868C461A56E22F006CD2DE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AF868C2E1A56E22F006CD2DE;
+					};
+				};
+			};
+			buildConfigurationList = AF868C2A1A56E22F006CD2DE /* Build configuration list for PBXProject "GuessTheSight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF868C261A56E22F006CD2DE;
+			productRefGroup = AF868C301A56E22F006CD2DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF868C2E1A56E22F006CD2DE /* GuessTheSight */,
+				AF868C461A56E22F006CD2DE /* GuessTheSightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF868C2D1A56E22F006CD2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF868C3D1A56E22F006CD2DE /* Main.storyboard in Resources */,
+				AF868C421A56E22F006CD2DE /* LaunchScreen.xib in Resources */,
+				AF868C3F1A56E22F006CD2DE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF868C451A56E22F006CD2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF868C2B1A56E22F006CD2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4241341A56F35600BEB7B0 /* HTMLNode+XPath.swift in Sources */,
+				AFB81B111A58415D00530899 /* DataRetriever.swift in Sources */,
+				AF868C3A1A56E22F006CD2DE /* ViewController.swift in Sources */,
+				AF4241321A56F35600BEB7B0 /* HTMLDocument.swift in Sources */,
+				AF868C351A56E22F006CD2DE /* AppDelegate.swift in Sources */,
+				AF4241331A56F35600BEB7B0 /* HTMLNode.swift in Sources */,
+				AF868C381A56E22F006CD2DE /* GuessTheSight.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF868C431A56E22F006CD2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF868C4E1A56E22F006CD2DE /* GuessTheSightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF868C491A56E22F006CD2DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF868C2E1A56E22F006CD2DE /* GuessTheSight */;
+			targetProxy = AF868C481A56E22F006CD2DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF868C3B1A56E22F006CD2DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF868C3C1A56E22F006CD2DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF868C401A56E22F006CD2DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF868C411A56E22F006CD2DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF868C4F1A56E22F006CD2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF868C501A56E22F006CD2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF868C521A56E22F006CD2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"HEADER_SEARCH_PATHS[arch=*]" = $SDKROOT/usr/include/libxml2;
+				INFOPLIST_FILE = GuessTheSight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "./GuessTheSight/GuessTheSight-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		AF868C531A56E22F006CD2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"HEADER_SEARCH_PATHS[arch=*]" = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = GuessTheSight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "./GuessTheSight/GuessTheSight-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AF868C551A56E22F006CD2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuessTheSightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheSight.app/GuessTheSight";
+			};
+			name = Debug;
+		};
+		AF868C561A56E22F006CD2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuessTheSightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheSight.app/GuessTheSight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF868C2A1A56E22F006CD2DE /* Build configuration list for PBXProject "GuessTheSight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF868C4F1A56E22F006CD2DE /* Debug */,
+				AF868C501A56E22F006CD2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF868C511A56E22F006CD2DE /* Build configuration list for PBXNativeTarget "GuessTheSight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF868C521A56E22F006CD2DE /* Debug */,
+				AF868C531A56E22F006CD2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF868C541A56E22F006CD2DE /* Build configuration list for PBXNativeTarget "GuessTheSightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF868C551A56E22F006CD2DE /* Debug */,
+				AF868C561A56E22F006CD2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF868C361A56E22F006CD2DE /* GuessTheSight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF868C371A56E22F006CD2DE /* GuessTheSight.xcdatamodel */,
+			);
+			currentVersion = AF868C371A56E22F006CD2DE /* GuessTheSight.xcdatamodel */;
+			path = GuessTheSight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF868C271A56E22F006CD2DE /* Project object */;
+}
