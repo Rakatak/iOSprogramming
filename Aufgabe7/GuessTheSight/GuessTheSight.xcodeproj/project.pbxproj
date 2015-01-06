@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF2C42871A5C42A5004C1FAF /* Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C42861A5C42A5004C1FAF /* Waypoint.swift */; };
 		AF4241321A56F35600BEB7B0 /* HTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF42412F1A56F35600BEB7B0 /* HTMLDocument.swift */; };
 		AF4241331A56F35600BEB7B0 /* HTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4241301A56F35600BEB7B0 /* HTMLNode.swift */; };
 		AF4241341A56F35600BEB7B0 /* HTMLNode+XPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4241311A56F35600BEB7B0 /* HTMLNode+XPath.swift */; };
@@ -19,6 +20,7 @@
 		AF868C421A56E22F006CD2DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF868C401A56E22F006CD2DE /* LaunchScreen.xib */; };
 		AF868C4E1A56E22F006CD2DE /* GuessTheSightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF868C4D1A56E22F006CD2DE /* GuessTheSightTests.swift */; };
 		AFB81B111A58415D00530899 /* DataRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB81B101A58415D00530899 /* DataRetriever.swift */; };
+		AFB81B131A59B66D00530899 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB81B121A59B66D00530899 /* GameController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF2C42861A5C42A5004C1FAF /* Waypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waypoint.swift; sourceTree = "<group>"; };
 		AF42412E1A56F35600BEB7B0 /* GuessTheSight-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GuessTheSight-Bridging-Header.h"; sourceTree = "<group>"; };
 		AF42412F1A56F35600BEB7B0 /* HTMLDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLDocument.swift; sourceTree = "<group>"; };
 		AF4241301A56F35600BEB7B0 /* HTMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLNode.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		AF868C4C1A56E22F006CD2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF868C4D1A56E22F006CD2DE /* GuessTheSightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheSightTests.swift; sourceTree = "<group>"; };
 		AFB81B101A58415D00530899 /* DataRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRetriever.swift; sourceTree = "<group>"; };
+		AFB81B121A59B66D00530899 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				AF868C341A56E22F006CD2DE /* AppDelegate.swift */,
 				AFB81B101A58415D00530899 /* DataRetriever.swift */,
 				AF868C391A56E22F006CD2DE /* ViewController.swift */,
+				AFB81B121A59B66D00530899 /* GameController.swift */,
+				AF2C42861A5C42A5004C1FAF /* Waypoint.swift */,
 				AF868C3B1A56E22F006CD2DE /* Main.storyboard */,
 				AF42412E1A56F35600BEB7B0 /* GuessTheSight-Bridging-Header.h */,
 				AF42412F1A56F35600BEB7B0 /* HTMLDocument.swift */,
@@ -238,6 +244,8 @@
 				AF868C3A1A56E22F006CD2DE /* ViewController.swift in Sources */,
 				AF4241321A56F35600BEB7B0 /* HTMLDocument.swift in Sources */,
 				AF868C351A56E22F006CD2DE /* AppDelegate.swift in Sources */,
+				AF2C42871A5C42A5004C1FAF /* Waypoint.swift in Sources */,
+				AFB81B131A59B66D00530899 /* GameController.swift in Sources */,
 				AF4241331A56F35600BEB7B0 /* HTMLNode.swift in Sources */,
 				AF868C381A56E22F006CD2DE /* GuessTheSight.xcdatamodeld in Sources */,
 			);
