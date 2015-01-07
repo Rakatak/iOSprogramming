@@ -34,14 +34,14 @@ class DataRetriever {
         
         //retrieve all the even Rows of Sights
         for var i = 0; i < evenLimit! - 8; i++ {
-            if let sight = evenArray?[i].childOfTag("a")?{
+            if let sight = evenArray![i].childOfTag("a"){
                 totalArray.append(sight)
             }
         }
         
         //retrieve all the odd Rows of Sights
         for var i = 0; i < oddLimit! - 11; i++ {
-            if let sight = oddArray?[i].childOfTag("a")?{
+            if let sight = oddArray![i].childOfTag("a"){
                 totalArray.append(sight)
             }
         }
@@ -92,24 +92,20 @@ class DataRetriever {
     
     func getAdress(node: HTMLNode) -> String {
         
-//        var newUrl = NSURL(string:"http://www.berlin.de" + node.hrefValue!)
-        var newUrl = NSURL(string:"http://www.berlin.de/orte/sehenswuerdigkeiten/mauergedenkstaette-brandenburger-tor/")
+        var newUrl = NSURL(string:"http://www.berlin.de" + node.hrefValue!)
+//        var newUrl = NSURL(string:"http://www.berlin.de/orte/sehenswuerdigkeiten/mauergedenkstaette-brandenburger-tor/")
 
-        println("Retrieving adress of sight on: \(newUrl!)")
+        println("Retrieving adress of sight on: \(newUrl!)\n")
         
         var adressDoc = HTMLDocument(contentsOfURL: newUrl!, encoding:NSUTF8StringEncoding, error: &err)!
         
+//        println(adressDoc.body?.HTMLString)
         
-    
-       
-        
-        
-        
-        return misc(adressDoc)
+        return misc(adressDoc, sight: node)
         
     }
     
-    func misc(adressDoc: HTMLDocument) -> String {
+    func misc(adressDoc: HTMLDocument, sight: HTMLNode) -> String {
         
         var zipBool = false
         var cityBool = false
@@ -119,49 +115,44 @@ class DataRetriever {
         var city = String()
         var street = String()
         
-        while zipBool == false || cityBool == false || streetBool == false {
+        while streetBool == false || zipBool == false{
+            println("-----Gathering Adresses-----\n")
             
-            var streetNode = adressDoc.body?.descendantsWithClass("street-adress")
-            var zipNode = adressDoc.body?.descendantsWithClass("postal-code")
-            var cityNode = adressDoc.body?.descendantsWithClass("locality")
+//            if cityBool == false {
+//                println("getting City")
+//                var cityNode = adressDoc.body?.descendantsWithClass("locality")
+//                if cityNode?.count != 0 {
+//                    city = cityNode![0].rawTextContent!
+//                    cityBool = true
+//                }
+//            }
             
-            if streetNode?.count != 0 {
-                
+            
+            if streetBool == false {
+                var streetNode = adressDoc.body?.descendantsWithClass("street-address")
+                if streetNode?.count != nil {
+                    street = streetNode![0].rawTextContent!
+                    streetBool = true
+                }
             }
             
-            if zipNode?.count != 0 {
-                
+            if zipBool == false {
+                println("getting Postal Code")
+                var zipNode = adressDoc.body?.descendantsWithClass("postal-code")
+                if zipNode?.count != 0 {
+                    zip = zipNode![0].rawTextContent!
+                    zipBool = true
+                }
             }
             
-            if cityNode?.count != 0 {
-                
-            }
+            
         }
         
-        var adress = "\(street) ,\(zip) , \(city)"
+        var adress = "\(street), Berlin, \(zip)"
         println(adress)
-
         return adress
     }
     
-    func getLocationCoords(adress: String) -> [Double] {
-        
-        var geoCoder = CLGeocoder()
-        var latlong = [Double]()
-        
-        geoCoder.geocodeAddressString(adress, completionHandler: { (placemarks, error) -> Void in
-            if (error != nil) {
-                println("Error while Geocoding")
-            } else {
-                println("Getting lat and lon values")
-                var placemark: CLPlacemark = placemarks[0] as CLPlacemark
-                latlong.append(Double(placemark.location.coordinate.latitude))
-                latlong.append(Double(placemark.location.coordinate.longitude))
-                
-            }
-        })
-        return latlong
-    }
     
     
   

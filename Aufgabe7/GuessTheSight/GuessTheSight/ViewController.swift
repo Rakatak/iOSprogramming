@@ -12,7 +12,7 @@ import MapKit
 import Foundation
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDelegate{
     
     @IBOutlet var answerButtons: [UIButton]!
     @IBOutlet weak var startButton: UIButton!
@@ -23,26 +23,23 @@ class ViewController: UIViewController {
     var locationManager = CLLocationManager()
     var randomNumberId : Int!
     var geoCoder : CLGeocoder!
+    var latlong = [Double]()
+    var poi : Waypoint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         mapView.hidden = true
+        self.mapView.delegate = self
         geoCoder = CLGeocoder()
         
         for button in answerButtons {
             button.hidden = true
         }
         
-//        var timer = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: Selector("retrieveData"), userInfo: nil, repeats: false)
+//        var timer = NSTimer.scheduledTimerWithTimeInterval(3 , target: self, selector: Selector("retrieveData"), userInfo: nil, repeats: false)
         retrieveData()
-        
-        //Loading all data from Berlin.de
-
-        
-        
-        
     }
     
     func retrieveData(){
@@ -97,6 +94,9 @@ class ViewController: UIViewController {
     }
     
     func prepareGame(){
+        if poi != nil {
+            self.mapView.removeAnnotation(poi)
+        }
         
         println("\nPrepare new round")
         gameController = GameController()
@@ -125,19 +125,26 @@ class ViewController: UIViewController {
     }
     
     func prepareMap(){
+        var answer = gameController.rightAnswer
         
-        var latlong = retriever.getLocationCoords(retriever.getAdress(gameController.rightAnswer))
+        var address = retriever.getAdress(answer)
         
-        var poi = Waypoint()
-        poi.coordinate = CLLocationCoordinate2DMake(latlong[0], latlong[1])
-        mapView.addAnnotation(poi)
-        self.mapView.region = MKCoordinateRegionMakeWithDistance(CLLocationCoordinate2DMake(latlong[0] , latlong[1]) , 1000, 1000)
-
-
+        var geoCoder = CLGeocoder()
+        var latlong = [Double]()
+        
+        geoCoder.geocodeAddressString(address, completionHandler: { (placemarks, error) -> Void in
+            
+            println("Getting lat and lon values")
+            var placemark: CLPlacemark = placemarks[0] as CLPlacemark
+            latlong.append(Double(placemark.location.coordinate.latitude))
+            latlong.append(Double(placemark.location.coordinate.longitude))
+            println("Latitude: \(latlong[0])  Longitude: \(latlong[1])")
+            self.poi = Waypoint()
+            self.poi.coordinate = CLLocationCoordinate2DMake(latlong[0], latlong[1])
+            self.mapView.addAnnotation(self.poi)
+            self.mapView.region = MKCoordinateRegionMakeWithDistance(CLLocationCoordinate2DMake(latlong[0] ,latlong[1]) , 1000, 1000)
+            
+        })
     }
-    
-
-    
-    
 }
 
