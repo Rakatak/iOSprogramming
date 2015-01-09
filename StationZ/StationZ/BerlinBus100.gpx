@@ -1,0 +1,2634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx version="1.1" creator="http://www.geoplaner.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    
+    <wpt lat="52.506714" lon="13.332834">
+        <ele>-23.000000</ele>
+        <time>2011-09-20T16:11:44Z</time>
+        <desc>Lat.=52.506714. Long.=13.332834. Alt.=-23.000000m.</desc>
+    </wpt>
+    <wpt lat="52.506717" lon="13.332841">
+        <ele>-23.000000</ele>
+        <time>2011-09-20T16:11:45Z</time>
+        <desc>Lat.=52.506717. Long.=13.332841. Alt.=-23.000000m. Speed=2Km/h. Course=51deg.</desc>
+    </wpt>
+    <wpt lat="52.506493" lon="13.332582">
+        <ele>-24.000000</ele>
+        <time>2011-09-20T16:17:38Z</time>
+        <desc>Lat.=52.506493. Long.=13.332582. Alt.=-24.000000m. Speed=0Km/h. Course=215deg.</desc>
+    </wpt>
+    <wpt lat="52.506259" lon="13.332291">
+        <ele>-24.000000</ele>
+        <time>2011-09-20T16:17:41Z</time>
+        <desc>Lat.=52.506259. Long.=13.332291. Alt.=-24.000000m. Speed=39Km/h. Course=217deg.</desc>
+    </wpt>
+    <wpt lat="52.506016" lon="13.332060">
+        <ele>-24.000000</ele>
+        <time>2011-09-20T16:17:44Z</time>
+        <desc>Lat.=52.506016. Long.=13.332060. Alt.=-24.000000m. Speed=37Km/h. Course=210deg.</desc>
+    </wpt>
+    <wpt lat="52.505802" lon="13.331935">
+        <ele>-23.000000</ele>
+        <time>2011-09-20T16:17:47Z</time>
+        <desc>Lat.=52.505802. Long.=13.331935. Alt.=-23.000000m. Speed=30Km/h. Course=200deg.</desc>
+    </wpt>
+    <wpt lat="52.505664" lon="13.332290">
+        <ele>-23.000000</ele>
+        <time>2011-09-20T16:17:59Z</time>
+        <desc>Lat.=52.505664. Long.=13.332290. Alt.=-23.000000m. Speed=8Km/h. Course=123deg.</desc>
+    </wpt>
+    <wpt lat="52.505546" lon="13.332595">
+        <ele>-23.000000</ele>
+        <time>2011-09-20T16:18:02Z</time>
+        <desc>Lat.=52.505546. Long.=13.332595. Alt.=-23.000000m. Speed=29Km/h. Course=122deg.</desc>
+    </wpt>
+    <wpt lat="52.505414" lon="13.332905">
+        <ele>-23.000000</ele>
+        <time>2011-09-20T16:18:05Z</time>
+        <desc>Lat.=52.505414. Long.=13.332905. Alt.=-23.000000m. Speed=30Km/h. Course=125deg.</desc>
+    </wpt>
+    <wpt lat="52.505235" lon="13.333229">
+        <ele>-23.000000</ele>
+        <time>2011-09-20T16:18:09Z</time>
+        <desc>Lat.=52.505235. Long.=13.333229. Alt.=-23.000000m. Speed=26Km/h. Course=132deg.</desc>
+    </wpt>
+    <wpt lat="52.505088" lon="13.333574">
+        <ele>-23.000000</ele>
+        <time>2011-09-20T16:18:14Z</time>
+        <desc>Lat.=52.505088. Long.=13.333574. Alt.=-23.000000m. Speed=20Km/h. Course=125deg.</desc>
+    </wpt>
+    <wpt lat="52.505059" lon="13.334013">
+        <ele>-22.000000</ele>
+        <time>2011-09-20T16:18:18Z</time>
+        <desc>Lat.=52.505059. Long.=13.334013. Alt.=-22.000000m. Speed=26Km/h. Course=96deg.</desc>
+    </wpt>
+    <wpt lat="52.505050" lon="13.334391">
+        <ele>-22.000000</ele>
+        <time>2011-09-20T16:18:21Z</time>
+        <desc>Lat.=52.505050. Long.=13.334391. Alt.=-22.000000m. Speed=30Km/h. Course=92deg.</desc>
+    </wpt>
+    <wpt lat="52.505030" lon="13.334827">
+        <ele>-21.000000</ele>
+        <time>2011-09-20T16:18:24Z</time>
+        <desc>Lat.=52.505030. Long.=13.334827. Alt.=-21.000000m. Speed=35Km/h. Course=94deg.</desc>
+    </wpt>
+    <wpt lat="52.505005" lon="13.335213">
+        <ele>-20.000000</ele>
+        <time>2011-09-20T16:18:27Z</time>
+        <desc>Lat.=52.505005. Long.=13.335213. Alt.=-20.000000m. Speed=31Km/h. Course=96deg.</desc>
+    </wpt>
+    <wpt lat="52.504979" lon="13.335596">
+        <ele>-19.000000</ele>
+        <time>2011-09-20T16:18:32Z</time>
+        <desc>Lat.=52.504979. Long.=13.335596. Alt.=-19.000000m. Speed=18Km/h. Course=96deg.</desc>
+    </wpt>
+    <wpt lat="52.504957" lon="13.336002">
+        <ele>-17.000000</ele>
+        <time>2011-09-20T16:18:59Z</time>
+        <desc>Lat.=52.504957. Long.=13.336002. Alt.=-17.000000m. Speed=3Km/h. Course=95deg.</desc>
+    </wpt>
+    <wpt lat="52.504893" lon="13.336421">
+        <ele>-17.000000</ele>
+        <time>2011-09-20T16:19:03Z</time>
+        <desc>Lat.=52.504893. Long.=13.336421. Alt.=-17.000000m. Speed=26Km/h. Course=104deg.</desc>
+    </wpt>
+    <wpt lat="52.504829" lon="13.336798">
+        <ele>-16.000000</ele>
+        <time>2011-09-20T16:19:08Z</time>
+        <desc>Lat.=52.504829. Long.=13.336798. Alt.=-16.000000m. Speed=19Km/h. Course=106deg.</desc>
+    </wpt>
+    <wpt lat="52.504851" lon="13.337183">
+        <ele>-16.000000</ele>
+        <time>2011-09-20T16:20:06Z</time>
+        <desc>Lat.=52.504851. Long.=13.337183. Alt.=-16.000000m. Speed=1Km/h. Course=85deg.</desc>
+    </wpt>
+    <wpt lat="52.504845" lon="13.337667">
+        <ele>-16.000000</ele>
+        <time>2011-09-20T16:20:10Z</time>
+        <desc>Lat.=52.504845. Long.=13.337667. Alt.=-16.000000m. Speed=29Km/h. Course=91deg.</desc>
+    </wpt>
+    <wpt lat="52.504874" lon="13.338104">
+        <ele>-16.000000</ele>
+        <time>2011-09-20T16:20:13Z</time>
+        <desc>Lat.=52.504874. Long.=13.338104. Alt.=-16.000000m. Speed=35Km/h. Course=84deg.</desc>
+    </wpt>
+    <wpt lat="52.504947" lon="13.338505">
+        <ele>-17.000000</ele>
+        <time>2011-09-20T16:20:16Z</time>
+        <desc>Lat.=52.504947. Long.=13.338505. Alt.=-17.000000m. Speed=33Km/h. Course=73deg.</desc>
+    </wpt>
+    <wpt lat="52.505027" lon="13.338902">
+        <ele>-19.000000</ele>
+        <time>2011-09-20T16:20:19Z</time>
+        <desc>Lat.=52.505027. Long.=13.338902. Alt.=-19.000000m. Speed=33Km/h. Course=72deg.</desc>
+    </wpt>
+    <wpt lat="52.505098" lon="13.339336">
+        <ele>-20.000000</ele>
+        <time>2011-09-20T16:20:22Z</time>
+        <desc>Lat.=52.505098. Long.=13.339336. Alt.=-20.000000m. Speed=36Km/h. Course=75deg.</desc>
+    </wpt>
+    <wpt lat="52.505110" lon="13.339754">
+        <ele>-18.000000</ele>
+        <time>2011-09-20T16:20:25Z</time>
+        <desc>Lat.=52.505110. Long.=13.339754. Alt.=-18.000000m. Speed=34Km/h. Course=87deg.</desc>
+    </wpt>
+    <wpt lat="52.505107" lon="13.340184">
+        <ele>-17.000000</ele>
+        <time>2011-09-20T16:20:30Z</time>
+        <desc>Lat.=52.505107. Long.=13.340184. Alt.=-17.000000m. Speed=20Km/h. Course=91deg.</desc>
+    </wpt>
+    <wpt lat="52.505037" lon="13.340550">
+        <ele>-14.000000</ele>
+        <time>2011-09-20T16:20:44Z</time>
+        <desc>Lat.=52.505037. Long.=13.340550. Alt.=-14.000000m. Speed=6Km/h. Course=108deg.</desc>
+    </wpt>
+    <wpt lat="52.504950" lon="13.340956">
+        <ele>-13.000000</ele>
+        <time>2011-09-20T16:20:48Z</time>
+        <desc>Lat.=52.504950. Long.=13.340956. Alt.=-13.000000m. Speed=26Km/h. Course=109deg.</desc>
+    </wpt>
+    <wpt lat="52.504851" lon="13.341365">
+        <ele>-13.000000</ele>
+        <time>2011-09-20T16:20:51Z</time>
+        <desc>Lat.=52.504851. Long.=13.341365. Alt.=-13.000000m. Speed=35Km/h. Course=112deg.</desc>
+    </wpt>
+    <wpt lat="52.504733" lon="13.341834">
+        <ele>-13.000000</ele>
+        <time>2011-09-20T16:20:54Z</time>
+        <desc>Lat.=52.504733. Long.=13.341834. Alt.=-13.000000m. Speed=41Km/h. Course=112deg.</desc>
+    </wpt>
+    <wpt lat="52.504608" lon="13.342328">
+        <ele>-13.000000</ele>
+        <time>2011-09-20T16:20:57Z</time>
+        <desc>Lat.=52.504608. Long.=13.342328. Alt.=-13.000000m. Speed=43Km/h. Course=113deg.</desc>
+    </wpt>
+    <wpt lat="52.504522" lon="13.342678">
+        <ele>-13.000000</ele>
+        <time>2011-09-20T16:20:59Z</time>
+        <desc>Lat.=52.504522. Long.=13.342678. Alt.=-13.000000m. Speed=46Km/h. Course=112deg.</desc>
+    </wpt>
+    <wpt lat="52.504435" lon="13.343026">
+        <ele>-13.000000</ele>
+        <time>2011-09-20T16:21:01Z</time>
+        <desc>Lat.=52.504435. Long.=13.343026. Alt.=-13.000000m. Speed=45Km/h. Course=112deg.</desc>
+    </wpt>
+    <wpt lat="52.504326" lon="13.343483">
+        <ele>-12.000000</ele>
+        <time>2011-09-20T16:21:04Z</time>
+        <desc>Lat.=52.504326. Long.=13.343483. Alt.=-12.000000m. Speed=39Km/h. Course=111deg.</desc>
+    </wpt>
+    <wpt lat="52.504230" lon="13.343838">
+        <ele>-12.000000</ele>
+        <time>2011-09-20T16:21:07Z</time>
+        <desc>Lat.=52.504230. Long.=13.343838. Alt.=-12.000000m. Speed=31Km/h. Course=114deg.</desc>
+    </wpt>
+    <wpt lat="52.504128" lon="13.344166">
+        <ele>-12.000000</ele>
+        <time>2011-09-20T16:21:11Z</time>
+        <desc>Lat.=52.504128. Long.=13.344166. Alt.=-12.000000m. Speed=22Km/h. Course=117deg.</desc>
+    </wpt>
+    <wpt lat="52.504029" lon="13.344606">
+        <ele>-11.000000</ele>
+        <time>2011-09-20T16:21:43Z</time>
+        <desc>Lat.=52.504029. Long.=13.344606. Alt.=-11.000000m. Speed=3Km/h. Course=110deg.</desc>
+    </wpt>
+    <wpt lat="52.503949" lon="13.344974">
+        <ele>-11.000000</ele>
+        <time>2011-09-20T16:21:46Z</time>
+        <desc>Lat.=52.503949. Long.=13.344974. Alt.=-11.000000m. Speed=31Km/h. Course=110deg.</desc>
+    </wpt>
+    <wpt lat="52.503859" lon="13.345401">
+        <ele>-11.000000</ele>
+        <time>2011-09-20T16:21:49Z</time>
+        <desc>Lat.=52.503859. Long.=13.345401. Alt.=-11.000000m. Speed=36Km/h. Course=109deg.</desc>
+    </wpt>
+    <wpt lat="52.503776" lon="13.345828">
+        <ele>-11.000000</ele>
+        <time>2011-09-20T16:21:52Z</time>
+        <desc>Lat.=52.503776. Long.=13.345828. Alt.=-11.000000m. Speed=36Km/h. Course=108deg.</desc>
+    </wpt>
+    <wpt lat="52.503706" lon="13.346214">
+        <ele>-11.000000</ele>
+        <time>2011-09-20T16:21:55Z</time>
+        <desc>Lat.=52.503706. Long.=13.346214. Alt.=-11.000000m. Speed=32Km/h. Course=107deg.</desc>
+    </wpt>
+    <wpt lat="52.503613" lon="13.346591">
+        <ele>-11.000000</ele>
+        <time>2011-09-20T16:21:59Z</time>
+        <desc>Lat.=52.503613. Long.=13.346591. Alt.=-11.000000m. Speed=24Km/h. Course=112deg.</desc>
+    </wpt>
+    <wpt lat="52.503510" lon="13.346986">
+        <ele>-10.000000</ele>
+        <time>2011-09-20T16:22:03Z</time>
+        <desc>Lat.=52.503510. Long.=13.346986. Alt.=-10.000000m. Speed=26Km/h. Course=113deg.</desc>
+    </wpt>
+    <wpt lat="52.503411" lon="13.347358">
+        <ele>-10.000000</ele>
+        <time>2011-09-20T16:22:06Z</time>
+        <desc>Lat.=52.503411. Long.=13.347358. Alt.=-10.000000m. Speed=32Km/h. Course=114deg.</desc>
+    </wpt>
+    <wpt lat="52.503312" lon="13.347718">
+        <ele>-9.000000</ele>
+        <time>2011-09-20T16:22:09Z</time>
+        <desc>Lat.=52.503312. Long.=13.347718. Alt.=-9.000000m. Speed=32Km/h. Course=114deg.</desc>
+    </wpt>
+    <wpt lat="52.503232" lon="13.348095">
+        <ele>-8.000000</ele>
+        <time>2011-09-20T16:22:13Z</time>
+        <desc>Lat.=52.503232. Long.=13.348095. Alt.=-8.000000m. Speed=24Km/h. Course=109deg.</desc>
+    </wpt>
+    <wpt lat="52.503184" lon="13.348501">
+        <ele>-4.000000</ele>
+        <time>2011-09-20T16:22:40Z</time>
+        <desc>Lat.=52.503184. Long.=13.348501. Alt.=-4.000000m. Speed=3Km/h. Course=101deg.</desc>
+    </wpt>
+    <wpt lat="52.503117" lon="13.348901">
+        <ele>-4.000000</ele>
+        <time>2011-09-20T16:22:46Z</time>
+        <desc>Lat.=52.503117. Long.=13.348901. Alt.=-4.000000m. Speed=16Km/h. Course=105deg.</desc>
+    </wpt>
+    <wpt lat="52.503018" lon="13.349299">
+        <ele>-3.000000</ele>
+        <time>2011-09-20T16:22:51Z</time>
+        <desc>Lat.=52.503018. Long.=13.349299. Alt.=-3.000000m. Speed=20Km/h. Course=112deg.</desc>
+    </wpt>
+    <wpt lat="52.502944" lon="13.349753">
+        <ele>-2.000000</ele>
+        <time>2011-09-20T16:22:55Z</time>
+        <desc>Lat.=52.502944. Long.=13.349753. Alt.=-2.000000m. Speed=28Km/h. Course=105deg.</desc>
+    </wpt>
+    <wpt lat="52.503018" lon="13.350213">
+        <ele>-1.000000</ele>
+        <time>2011-09-20T16:22:59Z</time>
+        <desc>Lat.=52.503018. Long.=13.350213. Alt.=-1.000000m. Speed=28Km/h. Course=75deg.</desc>
+    </wpt>
+    <wpt lat="52.503162" lon="13.350601">
+        <ele>0.000000</ele>
+        <time>2011-09-20T16:23:03Z</time>
+        <desc>Lat.=52.503162. Long.=13.350601. Alt.=0.000000m. Speed=27Km/h. Course=59deg.</desc>
+    </wpt>
+    <wpt lat="52.503354" lon="13.350858">
+        <ele>0.000000</ele>
+        <time>2011-09-20T16:23:07Z</time>
+        <desc>Lat.=52.503354. Long.=13.350858. Alt.=0.000000m. Speed=24Km/h. Course=39deg.</desc>
+    </wpt>
+    <wpt lat="52.503459" lon="13.350481">
+        <ele>-1.000000</ele>
+        <time>2011-09-20T16:23:15Z</time>
+        <desc>Lat.=52.503459. Long.=13.350481. Alt.=-1.000000m. Speed=12Km/h. Course=295deg.</desc>
+    </wpt>
+    <wpt lat="52.503245" lon="13.350351">
+        <ele>-1.000000</ele>
+        <time>2011-09-20T16:23:27Z</time>
+        <desc>Lat.=52.503245. Long.=13.350351. Alt.=-1.000000m. Speed=7Km/h. Course=200deg.</desc>
+    </wpt>
+    <wpt lat="52.503587" lon="13.350510">
+        <ele>-1.000000</ele>
+        <time>2011-09-20T16:23:39Z</time>
+        <desc>Lat.=52.503587. Long.=13.350510. Alt.=-1.000000m. Speed=11Km/h. Course=16deg.</desc>
+    </wpt>
+    <wpt lat="52.503875" lon="13.350793">
+        <ele>0.000000</ele>
+        <time>2011-09-20T16:23:41Z</time>
+        <desc>Lat.=52.503875. Long.=13.350793. Alt.=0.000000m. Speed=67Km/h. Course=31deg.</desc>
+    </wpt>
+    <wpt lat="52.504083" lon="13.351016">
+        <ele>0.000000</ele>
+        <time>2011-09-20T16:23:43Z</time>
+        <desc>Lat.=52.504083. Long.=13.351016. Alt.=0.000000m. Speed=49Km/h. Course=33deg.</desc>
+    </wpt>
+    <wpt lat="52.504282" lon="13.351221">
+        <ele>0.000000</ele>
+        <time>2011-09-20T16:23:45Z</time>
+        <desc>Lat.=52.504282. Long.=13.351221. Alt.=0.000000m. Speed=46Km/h. Course=32deg.</desc>
+    </wpt>
+    <wpt lat="52.504534" lon="13.351482">
+        <ele>0.000000</ele>
+        <time>2011-09-20T16:23:48Z</time>
+        <desc>Lat.=52.504534. Long.=13.351482. Alt.=0.000000m. Speed=39Km/h. Course=32deg.</desc>
+    </wpt>
+    <wpt lat="52.504752" lon="13.351716">
+        <ele>0.000000</ele>
+        <time>2011-09-20T16:23:53Z</time>
+        <desc>Lat.=52.504752. Long.=13.351716. Alt.=0.000000m. Speed=20Km/h. Course=33deg.</desc>
+    </wpt>
+    <wpt lat="52.504970" lon="13.351876">
+        <ele>1.000000</ele>
+        <time>2011-09-20T16:24:22Z</time>
+        <desc>Lat.=52.504970. Long.=13.351876. Alt.=1.000000m. Speed=3Km/h. Course=24deg.</desc>
+    </wpt>
+    <wpt lat="52.505222" lon="13.352070">
+        <ele>0.000000</ele>
+        <time>2011-09-20T16:24:26Z</time>
+        <desc>Lat.=52.505222. Long.=13.352070. Alt.=0.000000m. Speed=27Km/h. Course=25deg.</desc>
+    </wpt>
+    <wpt lat="52.505434" lon="13.352186">
+        <ele>1.000000</ele>
+        <time>2011-09-20T16:24:29Z</time>
+        <desc>Lat.=52.505434. Long.=13.352186. Alt.=1.000000m. Speed=29Km/h. Course=19deg.</desc>
+    </wpt>
+    <wpt lat="52.505699" lon="13.352198">
+        <ele>-1.000000</ele>
+        <time>2011-09-20T16:24:33Z</time>
+        <desc>Lat.=52.505699. Long.=13.352198. Alt.=-1.000000m. Speed=26Km/h. Course=1deg.</desc>
+    </wpt>
+    <wpt lat="52.505930" lon="13.352158">
+        <ele>-2.000000</ele>
+        <time>2011-09-20T16:24:38Z</time>
+        <desc>Lat.=52.505930. Long.=13.352158. Alt.=-2.000000m. Speed=18Km/h. Course=354deg.</desc>
+    </wpt>
+    <wpt lat="52.506179" lon="13.352098">
+        <ele>-2.000000</ele>
+        <time>2011-09-20T16:24:43Z</time>
+        <desc>Lat.=52.506179. Long.=13.352098. Alt.=-2.000000m. Speed=20Km/h. Course=352deg.</desc>
+    </wpt>
+    <wpt lat="52.506419" lon="13.352014">
+        <ele>-1.000000</ele>
+        <time>2011-09-20T16:24:47Z</time>
+        <desc>Lat.=52.506419. Long.=13.352014. Alt.=-1.000000m. Speed=24Km/h. Course=348deg.</desc>
+    </wpt>
+    <wpt lat="52.506659" lon="13.351828">
+        <ele>-1.000000</ele>
+        <time>2011-09-20T16:24:51Z</time>
+        <desc>Lat.=52.506659. Long.=13.351828. Alt.=-1.000000m. Speed=26Km/h. Course=335deg.</desc>
+    </wpt>
+    <wpt lat="52.506912" lon="13.351791">
+        <ele>-1.000000</ele>
+        <time>2011-09-20T16:24:54Z</time>
+        <desc>Lat.=52.506912. Long.=13.351791. Alt.=-1.000000m. Speed=33Km/h. Course=355deg.</desc>
+    </wpt>
+    <wpt lat="52.507194" lon="13.351734">
+        <ele>0.000000</ele>
+        <time>2011-09-20T16:24:58Z</time>
+        <desc>Lat.=52.507194. Long.=13.351734. Alt.=0.000000m. Speed=28Km/h. Course=353deg.</desc>
+    </wpt>
+    <wpt lat="52.507450" lon="13.351687">
+        <ele>3.000000</ele>
+        <time>2011-09-20T16:25:02Z</time>
+        <desc>Lat.=52.507450. Long.=13.351687. Alt.=3.000000m. Speed=25Km/h. Course=354deg.</desc>
+    </wpt>
+    <wpt lat="52.507699" lon="13.351662">
+        <ele>6.000000</ele>
+        <time>2011-09-20T16:25:06Z</time>
+        <desc>Lat.=52.507699. Long.=13.351662. Alt.=6.000000m. Speed=25Km/h. Course=357deg.</desc>
+    </wpt>
+    <wpt lat="52.507930" lon="13.351602">
+        <ele>10.000000</ele>
+        <time>2011-09-20T16:25:10Z</time>
+        <desc>Lat.=52.507930. Long.=13.351602. Alt.=10.000000m. Speed=23Km/h. Course=351deg.</desc>
+    </wpt>
+    <wpt lat="52.508160" lon="13.351560">
+        <ele>12.000000</ele>
+        <time>2011-09-20T16:25:14Z</time>
+        <desc>Lat.=52.508160. Long.=13.351560. Alt.=12.000000m. Speed=23Km/h. Course=354deg.</desc>
+    </wpt>
+    <wpt lat="52.508422" lon="13.351565">
+        <ele>14.000000</ele>
+        <time>2011-09-20T16:25:18Z</time>
+        <desc>Lat.=52.508422. Long.=13.351565. Alt.=14.000000m. Speed=26Km/h. Course=1deg.</desc>
+    </wpt>
+    <wpt lat="52.508659" lon="13.351571">
+        <ele>17.000000</ele>
+        <time>2011-09-20T16:25:22Z</time>
+        <desc>Lat.=52.508659. Long.=13.351571. Alt.=17.000000m. Speed=23Km/h. Course=1deg.</desc>
+    </wpt>
+    <wpt lat="52.508893" lon="13.351516">
+        <ele>16.000000</ele>
+        <time>2011-09-20T16:25:28Z</time>
+        <desc>Lat.=52.508893. Long.=13.351516. Alt.=16.000000m. Speed=15Km/h. Course=352deg.</desc>
+    </wpt>
+    <wpt lat="52.509155" lon="13.351418">
+        <ele>15.000000</ele>
+        <time>2011-09-20T16:26:01Z</time>
+        <desc>Lat.=52.509155. Long.=13.351418. Alt.=15.000000m. Speed=3Km/h. Course=347deg.</desc>
+    </wpt>
+    <wpt lat="52.509430" lon="13.351313">
+        <ele>15.000000</ele>
+        <time>2011-09-20T16:26:05Z</time>
+        <desc>Lat.=52.509430. Long.=13.351313. Alt.=15.000000m. Speed=28Km/h. Course=347deg.</desc>
+    </wpt>
+    <wpt lat="52.509696" lon="13.351211">
+        <ele>15.000000</ele>
+        <time>2011-09-20T16:26:08Z</time>
+        <desc>Lat.=52.509696. Long.=13.351211. Alt.=15.000000m. Speed=36Km/h. Course=347deg.</desc>
+    </wpt>
+    <wpt lat="52.509987" lon="13.351094">
+        <ele>15.000000</ele>
+        <time>2011-09-20T16:26:11Z</time>
+        <desc>Lat.=52.509987. Long.=13.351094. Alt.=15.000000m. Speed=39Km/h. Course=346deg.</desc>
+    </wpt>
+    <wpt lat="52.510205" lon="13.351016">
+        <ele>15.000000</ele>
+        <time>2011-09-20T16:26:13Z</time>
+        <desc>Lat.=52.510205. Long.=13.351016. Alt.=15.000000m. Speed=44Km/h. Course=348deg.</desc>
+    </wpt>
+    <wpt lat="52.510438" lon="13.350950">
+        <ele>15.000000</ele>
+        <time>2011-09-20T16:26:15Z</time>
+        <desc>Lat.=52.510438. Long.=13.350950. Alt.=15.000000m. Speed=47Km/h. Course=350deg.</desc>
+    </wpt>
+    <wpt lat="52.510682" lon="13.350893">
+        <ele>15.000000</ele>
+        <time>2011-09-20T16:26:17Z</time>
+        <desc>Lat.=52.510682. Long.=13.350893. Alt.=15.000000m. Speed=49Km/h. Course=352deg.</desc>
+    </wpt>
+    <wpt lat="52.510925" lon="13.350840">
+        <ele>15.000000</ele>
+        <time>2011-09-20T16:26:19Z</time>
+        <desc>Lat.=52.510925. Long.=13.350840. Alt.=15.000000m. Speed=49Km/h. Course=352deg.</desc>
+    </wpt>
+    <wpt lat="52.511162" lon="13.350789">
+        <ele>15.000000</ele>
+        <time>2011-09-20T16:26:21Z</time>
+        <desc>Lat.=52.511162. Long.=13.350789. Alt.=15.000000m. Speed=47Km/h. Course=353deg.</desc>
+    </wpt>
+    <wpt lat="52.511411" lon="13.350753">
+        <ele>16.000000</ele>
+        <time>2011-09-20T16:26:23Z</time>
+        <desc>Lat.=52.511411. Long.=13.350753. Alt.=16.000000m. Speed=50Km/h. Course=355deg.</desc>
+    </wpt>
+    <wpt lat="52.511645" lon="13.350697">
+        <ele>16.000000</ele>
+        <time>2011-09-20T16:26:25Z</time>
+        <desc>Lat.=52.511645. Long.=13.350697. Alt.=16.000000m. Speed=47Km/h. Course=352deg.</desc>
+    </wpt>
+    <wpt lat="52.511888" lon="13.350643">
+        <ele>16.000000</ele>
+        <time>2011-09-20T16:26:27Z</time>
+        <desc>Lat.=52.511888. Long.=13.350643. Alt.=16.000000m. Speed=49Km/h. Course=352deg.</desc>
+    </wpt>
+    <wpt lat="52.512122" lon="13.350597">
+        <ele>16.000000</ele>
+        <time>2011-09-20T16:26:29Z</time>
+        <desc>Lat.=52.512122. Long.=13.350597. Alt.=16.000000m. Speed=47Km/h. Course=353deg.</desc>
+    </wpt>
+    <wpt lat="52.512355" lon="13.350541">
+        <ele>17.000000</ele>
+        <time>2011-09-20T16:26:31Z</time>
+        <desc>Lat.=52.512355. Long.=13.350541. Alt.=17.000000m. Speed=47Km/h. Course=352deg.</desc>
+    </wpt>
+    <wpt lat="52.512589" lon="13.350490">
+        <ele>17.000000</ele>
+        <time>2011-09-20T16:26:33Z</time>
+        <desc>Lat.=52.512589. Long.=13.350490. Alt.=17.000000m. Speed=47Km/h. Course=352deg.</desc>
+    </wpt>
+    <wpt lat="52.512810" lon="13.350414">
+        <ele>18.000000</ele>
+        <time>2011-09-20T16:26:35Z</time>
+        <desc>Lat.=52.512810. Long.=13.350414. Alt.=18.000000m. Speed=45Km/h. Course=348deg.</desc>
+    </wpt>
+    <wpt lat="52.513040" lon="13.350374">
+        <ele>18.000000</ele>
+        <time>2011-09-20T16:26:37Z</time>
+        <desc>Lat.=52.513040. Long.=13.350374. Alt.=18.000000m. Speed=46Km/h. Course=354deg.</desc>
+    </wpt>
+    <wpt lat="52.513261" lon="13.350341">
+        <ele>19.000000</ele>
+        <time>2011-09-20T16:26:39Z</time>
+        <desc>Lat.=52.513261. Long.=13.350341. Alt.=19.000000m. Speed=44Km/h. Course=355deg.</desc>
+    </wpt>
+    <wpt lat="52.513517" lon="13.350253">
+        <ele>21.000000</ele>
+        <time>2011-09-20T16:26:42Z</time>
+        <desc>Lat.=52.513517. Long.=13.350253. Alt.=21.000000m. Speed=34Km/h. Course=348deg.</desc>
+    </wpt>
+    <wpt lat="52.513766" lon="13.350326">
+        <ele>22.000000</ele>
+        <time>2011-09-20T16:26:46Z</time>
+        <desc>Lat.=52.513766. Long.=13.350326. Alt.=22.000000m. Speed=25Km/h. Course=10deg.</desc>
+    </wpt>
+    <wpt lat="52.513939" lon="13.350583">
+        <ele>21.000000</ele>
+        <time>2011-09-20T16:26:49Z</time>
+        <desc>Lat.=52.513939. Long.=13.350583. Alt.=21.000000m. Speed=31Km/h. Course=42deg.</desc>
+    </wpt>
+    <wpt lat="52.514134" lon="13.350866">
+        <ele>20.000000</ele>
+        <time>2011-09-20T16:26:52Z</time>
+        <desc>Lat.=52.514134. Long.=13.350866. Alt.=20.000000m. Speed=34Km/h. Course=41deg.</desc>
+    </wpt>
+    <wpt lat="52.514371" lon="13.351060">
+        <ele>19.000000</ele>
+        <time>2011-09-20T16:26:55Z</time>
+        <desc>Lat.=52.514371. Long.=13.351060. Alt.=19.000000m. Speed=35Km/h. Course=26deg.</desc>
+    </wpt>
+    <wpt lat="52.514637" lon="13.351085">
+        <ele>20.000000</ele>
+        <time>2011-09-20T16:26:58Z</time>
+        <desc>Lat.=52.514637. Long.=13.351085. Alt.=20.000000m. Speed=35Km/h. Course=3deg.</desc>
+    </wpt>
+    <wpt lat="52.514886" lon="13.351001">
+        <ele>20.000000</ele>
+        <time>2011-09-20T16:27:01Z</time>
+        <desc>Lat.=52.514886. Long.=13.351001. Alt.=20.000000m. Speed=33Km/h. Course=348deg.</desc>
+    </wpt>
+    <wpt lat="52.515146" lon="13.351014">
+        <ele>21.000000</ele>
+        <time>2011-09-20T16:27:05Z</time>
+        <desc>Lat.=52.515146. Long.=13.351014. Alt.=21.000000m. Speed=25Km/h. Course=2deg.</desc>
+    </wpt>
+    <wpt lat="52.515357" lon="13.351223">
+        <ele>23.000000</ele>
+        <time>2011-09-20T16:27:28Z</time>
+        <desc>Lat.=52.515357. Long.=13.351223. Alt.=23.000000m. Speed=4Km/h. Course=31deg.</desc>
+    </wpt>
+    <wpt lat="52.515514" lon="13.351502">
+        <ele>23.000000</ele>
+        <time>2011-09-20T16:27:49Z</time>
+        <desc>Lat.=52.515514. Long.=13.351502. Alt.=23.000000m. Speed=4Km/h. Course=47deg.</desc>
+    </wpt>
+    <wpt lat="52.515690" lon="13.351834">
+        <ele>23.000000</ele>
+        <time>2011-09-20T16:27:54Z</time>
+        <desc>Lat.=52.515690. Long.=13.351834. Alt.=23.000000m. Speed=21Km/h. Course=49deg.</desc>
+    </wpt>
+    <wpt lat="52.515827" lon="13.352142">
+        <ele>23.000000</ele>
+        <time>2011-09-20T16:27:57Z</time>
+        <desc>Lat.=52.515827. Long.=13.352142. Alt.=23.000000m. Speed=30Km/h. Course=54deg.</desc>
+    </wpt>
+    <wpt lat="52.515987" lon="13.352501">
+        <ele>23.000000</ele>
+        <time>2011-09-20T16:28:00Z</time>
+        <desc>Lat.=52.515987. Long.=13.352501. Alt.=23.000000m. Speed=36Km/h. Course=54deg.</desc>
+    </wpt>
+    <wpt lat="52.516141" lon="13.352886">
+        <ele>23.000000</ele>
+        <time>2011-09-20T16:28:03Z</time>
+        <desc>Lat.=52.516141. Long.=13.352886. Alt.=23.000000m. Speed=37Km/h. Course=57deg.</desc>
+    </wpt>
+    <wpt lat="52.516285" lon="13.353258">
+        <ele>23.000000</ele>
+        <time>2011-09-20T16:28:06Z</time>
+        <desc>Lat.=52.516285. Long.=13.353258. Alt.=23.000000m. Speed=35Km/h. Course=58deg.</desc>
+    </wpt>
+    <wpt lat="52.516410" lon="13.353586">
+        <ele>24.000000</ele>
+        <time>2011-09-20T16:28:09Z</time>
+        <desc>Lat.=52.516410. Long.=13.353586. Alt.=24.000000m. Speed=31Km/h. Course=58deg.</desc>
+    </wpt>
+    <wpt lat="52.516506" lon="13.353914">
+        <ele>24.000000</ele>
+        <time>2011-09-20T16:28:12Z</time>
+        <desc>Lat.=52.516506. Long.=13.353914. Alt.=24.000000m. Speed=29Km/h. Course=64deg.</desc>
+    </wpt>
+    <wpt lat="52.516646" lon="13.354203">
+        <ele>25.000000</ele>
+        <time>2011-09-20T16:28:31Z</time>
+        <desc>Lat.=52.516646. Long.=13.354203. Alt.=25.000000m. Speed=4Km/h. Course=51deg.</desc>
+    </wpt>
+    <wpt lat="52.516854" lon="13.354436">
+        <ele>25.000000</ele>
+        <time>2011-09-20T16:28:41Z</time>
+        <desc>Lat.=52.516854. Long.=13.354436. Alt.=25.000000m. Speed=10Km/h. Course=34deg.</desc>
+    </wpt>
+    <wpt lat="52.517053" lon="13.354666">
+        <ele>25.000000</ele>
+        <time>2011-09-20T16:28:47Z</time>
+        <desc>Lat.=52.517053. Long.=13.354666. Alt.=25.000000m. Speed=16Km/h. Course=35deg.</desc>
+    </wpt>
+    <wpt lat="52.517046" lon="13.355116">
+        <ele>25.000000</ele>
+        <time>2011-09-20T16:29:05Z</time>
+        <desc>Lat.=52.517046. Long.=13.355116. Alt.=25.000000m. Speed=6Km/h. Course=91deg.</desc>
+    </wpt>
+    <wpt lat="52.516973" lon="13.355514">
+        <ele>25.000000</ele>
+        <time>2011-09-20T16:29:09Z</time>
+        <desc>Lat.=52.516973. Long.=13.355514. Alt.=25.000000m. Speed=25Km/h. Course=107deg.</desc>
+    </wpt>
+    <wpt lat="52.516931" lon="13.355916">
+        <ele>25.000000</ele>
+        <time>2011-09-20T16:29:13Z</time>
+        <desc>Lat.=52.516931. Long.=13.355916. Alt.=25.000000m. Speed=24Km/h. Course=100deg.</desc>
+    </wpt>
+    <wpt lat="52.516880" lon="13.356368">
+        <ele>26.000000</ele>
+        <time>2011-09-20T16:29:17Z</time>
+        <desc>Lat.=52.516880. Long.=13.356368. Alt.=26.000000m. Speed=27Km/h. Course=101deg.</desc>
+    </wpt>
+    <wpt lat="52.516861" lon="13.356796">
+        <ele>26.000000</ele>
+        <time>2011-09-20T16:29:21Z</time>
+        <desc>Lat.=52.516861. Long.=13.356796. Alt.=26.000000m. Speed=26Km/h. Course=94deg.</desc>
+    </wpt>
+    <wpt lat="52.516877" lon="13.357222">
+        <ele>26.000000</ele>
+        <time>2011-09-20T16:29:25Z</time>
+        <desc>Lat.=52.516877. Long.=13.357222. Alt.=26.000000m. Speed=25Km/h. Course=86deg.</desc>
+    </wpt>
+    <wpt lat="52.516912" lon="13.357638">
+        <ele>25.000000</ele>
+        <time>2011-09-20T16:29:29Z</time>
+        <desc>Lat.=52.516912. Long.=13.357638. Alt.=25.000000m. Speed=25Km/h. Course=82deg.</desc>
+    </wpt>
+    <wpt lat="52.516957" lon="13.358041">
+        <ele>26.000000</ele>
+        <time>2011-09-20T16:29:33Z</time>
+        <desc>Lat.=52.516957. Long.=13.358041. Alt.=26.000000m. Speed=24Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.517046" lon="13.358458">
+        <ele>27.000000</ele>
+        <time>2011-09-20T16:29:37Z</time>
+        <desc>Lat.=52.517046. Long.=13.358458. Alt.=27.000000m. Speed=26Km/h. Course=71deg.</desc>
+    </wpt>
+    <wpt lat="52.517142" lon="13.358878">
+        <ele>28.000000</ele>
+        <time>2011-09-20T16:29:40Z</time>
+        <desc>Lat.=52.517142. Long.=13.358878. Alt.=28.000000m. Speed=36Km/h. Course=69deg.</desc>
+    </wpt>
+    <wpt lat="52.517238" lon="13.359396">
+        <ele>29.000000</ele>
+        <time>2011-09-20T16:29:43Z</time>
+        <desc>Lat.=52.517238. Long.=13.359396. Alt.=29.000000m. Speed=43Km/h. Course=73deg.</desc>
+    </wpt>
+    <wpt lat="52.517325" lon="13.359813">
+        <ele>30.000000</ele>
+        <time>2011-09-20T16:29:45Z</time>
+        <desc>Lat.=52.517325. Long.=13.359813. Alt.=30.000000m. Speed=53Km/h. Course=71deg.</desc>
+    </wpt>
+    <wpt lat="52.517437" lon="13.360214">
+        <ele>30.000000</ele>
+        <time>2011-09-20T16:29:47Z</time>
+        <desc>Lat.=52.517437. Long.=13.360214. Alt.=30.000000m. Speed=53Km/h. Course=65deg.</desc>
+    </wpt>
+    <wpt lat="52.517456" lon="13.360609">
+        <ele>31.000000</ele>
+        <time>2011-09-20T16:29:49Z</time>
+        <desc>Lat.=52.517456. Long.=13.360609. Alt.=31.000000m. Speed=48Km/h. Course=85deg.</desc>
+    </wpt>
+    <wpt lat="52.517523" lon="13.361099">
+        <ele>35.000000</ele>
+        <time>2011-09-20T16:29:52Z</time>
+        <desc>Lat.=52.517523. Long.=13.361099. Alt.=35.000000m. Speed=40Km/h. Course=77deg.</desc>
+    </wpt>
+    <wpt lat="52.517606" lon="13.361462">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:29:54Z</time>
+        <desc>Lat.=52.517606. Long.=13.361462. Alt.=36.000000m. Speed=47Km/h. Course=69deg.</desc>
+    </wpt>
+    <wpt lat="52.517696" lon="13.361825">
+        <ele>33.000000</ele>
+        <time>2011-09-20T16:29:56Z</time>
+        <desc>Lat.=52.517696. Long.=13.361825. Alt.=33.000000m. Speed=47Km/h. Course=68deg.</desc>
+    </wpt>
+    <wpt lat="52.517734" lon="13.362214">
+        <ele>34.000000</ele>
+        <time>2011-09-20T16:29:58Z</time>
+        <desc>Lat.=52.517734. Long.=13.362214. Alt.=34.000000m. Speed=48Km/h. Course=81deg.</desc>
+    </wpt>
+    <wpt lat="52.517709" lon="13.362673">
+        <ele>34.000000</ele>
+        <time>2011-09-20T16:30:01Z</time>
+        <desc>Lat.=52.517709. Long.=13.362673. Alt.=34.000000m. Speed=37Km/h. Course=95deg.</desc>
+    </wpt>
+    <wpt lat="52.517642" lon="13.363056">
+        <ele>33.000000</ele>
+        <time>2011-09-20T16:30:05Z</time>
+        <desc>Lat.=52.517642. Long.=13.363056. Alt.=33.000000m. Speed=24Km/h. Course=106deg.</desc>
+    </wpt>
+    <wpt lat="52.517638" lon="13.363422">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:30:32Z</time>
+        <desc>Lat.=52.517638. Long.=13.363422. Alt.=36.000000m. Speed=3Km/h. Course=91deg.</desc>
+    </wpt>
+    <wpt lat="52.517616" lon="13.363859">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:30:39Z</time>
+        <desc>Lat.=52.517616. Long.=13.363859. Alt.=36.000000m. Speed=15Km/h. Course=95deg.</desc>
+    </wpt>
+    <wpt lat="52.517562" lon="13.364333">
+        <ele>37.000000</ele>
+        <time>2011-09-20T16:30:43Z</time>
+        <desc>Lat.=52.517562. Long.=13.364333. Alt.=37.000000m. Speed=29Km/h. Course=101deg.</desc>
+    </wpt>
+    <wpt lat="52.517539" lon="13.364778">
+        <ele>37.000000</ele>
+        <time>2011-09-20T16:30:46Z</time>
+        <desc>Lat.=52.517539. Long.=13.364778. Alt.=37.000000m. Speed=36Km/h. Course=95deg.</desc>
+    </wpt>
+    <wpt lat="52.517558" lon="13.365310">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:30:49Z</time>
+        <desc>Lat.=52.517558. Long.=13.365310. Alt.=36.000000m. Speed=43Km/h. Course=87deg.</desc>
+    </wpt>
+    <wpt lat="52.517539" lon="13.365678">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:30:51Z</time>
+        <desc>Lat.=52.517539. Long.=13.365678. Alt.=36.000000m. Speed=44Km/h. Course=95deg.</desc>
+    </wpt>
+    <wpt lat="52.517510" lon="13.366058">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:30:53Z</time>
+        <desc>Lat.=52.517510. Long.=13.366058. Alt.=36.000000m. Speed=46Km/h. Course=97deg.</desc>
+    </wpt>
+    <wpt lat="52.517501" lon="13.366458">
+        <ele>35.000000</ele>
+        <time>2011-09-20T16:30:55Z</time>
+        <desc>Lat.=52.517501. Long.=13.366458. Alt.=35.000000m. Speed=48Km/h. Course=92deg.</desc>
+    </wpt>
+    <wpt lat="52.517510" lon="13.366851">
+        <ele>34.000000</ele>
+        <time>2011-09-20T16:30:57Z</time>
+        <desc>Lat.=52.517510. Long.=13.366851. Alt.=34.000000m. Speed=47Km/h. Course=88deg.</desc>
+    </wpt>
+    <wpt lat="52.517488" lon="13.367386">
+        <ele>31.000000</ele>
+        <time>2011-09-20T16:31:00Z</time>
+        <desc>Lat.=52.517488. Long.=13.367386. Alt.=31.000000m. Speed=43Km/h. Course=94deg.</desc>
+    </wpt>
+    <wpt lat="52.517443" lon="13.367782">
+        <ele>31.000000</ele>
+        <time>2011-09-20T16:31:02Z</time>
+        <desc>Lat.=52.517443. Long.=13.367782. Alt.=31.000000m. Speed=49Km/h. Course=101deg.</desc>
+    </wpt>
+    <wpt lat="52.517363" lon="13.368157">
+        <ele>31.000000</ele>
+        <time>2011-09-20T16:31:04Z</time>
+        <desc>Lat.=52.517363. Long.=13.368157. Alt.=31.000000m. Speed=48Km/h. Course=109deg.</desc>
+    </wpt>
+    <wpt lat="52.517370" lon="13.368651">
+        <ele>32.000000</ele>
+        <time>2011-09-20T16:31:07Z</time>
+        <desc>Lat.=52.517370. Long.=13.368651. Alt.=32.000000m. Speed=40Km/h. Course=89deg.</desc>
+    </wpt>
+    <wpt lat="52.517360" lon="13.369042">
+        <ele>31.000000</ele>
+        <time>2011-09-20T16:31:10Z</time>
+        <desc>Lat.=52.517360. Long.=13.369042. Alt.=31.000000m. Speed=31Km/h. Course=92deg.</desc>
+    </wpt>
+    <wpt lat="52.517331" lon="13.369476">
+        <ele>29.000000</ele>
+        <time>2011-09-20T16:31:14Z</time>
+        <desc>Lat.=52.517331. Long.=13.369476. Alt.=29.000000m. Speed=26Km/h. Course=96deg.</desc>
+    </wpt>
+    <wpt lat="52.517517" lon="13.369742">
+        <ele>31.000000</ele>
+        <time>2011-09-20T16:31:18Z</time>
+        <desc>Lat.=52.517517. Long.=13.369742. Alt.=31.000000m. Speed=24Km/h. Course=41deg.</desc>
+    </wpt>
+    <wpt lat="52.517718" lon="13.369991">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:31:35Z</time>
+        <desc>Lat.=52.517718. Long.=13.369991. Alt.=36.000000m. Speed=5Km/h. Course=37deg.</desc>
+    </wpt>
+    <wpt lat="52.517856" lon="13.370277">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:31:42Z</time>
+        <desc>Lat.=52.517856. Long.=13.370277. Alt.=36.000000m. Speed=12Km/h. Course=52deg.</desc>
+    </wpt>
+    <wpt lat="52.517802" lon="13.370645">
+        <ele>37.000000</ele>
+        <time>2011-09-20T16:31:49Z</time>
+        <desc>Lat.=52.517802. Long.=13.370645. Alt.=37.000000m. Speed=13Km/h. Course=104deg.</desc>
+    </wpt>
+    <wpt lat="52.517802" lon="13.371090">
+        <ele>37.000000</ele>
+        <time>2011-09-20T16:32:29Z</time>
+        <desc>Lat.=52.517802. Long.=13.371090. Alt.=37.000000m. Speed=2Km/h. Course=90deg.</desc>
+    </wpt>
+    <wpt lat="52.517802" lon="13.371581">
+        <ele>37.000000</ele>
+        <time>2011-09-20T16:32:33Z</time>
+        <desc>Lat.=52.517802. Long.=13.371581. Alt.=37.000000m. Speed=29Km/h. Course=90deg.</desc>
+    </wpt>
+    <wpt lat="52.517802" lon="13.372045">
+        <ele>38.000000</ele>
+        <time>2011-09-20T16:32:36Z</time>
+        <desc>Lat.=52.517802. Long.=13.372045. Alt.=38.000000m. Speed=37Km/h. Course=90deg.</desc>
+    </wpt>
+    <wpt lat="52.517798" lon="13.372573">
+        <ele>38.000000</ele>
+        <time>2011-09-20T16:32:39Z</time>
+        <desc>Lat.=52.517798. Long.=13.372573. Alt.=38.000000m. Speed=42Km/h. Course=91deg.</desc>
+    </wpt>
+    <wpt lat="52.517792" lon="13.372954">
+        <ele>38.000000</ele>
+        <time>2011-09-20T16:32:41Z</time>
+        <desc>Lat.=52.517792. Long.=13.372954. Alt.=38.000000m. Speed=46Km/h. Course=92deg.</desc>
+    </wpt>
+    <wpt lat="52.517789" lon="13.373342">
+        <ele>38.000000</ele>
+        <time>2011-09-20T16:32:43Z</time>
+        <desc>Lat.=52.517789. Long.=13.373342. Alt.=38.000000m. Speed=47Km/h. Course=91deg.</desc>
+    </wpt>
+    <wpt lat="52.517786" lon="13.373732">
+        <ele>38.000000</ele>
+        <time>2011-09-20T16:32:45Z</time>
+        <desc>Lat.=52.517786. Long.=13.373732. Alt.=38.000000m. Speed=47Km/h. Course=91deg.</desc>
+    </wpt>
+    <wpt lat="52.517786" lon="13.374111">
+        <ele>38.000000</ele>
+        <time>2011-09-20T16:32:47Z</time>
+        <desc>Lat.=52.517786. Long.=13.374111. Alt.=38.000000m. Speed=46Km/h. Course=90deg.</desc>
+    </wpt>
+    <wpt lat="52.517789" lon="13.374638">
+        <ele>37.000000</ele>
+        <time>2011-09-20T16:32:50Z</time>
+        <desc>Lat.=52.517789. Long.=13.374638. Alt.=37.000000m. Speed=42Km/h. Course=89deg.</desc>
+    </wpt>
+    <wpt lat="52.517789" lon="13.375101">
+        <ele>37.000000</ele>
+        <time>2011-09-20T16:32:53Z</time>
+        <desc>Lat.=52.517789. Long.=13.375101. Alt.=37.000000m. Speed=37Km/h. Course=90deg.</desc>
+    </wpt>
+    <wpt lat="52.517779" lon="13.375525">
+        <ele>37.000000</ele>
+        <time>2011-09-20T16:32:56Z</time>
+        <desc>Lat.=52.517779. Long.=13.375525. Alt.=37.000000m. Speed=34Km/h. Course=92deg.</desc>
+    </wpt>
+    <wpt lat="52.517757" lon="13.375908">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:32:59Z</time>
+        <desc>Lat.=52.517757. Long.=13.375908. Alt.=36.000000m. Speed=31Km/h. Course=95deg.</desc>
+    </wpt>
+    <wpt lat="52.517750" lon="13.376293">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:33:03Z</time>
+        <desc>Lat.=52.517750. Long.=13.376293. Alt.=36.000000m. Speed=23Km/h. Course=92deg.</desc>
+    </wpt>
+    <wpt lat="52.517773" lon="13.376682">
+        <ele>33.000000</ele>
+        <time>2011-09-20T16:34:38Z</time>
+        <desc>Lat.=52.517773. Long.=13.376682. Alt.=33.000000m. Speed=1Km/h. Course=85deg.</desc>
+    </wpt>
+    <wpt lat="52.517789" lon="13.377094">
+        <ele>33.000000</ele>
+        <time>2011-09-20T16:34:47Z</time>
+        <desc>Lat.=52.517789. Long.=13.377094. Alt.=33.000000m. Speed=11Km/h. Course=86deg.</desc>
+    </wpt>
+    <wpt lat="52.517869" lon="13.377450">
+        <ele>32.000000</ele>
+        <time>2011-09-20T16:34:59Z</time>
+        <desc>Lat.=52.517869. Long.=13.377450. Alt.=32.000000m. Speed=7Km/h. Course=70deg.</desc>
+    </wpt>
+    <wpt lat="52.517907" lon="13.377825">
+        <ele>33.000000</ele>
+        <time>2011-09-20T16:35:14Z</time>
+        <desc>Lat.=52.517907. Long.=13.377825. Alt.=33.000000m. Speed=6Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.517933" lon="13.378208">
+        <ele>32.000000</ele>
+        <time>2011-09-20T16:36:02Z</time>
+        <desc>Lat.=52.517933. Long.=13.378208. Alt.=32.000000m. Speed=1Km/h. Course=84deg.</desc>
+    </wpt>
+    <wpt lat="52.517952" lon="13.378570">
+        <ele>32.000000</ele>
+        <time>2011-09-20T16:36:12Z</time>
+        <desc>Lat.=52.517952. Long.=13.378570. Alt.=32.000000m. Speed=8Km/h. Course=85deg.</desc>
+    </wpt>
+    <wpt lat="52.517990" lon="13.378962">
+        <ele>32.000000</ele>
+        <time>2011-09-20T16:37:24Z</time>
+        <desc>Lat.=52.517990. Long.=13.378962. Alt.=32.000000m. Speed=1Km/h. Course=81deg.</desc>
+    </wpt>
+    <wpt lat="52.518000" lon="13.379330">
+        <ele>32.000000</ele>
+        <time>2011-09-20T16:37:32Z</time>
+        <desc>Lat.=52.518000. Long.=13.379330. Alt.=32.000000m. Speed=11Km/h. Course=88deg.</desc>
+    </wpt>
+    <wpt lat="52.518045" lon="13.379728">
+        <ele>30.000000</ele>
+        <time>2011-09-20T16:38:36Z</time>
+        <desc>Lat.=52.518045. Long.=13.379728. Alt.=30.000000m. Speed=1Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.518118" lon="13.380085">
+        <ele>31.000000</ele>
+        <time>2011-09-20T16:39:55Z</time>
+        <desc>Lat.=52.518118. Long.=13.380085. Alt.=31.000000m. Speed=1Km/h. Course=71deg.</desc>
+    </wpt>
+    <wpt lat="52.518054" lon="13.380446">
+        <ele>30.000000</ele>
+        <time>2011-09-20T16:40:05Z</time>
+        <desc>Lat.=52.518054. Long.=13.380446. Alt.=30.000000m. Speed=9Km/h. Course=106deg.</desc>
+    </wpt>
+    <wpt lat="52.517802" lon="13.380505">
+        <ele>30.000000</ele>
+        <time>2011-09-20T16:40:13Z</time>
+        <desc>Lat.=52.517802. Long.=13.380505. Alt.=30.000000m. Speed=12Km/h. Course=172deg.</desc>
+    </wpt>
+    <wpt lat="52.517510" lon="13.380558">
+        <ele>32.000000</ele>
+        <time>2011-09-20T16:40:17Z</time>
+        <desc>Lat.=52.517510. Long.=13.380558. Alt.=32.000000m. Speed=29Km/h. Course=174deg.</desc>
+    </wpt>
+    <wpt lat="52.517254" lon="13.380585">
+        <ele>33.000000</ele>
+        <time>2011-09-20T16:40:20Z</time>
+        <desc>Lat.=52.517254. Long.=13.380585. Alt.=33.000000m. Speed=34Km/h. Course=176deg.</desc>
+    </wpt>
+    <wpt lat="52.517024" lon="13.380623">
+        <ele>34.000000</ele>
+        <time>2011-09-20T16:40:23Z</time>
+        <desc>Lat.=52.517024. Long.=13.380623. Alt.=34.000000m. Speed=30Km/h. Course=174deg.</desc>
+    </wpt>
+    <wpt lat="52.516800" lon="13.380658">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:40:27Z</time>
+        <desc>Lat.=52.516800. Long.=13.380658. Alt.=36.000000m. Speed=22Km/h. Course=175deg.</desc>
+    </wpt>
+    <wpt lat="52.516429" lon="13.381048">
+        <ele>56.000000</ele>
+        <time>2011-09-20T16:41:39Z</time>
+        <desc>Lat.=52.516429. Long.=13.381048. Alt.=56.000000m. Speed=2Km/h. Course=147deg.</desc>
+    </wpt>
+    <wpt lat="52.516208" lon="13.381111">
+        <ele>55.000000</ele>
+        <time>2011-09-20T16:41:46Z</time>
+        <desc>Lat.=52.516208. Long.=13.381111. Alt.=55.000000m. Speed=12Km/h. Course=170deg.</desc>
+    </wpt>
+    <wpt lat="52.516131" lon="13.381499">
+        <ele>54.000000</ele>
+        <time>2011-09-20T16:41:55Z</time>
+        <desc>Lat.=52.516131. Long.=13.381499. Alt.=54.000000m. Speed=11Km/h. Course=108deg.</desc>
+    </wpt>
+    <wpt lat="52.516186" lon="13.381927">
+        <ele>53.000000</ele>
+        <time>2011-09-20T16:42:00Z</time>
+        <desc>Lat.=52.516186. Long.=13.381927. Alt.=53.000000m. Speed=21Km/h. Course=78deg.</desc>
+    </wpt>
+    <wpt lat="52.516211" lon="13.382288">
+        <ele>51.000000</ele>
+        <time>2011-09-20T16:42:04Z</time>
+        <desc>Lat.=52.516211. Long.=13.382288. Alt.=51.000000m. Speed=22Km/h. Course=83deg.</desc>
+    </wpt>
+    <wpt lat="52.516205" lon="13.382691">
+        <ele>51.000000</ele>
+        <time>2011-09-20T16:42:09Z</time>
+        <desc>Lat.=52.516205. Long.=13.382691. Alt.=51.000000m. Speed=19Km/h. Course=91deg.</desc>
+    </wpt>
+    <wpt lat="52.516259" lon="13.383094">
+        <ele>48.000000</ele>
+        <time>2011-09-20T16:42:35Z</time>
+        <desc>Lat.=52.516259. Long.=13.383094. Alt.=48.000000m. Speed=3Km/h. Course=77deg.</desc>
+    </wpt>
+    <wpt lat="52.516304" lon="13.383546">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:42:39Z</time>
+        <desc>Lat.=52.516304. Long.=13.383546. Alt.=47.000000m. Speed=27Km/h. Course=81deg.</desc>
+    </wpt>
+    <wpt lat="52.516349" lon="13.383911">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:42:42Z</time>
+        <desc>Lat.=52.516349. Long.=13.383911. Alt.=47.000000m. Speed=30Km/h. Course=79deg.</desc>
+    </wpt>
+    <wpt lat="52.516397" lon="13.384281">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:42:45Z</time>
+        <desc>Lat.=52.516397. Long.=13.384281. Alt.=47.000000m. Speed=30Km/h. Course=78deg.</desc>
+    </wpt>
+    <wpt lat="52.516435" lon="13.384751">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:42:49Z</time>
+        <desc>Lat.=52.516435. Long.=13.384751. Alt.=47.000000m. Speed=28Km/h. Course=82deg.</desc>
+    </wpt>
+    <wpt lat="52.516464" lon="13.385142">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:42:53Z</time>
+        <desc>Lat.=52.516464. Long.=13.385142. Alt.=47.000000m. Speed=23Km/h. Course=83deg.</desc>
+    </wpt>
+    <wpt lat="52.516502" lon="13.385503">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:42:58Z</time>
+        <desc>Lat.=52.516502. Long.=13.385503. Alt.=47.000000m. Speed=17Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.516550" lon="13.385882">
+        <ele>48.000000</ele>
+        <time>2011-09-20T16:43:38Z</time>
+        <desc>Lat.=52.516550. Long.=13.385882. Alt.=48.000000m. Speed=2Km/h. Course=78deg.</desc>
+    </wpt>
+    <wpt lat="52.516586" lon="13.386290">
+        <ele>48.000000</ele>
+        <time>2011-09-20T16:43:44Z</time>
+        <desc>Lat.=52.516586. Long.=13.386290. Alt.=48.000000m. Speed=16Km/h. Course=82deg.</desc>
+    </wpt>
+    <wpt lat="52.516614" lon="13.386671">
+        <ele>48.000000</ele>
+        <time>2011-09-20T16:43:49Z</time>
+        <desc>Lat.=52.516614. Long.=13.386671. Alt.=48.000000m. Speed=18Km/h. Course=83deg.</desc>
+    </wpt>
+    <wpt lat="52.516643" lon="13.387065">
+        <ele>48.000000</ele>
+        <time>2011-09-20T16:43:54Z</time>
+        <desc>Lat.=52.516643. Long.=13.387065. Alt.=48.000000m. Speed=19Km/h. Course=83deg.</desc>
+    </wpt>
+    <wpt lat="52.516682" lon="13.387436">
+        <ele>48.000000</ele>
+        <time>2011-09-20T16:43:59Z</time>
+        <desc>Lat.=52.516682. Long.=13.387436. Alt.=48.000000m. Speed=18Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.516720" lon="13.387805">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:44:04Z</time>
+        <desc>Lat.=52.516720. Long.=13.387805. Alt.=47.000000m. Speed=18Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.516762" lon="13.388162">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:44:09Z</time>
+        <desc>Lat.=52.516762. Long.=13.388162. Alt.=47.000000m. Speed=17Km/h. Course=79deg.</desc>
+    </wpt>
+    <wpt lat="52.516794" lon="13.388570">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:44:16Z</time>
+        <desc>Lat.=52.516794. Long.=13.388570. Alt.=47.000000m. Speed=14Km/h. Course=83deg.</desc>
+    </wpt>
+    <wpt lat="52.516819" lon="13.388980">
+        <ele>46.000000</ele>
+        <time>2011-09-20T16:45:06Z</time>
+        <desc>Lat.=52.516819. Long.=13.388980. Alt.=46.000000m. Speed=2Km/h. Course=84deg.</desc>
+    </wpt>
+    <wpt lat="52.516822" lon="13.389393">
+        <ele>45.000000</ele>
+        <time>2011-09-20T16:45:12Z</time>
+        <desc>Lat.=52.516822. Long.=13.389393. Alt.=45.000000m. Speed=16Km/h. Course=89deg.</desc>
+    </wpt>
+    <wpt lat="52.516861" lon="13.389758">
+        <ele>44.000000</ele>
+        <time>2011-09-20T16:45:40Z</time>
+        <desc>Lat.=52.516861. Long.=13.389758. Alt.=44.000000m. Speed=3Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.516925" lon="13.390129">
+        <ele>44.000000</ele>
+        <time>2011-09-20T16:45:46Z</time>
+        <desc>Lat.=52.516925. Long.=13.390129. Alt.=44.000000m. Speed=15Km/h. Course=74deg.</desc>
+    </wpt>
+    <wpt lat="52.516963" lon="13.390501">
+        <ele>44.000000</ele>
+        <time>2011-09-20T16:45:52Z</time>
+        <desc>Lat.=52.516963. Long.=13.390501. Alt.=44.000000m. Speed=15Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.517021" lon="13.390922">
+        <ele>44.000000</ele>
+        <time>2011-09-20T16:46:33Z</time>
+        <desc>Lat.=52.517021. Long.=13.390922. Alt.=44.000000m. Speed=2Km/h. Course=77deg.</desc>
+    </wpt>
+    <wpt lat="52.517053" lon="13.391390">
+        <ele>42.000000</ele>
+        <time>2011-09-20T16:46:37Z</time>
+        <desc>Lat.=52.517053. Long.=13.391390. Alt.=42.000000m. Speed=28Km/h. Course=84deg.</desc>
+    </wpt>
+    <wpt lat="52.517117" lon="13.391798">
+        <ele>40.000000</ele>
+        <time>2011-09-20T16:46:40Z</time>
+        <desc>Lat.=52.517117. Long.=13.391798. Alt.=40.000000m. Speed=34Km/h. Course=76deg.</desc>
+    </wpt>
+    <wpt lat="52.517194" lon="13.392235">
+        <ele>38.000000</ele>
+        <time>2011-09-20T16:46:43Z</time>
+        <desc>Lat.=52.517194. Long.=13.392235. Alt.=38.000000m. Speed=36Km/h. Course=74deg.</desc>
+    </wpt>
+    <wpt lat="52.517242" lon="13.392688">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:46:46Z</time>
+        <desc>Lat.=52.517242. Long.=13.392688. Alt.=36.000000m. Speed=37Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.517274" lon="13.393121">
+        <ele>36.000000</ele>
+        <time>2011-09-20T16:46:49Z</time>
+        <desc>Lat.=52.517274. Long.=13.393121. Alt.=36.000000m. Speed=35Km/h. Course=83deg.</desc>
+    </wpt>
+    <wpt lat="52.517299" lon="13.393510">
+        <ele>37.000000</ele>
+        <time>2011-09-20T16:46:52Z</time>
+        <desc>Lat.=52.517299. Long.=13.393510. Alt.=37.000000m. Speed=31Km/h. Course=84deg.</desc>
+    </wpt>
+    <wpt lat="52.517309" lon="13.393891">
+        <ele>40.000000</ele>
+        <time>2011-09-20T16:47:14Z</time>
+        <desc>Lat.=52.517309. Long.=13.393891. Alt.=40.000000m. Speed=4Km/h. Course=88deg.</desc>
+    </wpt>
+    <wpt lat="52.517350" lon="13.394310">
+        <ele>40.000000</ele>
+        <time>2011-09-20T16:47:20Z</time>
+        <desc>Lat.=52.517350. Long.=13.394310. Alt.=40.000000m. Speed=17Km/h. Course=81deg.</desc>
+    </wpt>
+    <wpt lat="52.517382" lon="13.394801">
+        <ele>40.000000</ele>
+        <time>2011-09-20T16:47:24Z</time>
+        <desc>Lat.=52.517382. Long.=13.394801. Alt.=40.000000m. Speed=30Km/h. Course=84deg.</desc>
+    </wpt>
+    <wpt lat="52.517408" lon="13.395185">
+        <ele>40.000000</ele>
+        <time>2011-09-20T16:47:27Z</time>
+        <desc>Lat.=52.517408. Long.=13.395185. Alt.=40.000000m. Speed=31Km/h. Course=84deg.</desc>
+    </wpt>
+    <wpt lat="52.517434" lon="13.395566">
+        <ele>40.000000</ele>
+        <time>2011-09-20T16:47:30Z</time>
+        <desc>Lat.=52.517434. Long.=13.395566. Alt.=40.000000m. Speed=31Km/h. Course=84deg.</desc>
+    </wpt>
+    <wpt lat="52.517472" lon="13.395922">
+        <ele>40.000000</ele>
+        <time>2011-09-20T16:47:33Z</time>
+        <desc>Lat.=52.517472. Long.=13.395922. Alt.=40.000000m. Speed=29Km/h. Course=80deg.</desc>
+    </wpt>
+    <wpt lat="52.517530" lon="13.396374">
+        <ele>39.000000</ele>
+        <time>2011-09-20T16:47:37Z</time>
+        <desc>Lat.=52.517530. Long.=13.396374. Alt.=39.000000m. Speed=28Km/h. Course=78deg.</desc>
+    </wpt>
+    <wpt lat="52.517539" lon="13.396779">
+        <ele>39.000000</ele>
+        <time>2011-09-20T16:47:40Z</time>
+        <desc>Lat.=52.517539. Long.=13.396779. Alt.=39.000000m. Speed=32Km/h. Course=88deg.</desc>
+    </wpt>
+    <wpt lat="52.517568" lon="13.397162">
+        <ele>39.000000</ele>
+        <time>2011-09-20T16:47:43Z</time>
+        <desc>Lat.=52.517568. Long.=13.397162. Alt.=39.000000m. Speed=31Km/h. Course=83deg.</desc>
+    </wpt>
+    <wpt lat="52.517587" lon="13.397550">
+        <ele>39.000000</ele>
+        <time>2011-09-20T16:47:46Z</time>
+        <desc>Lat.=52.517587. Long.=13.397550. Alt.=39.000000m. Speed=31Km/h. Course=85deg.</desc>
+    </wpt>
+    <wpt lat="52.517600" lon="13.397945">
+        <ele>40.000000</ele>
+        <time>2011-09-20T16:47:49Z</time>
+        <desc>Lat.=52.517600. Long.=13.397945. Alt.=40.000000m. Speed=32Km/h. Course=87deg.</desc>
+    </wpt>
+    <wpt lat="52.517632" lon="13.398345">
+        <ele>41.000000</ele>
+        <time>2011-09-20T16:47:52Z</time>
+        <desc>Lat.=52.517632. Long.=13.398345. Alt.=41.000000m. Speed=32Km/h. Course=83deg.</desc>
+    </wpt>
+    <wpt lat="52.517667" lon="13.398826">
+        <ele>42.000000</ele>
+        <time>2011-09-20T16:47:55Z</time>
+        <desc>Lat.=52.517667. Long.=13.398826. Alt.=42.000000m. Speed=39Km/h. Course=83deg.</desc>
+    </wpt>
+    <wpt lat="52.517686" lon="13.399298">
+        <ele>42.000000</ele>
+        <time>2011-09-20T16:47:58Z</time>
+        <desc>Lat.=52.517686. Long.=13.399298. Alt.=42.000000m. Speed=38Km/h. Course=86deg.</desc>
+    </wpt>
+    <wpt lat="52.517760" lon="13.399733">
+        <ele>43.000000</ele>
+        <time>2011-09-20T16:48:02Z</time>
+        <desc>Lat.=52.517760. Long.=13.399733. Alt.=43.000000m. Speed=27Km/h. Course=74deg.</desc>
+    </wpt>
+    <wpt lat="52.517869" lon="13.400106">
+        <ele>42.000000</ele>
+        <time>2011-09-20T16:48:08Z</time>
+        <desc>Lat.=52.517869. Long.=13.400106. Alt.=42.000000m. Speed=16Km/h. Course=64deg.</desc>
+    </wpt>
+    <wpt lat="52.518016" lon="13.400441">
+        <ele>42.000000</ele>
+        <time>2011-09-20T16:48:42Z</time>
+        <desc>Lat.=52.518016. Long.=13.400441. Alt.=42.000000m. Speed=2Km/h. Course=54deg.</desc>
+    </wpt>
+    <wpt lat="52.518144" lon="13.400740">
+        <ele>42.000000</ele>
+        <time>2011-09-20T16:48:46Z</time>
+        <desc>Lat.=52.518144. Long.=13.400740. Alt.=42.000000m. Speed=22Km/h. Course=55deg.</desc>
+    </wpt>
+    <wpt lat="52.518310" lon="13.401139">
+        <ele>43.000000</ele>
+        <time>2011-09-20T16:48:50Z</time>
+        <desc>Lat.=52.518310. Long.=13.401139. Alt.=43.000000m. Speed=29Km/h. Course=56deg.</desc>
+    </wpt>
+    <wpt lat="52.518461" lon="13.401511">
+        <ele>43.000000</ele>
+        <time>2011-09-20T16:48:53Z</time>
+        <desc>Lat.=52.518461. Long.=13.401511. Alt.=43.000000m. Speed=36Km/h. Course=56deg.</desc>
+    </wpt>
+    <wpt lat="52.518608" lon="13.401904">
+        <ele>43.000000</ele>
+        <time>2011-09-20T16:48:56Z</time>
+        <desc>Lat.=52.518608. Long.=13.401904. Alt.=43.000000m. Speed=37Km/h. Course=58deg.</desc>
+    </wpt>
+    <wpt lat="52.518752" lon="13.402278">
+        <ele>43.000000</ele>
+        <time>2011-09-20T16:48:59Z</time>
+        <desc>Lat.=52.518752. Long.=13.402278. Alt.=43.000000m. Speed=35Km/h. Course=58deg.</desc>
+    </wpt>
+    <wpt lat="52.518899" lon="13.402653">
+        <ele>44.000000</ele>
+        <time>2011-09-20T16:49:02Z</time>
+        <desc>Lat.=52.518899. Long.=13.402653. Alt.=44.000000m. Speed=36Km/h. Course=57deg.</desc>
+    </wpt>
+    <wpt lat="52.519043" lon="13.403016">
+        <ele>44.000000</ele>
+        <time>2011-09-20T16:49:05Z</time>
+        <desc>Lat.=52.519043. Long.=13.403016. Alt.=44.000000m. Speed=35Km/h. Course=57deg.</desc>
+    </wpt>
+    <wpt lat="52.519206" lon="13.403377">
+        <ele>45.000000</ele>
+        <time>2011-09-20T16:49:08Z</time>
+        <desc>Lat.=52.519206. Long.=13.403377. Alt.=45.000000m. Speed=36Km/h. Course=53deg.</desc>
+    </wpt>
+    <wpt lat="52.519376" lon="13.403774">
+        <ele>46.000000</ele>
+        <time>2011-09-20T16:49:11Z</time>
+        <desc>Lat.=52.519376. Long.=13.403774. Alt.=46.000000m. Speed=39Km/h. Course=55deg.</desc>
+    </wpt>
+    <wpt lat="52.519574" lon="13.403986">
+        <ele>47.000000</ele>
+        <time>2011-09-20T16:49:14Z</time>
+        <desc>Lat.=52.519574. Long.=13.403986. Alt.=47.000000m. Speed=31Km/h. Course=33deg.</desc>
+    </wpt>
+    <wpt lat="52.519798" lon="13.404153">
+        <ele>50.000000</ele>
+        <time>2011-09-20T16:49:17Z</time>
+        <desc>Lat.=52.519798. Long.=13.404153. Alt.=50.000000m. Speed=32Km/h. Course=24deg.</desc>
+    </wpt>
+    <wpt lat="52.519952" lon="13.404425">
+        <ele>50.000000</ele>
+        <time>2011-09-20T16:49:20Z</time>
+        <desc>Lat.=52.519952. Long.=13.404425. Alt.=50.000000m. Speed=30Km/h. Course=47deg.</desc>
+    </wpt>
+    <wpt lat="52.520077" lon="13.404730">
+        <ele>52.000000</ele>
+        <time>2011-09-20T16:49:23Z</time>
+        <desc>Lat.=52.520077. Long.=13.404730. Alt.=52.000000m. Speed=29Km/h. Course=56deg.</desc>
+    </wpt>
+    <wpt lat="52.520195" lon="13.405131">
+        <ele>51.000000</ele>
+        <time>2011-09-20T16:49:27Z</time>
+        <desc>Lat.=52.520195. Long.=13.405131. Alt.=51.000000m. Speed=27Km/h. Course=64deg.</desc>
+    </wpt>
+    <wpt lat="52.520323" lon="13.405499">
+        <ele>52.000000</ele>
+        <time>2011-09-20T16:49:31Z</time>
+        <desc>Lat.=52.520323. Long.=13.405499. Alt.=52.000000m. Speed=25Km/h. Course=60deg.</desc>
+    </wpt>
+    <wpt lat="52.520490" lon="13.405802">
+        <ele>56.000000</ele>
+        <time>2011-09-20T16:49:36Z</time>
+        <desc>Lat.=52.520490. Long.=13.405802. Alt.=56.000000m. Speed=19Km/h. Course=48deg.</desc>
+    </wpt>
+    <wpt lat="52.520685" lon="13.406099">
+        <ele>55.000000</ele>
+        <time>2011-09-20T16:50:08Z</time>
+        <desc>Lat.=52.520685. Long.=13.406099. Alt.=55.000000m. Speed=3Km/h. Course=43deg.</desc>
+    </wpt>
+    <wpt lat="52.520906" lon="13.406406">
+        <ele>55.000000</ele>
+        <time>2011-09-20T16:50:12Z</time>
+        <desc>Lat.=52.520906. Long.=13.406406. Alt.=55.000000m. Speed=28Km/h. Course=40deg.</desc>
+    </wpt>
+    <wpt lat="52.521098" lon="13.406721">
+        <ele>55.000000</ele>
+        <time>2011-09-20T16:50:15Z</time>
+        <desc>Lat.=52.521098. Long.=13.406721. Alt.=55.000000m. Speed=36Km/h. Course=45deg.</desc>
+    </wpt>
+    <wpt lat="52.521312" lon="13.407096">
+        <ele>55.000000</ele>
+        <time>2011-09-20T16:50:18Z</time>
+        <desc>Lat.=52.521312. Long.=13.407096. Alt.=55.000000m. Speed=41Km/h. Course=47deg.</desc>
+    </wpt>
+    <wpt lat="52.521530" lon="13.407517">
+        <ele>55.000000</ele>
+        <time>2011-09-20T16:50:21Z</time>
+        <desc>Lat.=52.521530. Long.=13.407517. Alt.=55.000000m. Speed=44Km/h. Course=50deg.</desc>
+    </wpt>
+    <wpt lat="52.521664" lon="13.407813">
+        <ele>55.000000</ele>
+        <time>2011-09-20T16:50:23Z</time>
+        <desc>Lat.=52.521664. Long.=13.407813. Alt.=55.000000m. Speed=44Km/h. Course=53deg.</desc>
+    </wpt>
+    <wpt lat="52.521882" lon="13.408170">
+        <ele>56.000000</ele>
+        <time>2011-09-20T16:50:26Z</time>
+        <desc>Lat.=52.521882. Long.=13.408170. Alt.=56.000000m. Speed=40Km/h. Course=45deg.</desc>
+    </wpt>
+    <wpt lat="52.522064" lon="13.408436">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:50:29Z</time>
+        <desc>Lat.=52.522064. Long.=13.408436. Alt.=57.000000m. Speed=32Km/h. Course=42deg.</desc>
+    </wpt>
+    <wpt lat="52.522237" lon="13.408721">
+        <ele>59.000000</ele>
+        <time>2011-09-20T16:50:33Z</time>
+        <desc>Lat.=52.522237. Long.=13.408721. Alt.=59.000000m. Speed=24Km/h. Course=45deg.</desc>
+    </wpt>
+    <wpt lat="52.522314" lon="13.409064">
+        <ele>61.000000</ele>
+        <time>2011-09-20T16:50:41Z</time>
+        <desc>Lat.=52.522314. Long.=13.409064. Alt.=61.000000m. Speed=11Km/h. Course=70deg.</desc>
+    </wpt>
+    <wpt lat="52.522426" lon="13.409400">
+        <ele>63.000000</ele>
+        <time>2011-09-20T16:50:48Z</time>
+        <desc>Lat.=52.522426. Long.=13.409400. Alt.=63.000000m. Speed=13Km/h. Course=61deg.</desc>
+    </wpt>
+    <wpt lat="52.522598" lon="13.409730">
+        <ele>61.000000</ele>
+        <time>2011-09-20T16:50:53Z</time>
+        <desc>Lat.=52.522598. Long.=13.409730. Alt.=61.000000m. Speed=21Km/h. Course=49deg.</desc>
+    </wpt>
+    <wpt lat="52.522742" lon="13.410042">
+        <ele>59.000000</ele>
+        <time>2011-09-20T16:50:57Z</time>
+        <desc>Lat.=52.522742. Long.=13.410042. Alt.=59.000000m. Speed=23Km/h. Course=53deg.</desc>
+    </wpt>
+    <wpt lat="52.522874" lon="13.410350">
+        <ele>59.000000</ele>
+        <time>2011-09-20T16:51:01Z</time>
+        <desc>Lat.=52.522874. Long.=13.410350. Alt.=59.000000m. Speed=22Km/h. Course=55deg.</desc>
+    </wpt>
+    <wpt lat="52.522989" lon="13.410707">
+        <ele>60.000000</ele>
+        <time>2011-09-20T16:51:06Z</time>
+        <desc>Lat.=52.522989. Long.=13.410707. Alt.=60.000000m. Speed=19Km/h. Course=62deg.</desc>
+    </wpt>
+    <wpt lat="52.523162" lon="13.410948">
+        <ele>66.000000</ele>
+        <time>2011-09-20T16:51:10Z</time>
+        <desc>Lat.=52.523162. Long.=13.410948. Alt.=66.000000m. Speed=22Km/h. Course=40deg.</desc>
+    </wpt>
+    <wpt lat="52.523043" lon="13.411255">
+        <ele>66.000000</ele>
+        <time>2011-09-20T16:53:05Z</time>
+        <desc>Lat.=52.523043. Long.=13.411255. Alt.=66.000000m. Speed=0Km/h. Course=122deg.</desc>
+    </wpt>
+    <wpt lat="52.523190" lon="13.411534">
+        <ele>66.000000</ele>
+        <time>2011-09-20T16:54:41Z</time>
+        <desc>Lat.=52.523190. Long.=13.411534. Alt.=66.000000m. Speed=0Km/h. Course=49deg.</desc>
+    </wpt>
+    <wpt lat="52.523379" lon="13.411293">
+        <ele>66.000000</ele>
+        <time>2011-09-20T16:54:52Z</time>
+        <desc>Lat.=52.523379. Long.=13.411293. Alt.=66.000000m. Speed=8Km/h. Course=322deg.</desc>
+    </wpt>
+    <wpt lat="52.523181" lon="13.410994">
+        <ele>66.000000</ele>
+        <time>2011-09-20T16:55:28Z</time>
+        <desc>Lat.=52.523181. Long.=13.410994. Alt.=66.000000m. Speed=2Km/h. Course=222deg.</desc>
+    </wpt>
+    <wpt lat="52.523014" lon="13.410725">
+        <ele>66.000000</ele>
+        <time>2011-09-20T16:55:32Z</time>
+        <desc>Lat.=52.523014. Long.=13.410725. Alt.=66.000000m. Speed=23Km/h. Course=225deg.</desc>
+    </wpt>
+    <wpt lat="52.522845" lon="13.410474">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:55:37Z</time>
+        <desc>Lat.=52.522845. Long.=13.410474. Alt.=67.000000m. Speed=18Km/h. Course=222deg.</desc>
+    </wpt>
+    <wpt lat="52.522675" lon="13.410168">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:55:54Z</time>
+        <desc>Lat.=52.522675. Long.=13.410168. Alt.=68.000000m. Speed=5Km/h. Course=228deg.</desc>
+    </wpt>
+    <wpt lat="52.522522" lon="13.409860">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:55:58Z</time>
+        <desc>Lat.=52.522522. Long.=13.409860. Alt.=68.000000m. Speed=24Km/h. Course=231deg.</desc>
+    </wpt>
+    <wpt lat="52.522387" lon="13.409570">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:56:01Z</time>
+        <desc>Lat.=52.522387. Long.=13.409570. Alt.=68.000000m. Speed=29Km/h. Course=233deg.</desc>
+    </wpt>
+    <wpt lat="52.522240" lon="13.409247">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:56:06Z</time>
+        <desc>Lat.=52.522240. Long.=13.409247. Alt.=68.000000m. Speed=19Km/h. Course=233deg.</desc>
+    </wpt>
+    <wpt lat="52.522067" lon="13.408944">
+        <ele>69.000000</ele>
+        <time>2011-09-20T16:56:50Z</time>
+        <desc>Lat.=52.522067. Long.=13.408944. Alt.=69.000000m. Speed=2Km/h. Course=227deg.</desc>
+    </wpt>
+    <wpt lat="52.521910" lon="13.408631">
+        <ele>69.000000</ele>
+        <time>2011-09-20T16:56:53Z</time>
+        <desc>Lat.=52.521910. Long.=13.408631. Alt.=69.000000m. Speed=32Km/h. Course=231deg.</desc>
+    </wpt>
+    <wpt lat="52.521722" lon="13.408237">
+        <ele>69.000000</ele>
+        <time>2011-09-20T16:56:56Z</time>
+        <desc>Lat.=52.521722. Long.=13.408237. Alt.=69.000000m. Speed=40Km/h. Course=232deg.</desc>
+    </wpt>
+    <wpt lat="52.521530" lon="13.407842">
+        <ele>69.000000</ele>
+        <time>2011-09-20T16:56:59Z</time>
+        <desc>Lat.=52.521530. Long.=13.407842. Alt.=69.000000m. Speed=40Km/h. Course=231deg.</desc>
+    </wpt>
+    <wpt lat="52.521366" lon="13.407483">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:57:02Z</time>
+        <desc>Lat.=52.521366. Long.=13.407483. Alt.=68.000000m. Speed=36Km/h. Course=233deg.</desc>
+    </wpt>
+    <wpt lat="52.521206" lon="13.407207">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:57:28Z</time>
+        <desc>Lat.=52.521206. Long.=13.407207. Alt.=68.000000m. Speed=3Km/h. Course=226deg.</desc>
+    </wpt>
+    <wpt lat="52.521069" lon="13.406862">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:57:31Z</time>
+        <desc>Lat.=52.521069. Long.=13.406862. Alt.=68.000000m. Speed=33Km/h. Course=237deg.</desc>
+    </wpt>
+    <wpt lat="52.520934" lon="13.406547">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:57:33Z</time>
+        <desc>Lat.=52.520934. Long.=13.406547. Alt.=68.000000m. Speed=46Km/h. Course=235deg.</desc>
+    </wpt>
+    <wpt lat="52.520787" lon="13.406177">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:57:36Z</time>
+        <desc>Lat.=52.520787. Long.=13.406177. Alt.=68.000000m. Speed=35Km/h. Course=237deg.</desc>
+    </wpt>
+    <wpt lat="52.520627" lon="13.405782">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:57:40Z</time>
+        <desc>Lat.=52.520627. Long.=13.405782. Alt.=68.000000m. Speed=28Km/h. Course=236deg.</desc>
+    </wpt>
+    <wpt lat="52.520458" lon="13.405418">
+        <ele>68.000000</ele>
+        <time>2011-09-20T16:57:44Z</time>
+        <desc>Lat.=52.520458. Long.=13.405418. Alt.=68.000000m. Speed=27Km/h. Course=233deg.</desc>
+    </wpt>
+    <wpt lat="52.520333" lon="13.405078">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:58:09Z</time>
+        <desc>Lat.=52.520333. Long.=13.405078. Alt.=67.000000m. Speed=3Km/h. Course=239deg.</desc>
+    </wpt>
+    <wpt lat="52.520125" lon="13.404753">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:58:14Z</time>
+        <desc>Lat.=52.520125. Long.=13.404753. Alt.=67.000000m. Speed=22Km/h. Course=224deg.</desc>
+    </wpt>
+    <wpt lat="52.519939" lon="13.404454">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:58:17Z</time>
+        <desc>Lat.=52.519939. Long.=13.404454. Alt.=67.000000m. Speed=34Km/h. Course=224deg.</desc>
+    </wpt>
+    <wpt lat="52.519731" lon="13.404071">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:58:20Z</time>
+        <desc>Lat.=52.519731. Long.=13.404071. Alt.=67.000000m. Speed=41Km/h. Course=228deg.</desc>
+    </wpt>
+    <wpt lat="52.519565" lon="13.403790">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:58:22Z</time>
+        <desc>Lat.=52.519565. Long.=13.403790. Alt.=67.000000m. Speed=47Km/h. Course=226deg.</desc>
+    </wpt>
+    <wpt lat="52.519389" lon="13.403489">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:58:24Z</time>
+        <desc>Lat.=52.519389. Long.=13.403489. Alt.=67.000000m. Speed=50Km/h. Course=226deg.</desc>
+    </wpt>
+    <wpt lat="52.519216" lon="13.403193">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:58:26Z</time>
+        <desc>Lat.=52.519216. Long.=13.403193. Alt.=67.000000m. Speed=49Km/h. Course=226deg.</desc>
+    </wpt>
+    <wpt lat="52.519059" lon="13.402873">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:58:28Z</time>
+        <desc>Lat.=52.519059. Long.=13.402873. Alt.=67.000000m. Speed=50Km/h. Course=231deg.</desc>
+    </wpt>
+    <wpt lat="52.518928" lon="13.402563">
+        <ele>67.000000</ele>
+        <time>2011-09-20T16:58:30Z</time>
+        <desc>Lat.=52.518928. Long.=13.402563. Alt.=67.000000m. Speed=45Km/h. Course=235deg.</desc>
+    </wpt>
+    <wpt lat="52.518768" lon="13.402160">
+        <ele>65.000000</ele>
+        <time>2011-09-20T16:58:33Z</time>
+        <desc>Lat.=52.518768. Long.=13.402160. Alt.=65.000000m. Speed=39Km/h. Course=237deg.</desc>
+    </wpt>
+    <wpt lat="52.518640" lon="13.401813">
+        <ele>65.000000</ele>
+        <time>2011-09-20T16:58:36Z</time>
+        <desc>Lat.=52.518640. Long.=13.401813. Alt.=65.000000m. Speed=32Km/h. Course=239deg.</desc>
+    </wpt>
+    <wpt lat="52.518525" lon="13.401480">
+        <ele>63.000000</ele>
+        <time>2011-09-20T16:58:42Z</time>
+        <desc>Lat.=52.518525. Long.=13.401480. Alt.=63.000000m. Speed=15Km/h. Course=240deg.</desc>
+    </wpt>
+    <wpt lat="52.518387" lon="13.401065">
+        <ele>62.000000</ele>
+        <time>2011-09-20T16:58:47Z</time>
+        <desc>Lat.=52.518387. Long.=13.401065. Alt.=62.000000m. Speed=23Km/h. Course=241deg.</desc>
+    </wpt>
+    <wpt lat="52.518275" lon="13.400700">
+        <ele>60.000000</ele>
+        <time>2011-09-20T16:58:50Z</time>
+        <desc>Lat.=52.518275. Long.=13.400700. Alt.=60.000000m. Speed=33Km/h. Course=243deg.</desc>
+    </wpt>
+    <wpt lat="52.518163" lon="13.400370">
+        <ele>59.000000</ele>
+        <time>2011-09-20T16:58:53Z</time>
+        <desc>Lat.=52.518163. Long.=13.400370. Alt.=59.000000m. Speed=30Km/h. Course=241deg.</desc>
+    </wpt>
+    <wpt lat="52.518029" lon="13.400022">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:29Z</time>
+        <desc>Lat.=52.518029. Long.=13.400022. Alt.=57.000000m. Speed=2Km/h. Course=238deg.</desc>
+    </wpt>
+    <wpt lat="52.517885" lon="13.399708">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:33Z</time>
+        <desc>Lat.=52.517885. Long.=13.399708. Alt.=57.000000m. Speed=23Km/h. Course=233deg.</desc>
+    </wpt>
+    <wpt lat="52.517766" lon="13.399338">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:36Z</time>
+        <desc>Lat.=52.517766. Long.=13.399338. Alt.=57.000000m. Speed=33Km/h. Course=242deg.</desc>
+    </wpt>
+    <wpt lat="52.517699" lon="13.398931">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:39Z</time>
+        <desc>Lat.=52.517699. Long.=13.398931. Alt.=57.000000m. Speed=34Km/h. Course=255deg.</desc>
+    </wpt>
+    <wpt lat="52.517658" lon="13.398548">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:42Z</time>
+        <desc>Lat.=52.517658. Long.=13.398548. Alt.=57.000000m. Speed=31Km/h. Course=260deg.</desc>
+    </wpt>
+    <wpt lat="52.517578" lon="13.398080">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:46Z</time>
+        <desc>Lat.=52.517578. Long.=13.398080. Alt.=57.000000m. Speed=29Km/h. Course=254deg.</desc>
+    </wpt>
+    <wpt lat="52.517552" lon="13.397610">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:50Z</time>
+        <desc>Lat.=52.517552. Long.=13.397610. Alt.=57.000000m. Speed=28Km/h. Course=265deg.</desc>
+    </wpt>
+    <wpt lat="52.517533" lon="13.397242">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:53Z</time>
+        <desc>Lat.=52.517533. Long.=13.397242. Alt.=57.000000m. Speed=29Km/h. Course=265deg.</desc>
+    </wpt>
+    <wpt lat="52.517510" lon="13.396856">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:56Z</time>
+        <desc>Lat.=52.517510. Long.=13.396856. Alt.=57.000000m. Speed=31Km/h. Course=265deg.</desc>
+    </wpt>
+    <wpt lat="52.517482" lon="13.396453">
+        <ele>57.000000</ele>
+        <time>2011-09-20T16:59:59Z</time>
+        <desc>Lat.=52.517482. Long.=13.396453. Alt.=57.000000m. Speed=32Km/h. Course=263deg.</desc>
+    </wpt>
+    <wpt lat="52.517456" lon="13.396038">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:00:02Z</time>
+        <desc>Lat.=52.517456. Long.=13.396038. Alt.=57.000000m. Speed=33Km/h. Course=264deg.</desc>
+    </wpt>
+    <wpt lat="52.517459" lon="13.395626">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:00:05Z</time>
+        <desc>Lat.=52.517459. Long.=13.395626. Alt.=57.000000m. Speed=33Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.517494" lon="13.395211">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:00:08Z</time>
+        <desc>Lat.=52.517494. Long.=13.395211. Alt.=57.000000m. Speed=34Km/h. Course=278deg.</desc>
+    </wpt>
+    <wpt lat="52.517498" lon="13.394806">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:00:11Z</time>
+        <desc>Lat.=52.517498. Long.=13.394806. Alt.=57.000000m. Speed=32Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.517478" lon="13.394398">
+        <ele>56.000000</ele>
+        <time>2011-09-20T17:00:15Z</time>
+        <desc>Lat.=52.517478. Long.=13.394398. Alt.=56.000000m. Speed=24Km/h. Course=266deg.</desc>
+    </wpt>
+    <wpt lat="52.517459" lon="13.394014">
+        <ele>56.000000</ele>
+        <time>2011-09-20T17:01:06Z</time>
+        <desc>Lat.=52.517459. Long.=13.394014. Alt.=56.000000m. Speed=1Km/h. Course=265deg.</desc>
+    </wpt>
+    <wpt lat="52.517418" lon="13.393608">
+        <ele>56.000000</ele>
+        <time>2011-09-20T17:01:11Z</time>
+        <desc>Lat.=52.517418. Long.=13.393608. Alt.=56.000000m. Speed=20Km/h. Course=260deg.</desc>
+    </wpt>
+    <wpt lat="52.517418" lon="13.393206">
+        <ele>56.000000</ele>
+        <time>2011-09-20T17:01:15Z</time>
+        <desc>Lat.=52.517418. Long.=13.393206. Alt.=56.000000m. Speed=24Km/h. Course=270deg.</desc>
+    </wpt>
+    <wpt lat="52.517459" lon="13.392757">
+        <ele>56.000000</ele>
+        <time>2011-09-20T17:01:19Z</time>
+        <desc>Lat.=52.517459. Long.=13.392757. Alt.=56.000000m. Speed=27Km/h. Course=279deg.</desc>
+    </wpt>
+    <wpt lat="52.517421" lon="13.392280">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:01:23Z</time>
+        <desc>Lat.=52.517421. Long.=13.392280. Alt.=57.000000m. Speed=29Km/h. Course=262deg.</desc>
+    </wpt>
+    <wpt lat="52.517408" lon="13.391830">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:01:27Z</time>
+        <desc>Lat.=52.517408. Long.=13.391830. Alt.=57.000000m. Speed=27Km/h. Course=267deg.</desc>
+    </wpt>
+    <wpt lat="52.517395" lon="13.391379">
+        <ele>58.000000</ele>
+        <time>2011-09-20T17:01:31Z</time>
+        <desc>Lat.=52.517395. Long.=13.391379. Alt.=58.000000m. Speed=27Km/h. Course=267deg.</desc>
+    </wpt>
+    <wpt lat="52.517389" lon="13.390966">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:01:36Z</time>
+        <desc>Lat.=52.517389. Long.=13.390966. Alt.=57.000000m. Speed=20Km/h. Course=269deg.</desc>
+    </wpt>
+    <wpt lat="52.517411" lon="13.390573">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:02:30Z</time>
+        <desc>Lat.=52.517411. Long.=13.390573. Alt.=57.000000m. Speed=1Km/h. Course=275deg.</desc>
+    </wpt>
+    <wpt lat="52.517395" lon="13.390091">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:02:34Z</time>
+        <desc>Lat.=52.517395. Long.=13.390091. Alt.=57.000000m. Speed=29Km/h. Course=267deg.</desc>
+    </wpt>
+    <wpt lat="52.517379" lon="13.389660">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:02:37Z</time>
+        <desc>Lat.=52.517379. Long.=13.389660. Alt.=57.000000m. Speed=35Km/h. Course=267deg.</desc>
+    </wpt>
+    <wpt lat="52.517363" lon="13.389218">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:02:40Z</time>
+        <desc>Lat.=52.517363. Long.=13.389218. Alt.=57.000000m. Speed=35Km/h. Course=267deg.</desc>
+    </wpt>
+    <wpt lat="52.517354" lon="13.388785">
+        <ele>57.000000</ele>
+        <time>2011-09-20T17:02:43Z</time>
+        <desc>Lat.=52.517354. Long.=13.388785. Alt.=57.000000m. Speed=35Km/h. Course=268deg.</desc>
+    </wpt>
+    <wpt lat="52.517344" lon="13.388374">
+        <ele>56.000000</ele>
+        <time>2011-09-20T17:02:46Z</time>
+        <desc>Lat.=52.517344. Long.=13.388374. Alt.=56.000000m. Speed=33Km/h. Course=268deg.</desc>
+    </wpt>
+    <wpt lat="52.517338" lon="13.387946">
+        <ele>55.000000</ele>
+        <time>2011-09-20T17:02:50Z</time>
+        <desc>Lat.=52.517338. Long.=13.387946. Alt.=55.000000m. Speed=26Km/h. Course=269deg.</desc>
+    </wpt>
+    <wpt lat="52.517334" lon="13.387574">
+        <ele>54.000000</ele>
+        <time>2011-09-20T17:02:56Z</time>
+        <desc>Lat.=52.517334. Long.=13.387574. Alt.=54.000000m. Speed=15Km/h. Course=269deg.</desc>
+    </wpt>
+    <wpt lat="52.517344" lon="13.387197">
+        <ele>54.000000</ele>
+        <time>2011-09-20T17:03:02Z</time>
+        <desc>Lat.=52.517344. Long.=13.387197. Alt.=54.000000m. Speed=15Km/h. Course=272deg.</desc>
+    </wpt>
+    <wpt lat="52.517312" lon="13.386781">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:03:43Z</time>
+        <desc>Lat.=52.517312. Long.=13.386781. Alt.=53.000000m. Speed=2Km/h. Course=263deg.</desc>
+    </wpt>
+    <wpt lat="52.517274" lon="13.386388">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:03:49Z</time>
+        <desc>Lat.=52.517274. Long.=13.386388. Alt.=53.000000m. Speed=16Km/h. Course=261deg.</desc>
+    </wpt>
+    <wpt lat="52.517261" lon="13.386018">
+        <ele>52.000000</ele>
+        <time>2011-09-20T17:04:15Z</time>
+        <desc>Lat.=52.517261. Long.=13.386018. Alt.=52.000000m. Speed=3Km/h. Course=267deg.</desc>
+    </wpt>
+    <wpt lat="52.517216" lon="13.385613">
+        <ele>52.000000</ele>
+        <time>2011-09-20T17:04:26Z</time>
+        <desc>Lat.=52.517216. Long.=13.385613. Alt.=52.000000m. Speed=9Km/h. Course=260deg.</desc>
+    </wpt>
+    <wpt lat="52.517181" lon="13.385238">
+        <ele>52.000000</ele>
+        <time>2011-09-20T17:04:29Z</time>
+        <desc>Lat.=52.517181. Long.=13.385238. Alt.=52.000000m. Speed=30Km/h. Course=261deg.</desc>
+    </wpt>
+    <wpt lat="52.517126" lon="13.384771">
+        <ele>51.000000</ele>
+        <time>2011-09-20T17:04:32Z</time>
+        <desc>Lat.=52.517126. Long.=13.384771. Alt.=51.000000m. Speed=38Km/h. Course=259deg.</desc>
+    </wpt>
+    <wpt lat="52.517085" lon="13.384251">
+        <ele>51.000000</ele>
+        <time>2011-09-20T17:04:35Z</time>
+        <desc>Lat.=52.517085. Long.=13.384251. Alt.=51.000000m. Speed=42Km/h. Course=263deg.</desc>
+    </wpt>
+    <wpt lat="52.517062" lon="13.383771">
+        <ele>51.000000</ele>
+        <time>2011-09-20T17:04:38Z</time>
+        <desc>Lat.=52.517062. Long.=13.383771. Alt.=51.000000m. Speed=39Km/h. Course=266deg.</desc>
+    </wpt>
+    <wpt lat="52.517066" lon="13.383365">
+        <ele>52.000000</ele>
+        <time>2011-09-20T17:04:41Z</time>
+        <desc>Lat.=52.517066. Long.=13.383365. Alt.=52.000000m. Speed=32Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.517046" lon="13.382973">
+        <ele>52.000000</ele>
+        <time>2011-09-20T17:04:45Z</time>
+        <desc>Lat.=52.517046. Long.=13.382973. Alt.=52.000000m. Speed=23Km/h. Course=265deg.</desc>
+    </wpt>
+    <wpt lat="52.517011" lon="13.382556">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:05:28Z</time>
+        <desc>Lat.=52.517011. Long.=13.382556. Alt.=53.000000m. Speed=2Km/h. Course=262deg.</desc>
+    </wpt>
+    <wpt lat="52.516986" lon="13.382168">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:05:32Z</time>
+        <desc>Lat.=52.516986. Long.=13.382168. Alt.=53.000000m. Speed=23Km/h. Course=264deg.</desc>
+    </wpt>
+    <wpt lat="52.516960" lon="13.381748">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:05:36Z</time>
+        <desc>Lat.=52.516960. Long.=13.381748. Alt.=53.000000m. Speed=25Km/h. Course=264deg.</desc>
+    </wpt>
+    <wpt lat="52.516925" lon="13.381326">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:05:41Z</time>
+        <desc>Lat.=52.516925. Long.=13.381326. Alt.=53.000000m. Speed=20Km/h. Course=262deg.</desc>
+    </wpt>
+    <wpt lat="52.516899" lon="13.380958">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:05:48Z</time>
+        <desc>Lat.=52.516899. Long.=13.380958. Alt.=53.000000m. Speed=12Km/h. Course=263deg.</desc>
+    </wpt>
+    <wpt lat="52.517014" lon="13.380628">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:06:43Z</time>
+        <desc>Lat.=52.517014. Long.=13.380628. Alt.=53.000000m. Speed=1Km/h. Course=300deg.</desc>
+    </wpt>
+    <wpt lat="52.517274" lon="13.380585">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:06:50Z</time>
+        <desc>Lat.=52.517274. Long.=13.380585. Alt.=53.000000m. Speed=14Km/h. Course=354deg.</desc>
+    </wpt>
+    <wpt lat="52.517498" lon="13.380638">
+        <ele>53.000000</ele>
+        <time>2011-09-20T17:06:54Z</time>
+        <desc>Lat.=52.517498. Long.=13.380638. Alt.=53.000000m. Speed=22Km/h. Course=8deg.</desc>
+    </wpt>
+    <wpt lat="52.517757" lon="13.380668">
+        <ele>52.000000</ele>
+        <time>2011-09-20T17:07:00Z</time>
+        <desc>Lat.=52.517757. Long.=13.380668. Alt.=52.000000m. Speed=17Km/h. Course=4deg.</desc>
+    </wpt>
+    <wpt lat="52.517885" lon="13.380362">
+        <ele>52.000000</ele>
+        <time>2011-09-20T17:07:49Z</time>
+        <desc>Lat.=52.517885. Long.=13.380362. Alt.=52.000000m. Speed=1Km/h. Course=305deg.</desc>
+    </wpt>
+    <wpt lat="52.517891" lon="13.379923">
+        <ele>51.000000</ele>
+        <time>2011-09-20T17:07:53Z</time>
+        <desc>Lat.=52.517891. Long.=13.379923. Alt.=51.000000m. Speed=26Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.517946" lon="13.379471">
+        <ele>51.000000</ele>
+        <time>2011-09-20T17:07:56Z</time>
+        <desc>Lat.=52.517946. Long.=13.379471. Alt.=51.000000m. Speed=37Km/h. Course=281deg.</desc>
+    </wpt>
+    <wpt lat="52.517984" lon="13.379006">
+        <ele>51.000000</ele>
+        <time>2011-09-20T17:07:59Z</time>
+        <desc>Lat.=52.517984. Long.=13.379006. Alt.=51.000000m. Speed=38Km/h. Course=278deg.</desc>
+    </wpt>
+    <wpt lat="52.518019" lon="13.378574">
+        <ele>51.000000</ele>
+        <time>2011-09-20T17:08:02Z</time>
+        <desc>Lat.=52.518019. Long.=13.378574. Alt.=51.000000m. Speed=35Km/h. Course=278deg.</desc>
+    </wpt>
+    <wpt lat="52.518083" lon="13.378143">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:08:06Z</time>
+        <desc>Lat.=52.518083. Long.=13.378143. Alt.=50.000000m. Speed=27Km/h. Course=284deg.</desc>
+    </wpt>
+    <wpt lat="52.518083" lon="13.377714">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:08:10Z</time>
+        <desc>Lat.=52.518083. Long.=13.377714. Alt.=50.000000m. Speed=26Km/h. Course=270deg.</desc>
+    </wpt>
+    <wpt lat="52.518058" lon="13.377353">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:08:58Z</time>
+        <desc>Lat.=52.518058. Long.=13.377353. Alt.=49.000000m. Speed=1Km/h. Course=263deg.</desc>
+    </wpt>
+    <wpt lat="52.517997" lon="13.376902">
+        <ele>48.000000</ele>
+        <time>2011-09-20T17:09:05Z</time>
+        <desc>Lat.=52.517997. Long.=13.376902. Alt.=48.000000m. Speed=16Km/h. Course=257deg.</desc>
+    </wpt>
+    <wpt lat="52.518000" lon="13.376505">
+        <ele>47.000000</ele>
+        <time>2011-09-20T17:09:08Z</time>
+        <desc>Lat.=52.518000. Long.=13.376505. Alt.=47.000000m. Speed=32Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.518006" lon="13.376059">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:09:11Z</time>
+        <desc>Lat.=52.518006. Long.=13.376059. Alt.=46.000000m. Speed=36Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.518013" lon="13.375636">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:09:14Z</time>
+        <desc>Lat.=52.518013. Long.=13.375636. Alt.=46.000000m. Speed=34Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.518016" lon="13.375259">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:09:17Z</time>
+        <desc>Lat.=52.518016. Long.=13.375259. Alt.=46.000000m. Speed=30Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.518035" lon="13.374890">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:09:23Z</time>
+        <desc>Lat.=52.518035. Long.=13.374890. Alt.=45.000000m. Speed=15Km/h. Course=275deg.</desc>
+    </wpt>
+    <wpt lat="52.518000" lon="13.374486">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:09:58Z</time>
+        <desc>Lat.=52.518000. Long.=13.374486. Alt.=45.000000m. Speed=2Km/h. Course=262deg.</desc>
+    </wpt>
+    <wpt lat="52.518006" lon="13.373995">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:10:02Z</time>
+        <desc>Lat.=52.518006. Long.=13.373995. Alt.=45.000000m. Speed=29Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.518000" lon="13.373546">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:10:05Z</time>
+        <desc>Lat.=52.518000. Long.=13.373546. Alt.=46.000000m. Speed=36Km/h. Course=269deg.</desc>
+    </wpt>
+    <wpt lat="52.518006" lon="13.373094">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:10:08Z</time>
+        <desc>Lat.=52.518006. Long.=13.373094. Alt.=46.000000m. Speed=36Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.518006" lon="13.372680">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:10:11Z</time>
+        <desc>Lat.=52.518006. Long.=13.372680. Alt.=46.000000m. Speed=33Km/h. Course=270deg.</desc>
+    </wpt>
+    <wpt lat="52.518000" lon="13.372314">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:10:14Z</time>
+        <desc>Lat.=52.518000. Long.=13.372314. Alt.=46.000000m. Speed=29Km/h. Course=268deg.</desc>
+    </wpt>
+    <wpt lat="52.518000" lon="13.371925">
+        <ele>47.000000</ele>
+        <time>2011-09-20T17:10:18Z</time>
+        <desc>Lat.=52.518000. Long.=13.371925. Alt.=47.000000m. Speed=23Km/h. Course=270deg.</desc>
+    </wpt>
+    <wpt lat="52.518013" lon="13.371511">
+        <ele>47.000000</ele>
+        <time>2011-09-20T17:10:24Z</time>
+        <desc>Lat.=52.518013. Long.=13.371511. Alt.=47.000000m. Speed=16Km/h. Course=273deg.</desc>
+    </wpt>
+    <wpt lat="52.518006" lon="13.371117">
+        <ele>48.000000</ele>
+        <time>2011-09-20T17:11:24Z</time>
+        <desc>Lat.=52.518006. Long.=13.371117. Alt.=48.000000m. Speed=1Km/h. Course=268deg.</desc>
+    </wpt>
+    <wpt lat="52.517952" lon="13.370694">
+        <ele>48.000000</ele>
+        <time>2011-09-20T17:11:30Z</time>
+        <desc>Lat.=52.517952. Long.=13.370694. Alt.=48.000000m. Speed=17Km/h. Course=258deg.</desc>
+    </wpt>
+    <wpt lat="52.517974" lon="13.370257">
+        <ele>48.000000</ele>
+        <time>2011-09-20T17:11:34Z</time>
+        <desc>Lat.=52.517974. Long.=13.370257. Alt.=48.000000m. Speed=26Km/h. Course=275deg.</desc>
+    </wpt>
+    <wpt lat="52.517920" lon="13.369802">
+        <ele>48.000000</ele>
+        <time>2011-09-20T17:11:38Z</time>
+        <desc>Lat.=52.517920. Long.=13.369802. Alt.=48.000000m. Speed=28Km/h. Course=259deg.</desc>
+    </wpt>
+    <wpt lat="52.517718" lon="13.369514">
+        <ele>48.000000</ele>
+        <time>2011-09-20T17:11:41Z</time>
+        <desc>Lat.=52.517718. Long.=13.369514. Alt.=48.000000m. Speed=35Km/h. Course=221deg.</desc>
+    </wpt>
+    <wpt lat="52.517555" lon="13.369262">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:11:44Z</time>
+        <desc>Lat.=52.517555. Long.=13.369262. Alt.=49.000000m. Speed=29Km/h. Course=223deg.</desc>
+    </wpt>
+    <wpt lat="52.517414" lon="13.368951">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:11:47Z</time>
+        <desc>Lat.=52.517414. Long.=13.368951. Alt.=49.000000m. Speed=31Km/h. Course=233deg.</desc>
+    </wpt>
+    <wpt lat="52.517325" lon="13.368520">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:11:51Z</time>
+        <desc>Lat.=52.517325. Long.=13.368520. Alt.=50.000000m. Speed=27Km/h. Course=251deg.</desc>
+    </wpt>
+    <wpt lat="52.517293" lon="13.368157">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:11:56Z</time>
+        <desc>Lat.=52.517293. Long.=13.368157. Alt.=50.000000m. Speed=17Km/h. Course=262deg.</desc>
+    </wpt>
+    <wpt lat="52.517331" lon="13.367771">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:12:02Z</time>
+        <desc>Lat.=52.517331. Long.=13.367771. Alt.=50.000000m. Speed=15Km/h. Course=279deg.</desc>
+    </wpt>
+    <wpt lat="52.517363" lon="13.367363">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:12:06Z</time>
+        <desc>Lat.=52.517363. Long.=13.367363. Alt.=50.000000m. Speed=25Km/h. Course=277deg.</desc>
+    </wpt>
+    <wpt lat="52.517389" lon="13.366868">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:12:09Z</time>
+        <desc>Lat.=52.517389. Long.=13.366868. Alt.=50.000000m. Speed=40Km/h. Course=275deg.</desc>
+    </wpt>
+    <wpt lat="52.517344" lon="13.366505">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:12:11Z</time>
+        <desc>Lat.=52.517344. Long.=13.366505. Alt.=49.000000m. Speed=45Km/h. Course=259deg.</desc>
+    </wpt>
+    <wpt lat="52.517325" lon="13.366123">
+        <ele>48.000000</ele>
+        <time>2011-09-20T17:12:13Z</time>
+        <desc>Lat.=52.517325. Long.=13.366123. Alt.=48.000000m. Speed=46Km/h. Course=265deg.</desc>
+    </wpt>
+    <wpt lat="52.517318" lon="13.365682">
+        <ele>47.000000</ele>
+        <time>2011-09-20T17:12:16Z</time>
+        <desc>Lat.=52.517318. Long.=13.365682. Alt.=47.000000m. Speed=35Km/h. Course=269deg.</desc>
+    </wpt>
+    <wpt lat="52.517379" lon="13.365330">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:12:18Z</time>
+        <desc>Lat.=52.517379. Long.=13.365330. Alt.=46.000000m. Speed=44Km/h. Course=286deg.</desc>
+    </wpt>
+    <wpt lat="52.517507" lon="13.364810">
+        <ele>47.000000</ele>
+        <time>2011-09-20T17:12:21Z</time>
+        <desc>Lat.=52.517507. Long.=13.364810. Alt.=47.000000m. Speed=45Km/h. Course=292deg.</desc>
+    </wpt>
+    <wpt lat="52.517555" lon="13.364334">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:12:24Z</time>
+        <desc>Lat.=52.517555. Long.=13.364334. Alt.=46.000000m. Speed=39Km/h. Course=279deg.</desc>
+    </wpt>
+    <wpt lat="52.517574" lon="13.363903">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:12:28Z</time>
+        <desc>Lat.=52.517574. Long.=13.363903. Alt.=46.000000m. Speed=26Km/h. Course=274deg.</desc>
+    </wpt>
+    <wpt lat="52.517632" lon="13.363516">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:12:33Z</time>
+        <desc>Lat.=52.517632. Long.=13.363516. Alt.=46.000000m. Speed=19Km/h. Course=284deg.</desc>
+    </wpt>
+    <wpt lat="52.517715" lon="13.363163">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:12:37Z</time>
+        <desc>Lat.=52.517715. Long.=13.363163. Alt.=49.000000m. Speed=23Km/h. Course=291deg.</desc>
+    </wpt>
+    <wpt lat="52.517773" lon="13.362813">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:12:57Z</time>
+        <desc>Lat.=52.517773. Long.=13.362813. Alt.=49.000000m. Speed=4Km/h. Course=285deg.</desc>
+    </wpt>
+    <wpt lat="52.517789" lon="13.362418">
+        <ele>48.000000</ele>
+        <time>2011-09-20T17:13:02Z</time>
+        <desc>Lat.=52.517789. Long.=13.362418. Alt.=48.000000m. Speed=19Km/h. Course=274deg.</desc>
+    </wpt>
+    <wpt lat="52.517789" lon="13.362016">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:05Z</time>
+        <desc>Lat.=52.517789. Long.=13.362016. Alt.=49.000000m. Speed=32Km/h. Course=270deg.</desc>
+    </wpt>
+    <wpt lat="52.517773" lon="13.361531">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:08Z</time>
+        <desc>Lat.=52.517773. Long.=13.361531. Alt.=49.000000m. Speed=39Km/h. Course=267deg.</desc>
+    </wpt>
+    <wpt lat="52.517722" lon="13.360994">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:11Z</time>
+        <desc>Lat.=52.517722. Long.=13.360994. Alt.=49.000000m. Speed=44Km/h. Course=261deg.</desc>
+    </wpt>
+    <wpt lat="52.517661" lon="13.360642">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:13Z</time>
+        <desc>Lat.=52.517661. Long.=13.360642. Alt.=49.000000m. Speed=44Km/h. Course=254deg.</desc>
+    </wpt>
+    <wpt lat="52.517581" lon="13.360294">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:15Z</time>
+        <desc>Lat.=52.517581. Long.=13.360294. Alt.=49.000000m. Speed=45Km/h. Course=249deg.</desc>
+    </wpt>
+    <wpt lat="52.517453" lon="13.359803">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:18Z</time>
+        <desc>Lat.=52.517453. Long.=13.359803. Alt.=49.000000m. Speed=43Km/h. Course=247deg.</desc>
+    </wpt>
+    <wpt lat="52.517318" lon="13.359330">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:21Z</time>
+        <desc>Lat.=52.517318. Long.=13.359330. Alt.=49.000000m. Speed=42Km/h. Course=245deg.</desc>
+    </wpt>
+    <wpt lat="52.517222" lon="13.358894">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:24Z</time>
+        <desc>Lat.=52.517222. Long.=13.358894. Alt.=49.000000m. Speed=37Km/h. Course=250deg.</desc>
+    </wpt>
+    <wpt lat="52.517178" lon="13.358522">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:27Z</time>
+        <desc>Lat.=52.517178. Long.=13.358522. Alt.=49.000000m. Speed=30Km/h. Course=259deg.</desc>
+    </wpt>
+    <wpt lat="52.517117" lon="13.358086">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:13:31Z</time>
+        <desc>Lat.=52.517117. Long.=13.358086. Alt.=50.000000m. Speed=27Km/h. Course=257deg.</desc>
+    </wpt>
+    <wpt lat="52.517059" lon="13.357663">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:13:35Z</time>
+        <desc>Lat.=52.517059. Long.=13.357663. Alt.=50.000000m. Speed=26Km/h. Course=257deg.</desc>
+    </wpt>
+    <wpt lat="52.517005" lon="13.357242">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:39Z</time>
+        <desc>Lat.=52.517005. Long.=13.357242. Alt.=49.000000m. Speed=26Km/h. Course=258deg.</desc>
+    </wpt>
+    <wpt lat="52.516947" lon="13.356801">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:13:43Z</time>
+        <desc>Lat.=52.516947. Long.=13.356801. Alt.=50.000000m. Speed=27Km/h. Course=258deg.</desc>
+    </wpt>
+    <wpt lat="52.516941" lon="13.356370">
+        <ele>49.000000</ele>
+        <time>2011-09-20T17:13:47Z</time>
+        <desc>Lat.=52.516941. Long.=13.356370. Alt.=49.000000m. Speed=26Km/h. Course=269deg.</desc>
+    </wpt>
+    <wpt lat="52.516973" lon="13.355907">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:13:51Z</time>
+        <desc>Lat.=52.516973. Long.=13.355907. Alt.=50.000000m. Speed=28Km/h. Course=276deg.</desc>
+    </wpt>
+    <wpt lat="52.517024" lon="13.355486">
+        <ele>50.000000</ele>
+        <time>2011-09-20T17:13:55Z</time>
+        <desc>Lat.=52.517024. Long.=13.355486. Alt.=50.000000m. Speed=26Km/h. Course=281deg.</desc>
+    </wpt>
+    <wpt lat="52.517133" lon="13.355145">
+        <ele>52.000000</ele>
+        <time>2011-09-20T17:13:59Z</time>
+        <desc>Lat.=52.517133. Long.=13.355145. Alt.=52.000000m. Speed=23Km/h. Course=298deg.</desc>
+    </wpt>
+    <wpt lat="52.517200" lon="13.354753">
+        <ele>59.000000</ele>
+        <time>2011-09-20T17:14:06Z</time>
+        <desc>Lat.=52.517200. Long.=13.354753. Alt.=59.000000m. Speed=14Km/h. Course=286deg.</desc>
+    </wpt>
+    <wpt lat="52.517283" lon="13.354400">
+        <ele>60.000000</ele>
+        <time>2011-09-20T17:14:15Z</time>
+        <desc>Lat.=52.517283. Long.=13.354400. Alt.=60.000000m. Speed=10Km/h. Course=291deg.</desc>
+    </wpt>
+    <wpt lat="52.517062" lon="13.354110">
+        <ele>48.000000</ele>
+        <time>2011-09-20T17:14:21Z</time>
+        <desc>Lat.=52.517062. Long.=13.354110. Alt.=48.000000m. Speed=18Km/h. Course=219deg.</desc>
+    </wpt>
+    <wpt lat="52.516886" lon="13.353850">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:14:24Z</time>
+        <desc>Lat.=52.516886. Long.=13.353850. Alt.=46.000000m. Speed=31Km/h. Course=222deg.</desc>
+    </wpt>
+    <wpt lat="52.516717" lon="13.353483">
+        <ele>44.000000</ele>
+        <time>2011-09-20T17:14:27Z</time>
+        <desc>Lat.=52.516717. Long.=13.353483. Alt.=44.000000m. Speed=37Km/h. Course=233deg.</desc>
+    </wpt>
+    <wpt lat="52.516586" lon="13.353180">
+        <ele>44.000000</ele>
+        <time>2011-09-20T17:14:29Z</time>
+        <desc>Lat.=52.516586. Long.=13.353180. Alt.=44.000000m. Speed=45Km/h. Course=235deg.</desc>
+    </wpt>
+    <wpt lat="52.516445" lon="13.352864">
+        <ele>44.000000</ele>
+        <time>2011-09-20T17:14:31Z</time>
+        <desc>Lat.=52.516445. Long.=13.352864. Alt.=44.000000m. Speed=47Km/h. Course=234deg.</desc>
+    </wpt>
+    <wpt lat="52.516246" lon="13.352510">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:14:33Z</time>
+        <desc>Lat.=52.516246. Long.=13.352510. Alt.=46.000000m. Speed=58Km/h. Course=227deg.</desc>
+    </wpt>
+    <wpt lat="52.516090" lon="13.352163">
+        <ele>46.000000</ele>
+        <time>2011-09-20T17:14:35Z</time>
+        <desc>Lat.=52.516090. Long.=13.352163. Alt.=46.000000m. Speed=52Km/h. Course=233deg.</desc>
+    </wpt>
+    <wpt lat="52.515923" lon="13.351770">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:14:37Z</time>
+        <desc>Lat.=52.515923. Long.=13.351770. Alt.=45.000000m. Speed=58Km/h. Course=235deg.</desc>
+    </wpt>
+    <wpt lat="52.515782" lon="13.351446">
+        <ele>44.000000</ele>
+        <time>2011-09-20T17:14:39Z</time>
+        <desc>Lat.=52.515782. Long.=13.351446. Alt.=44.000000m. Speed=48Km/h. Course=234deg.</desc>
+    </wpt>
+    <wpt lat="52.515594" lon="13.351148">
+        <ele>44.000000</ele>
+        <time>2011-09-20T17:14:42Z</time>
+        <desc>Lat.=52.515594. Long.=13.351148. Alt.=44.000000m. Speed=34Km/h. Course=224deg.</desc>
+    </wpt>
+    <wpt lat="52.515418" lon="13.350930">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:15:03Z</time>
+        <desc>Lat.=52.515418. Long.=13.350930. Alt.=45.000000m. Speed=4Km/h. Course=217deg.</desc>
+    </wpt>
+    <wpt lat="52.515213" lon="13.350668">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:15:35Z</time>
+        <desc>Lat.=52.515213. Long.=13.350668. Alt.=45.000000m. Speed=3Km/h. Course=218deg.</desc>
+    </wpt>
+    <wpt lat="52.515130" lon="13.350198">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:15:39Z</time>
+        <desc>Lat.=52.515130. Long.=13.350198. Alt.=45.000000m. Speed=29Km/h. Course=254deg.</desc>
+    </wpt>
+    <wpt lat="52.515101" lon="13.349758">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:15:42Z</time>
+        <desc>Lat.=52.515101. Long.=13.349758. Alt.=45.000000m. Speed=35Km/h. Course=264deg.</desc>
+    </wpt>
+    <wpt lat="52.515018" lon="13.349344">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:15:45Z</time>
+        <desc>Lat.=52.515018. Long.=13.349344. Alt.=45.000000m. Speed=35Km/h. Course=252deg.</desc>
+    </wpt>
+    <wpt lat="52.514838" lon="13.349045">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:15:48Z</time>
+        <desc>Lat.=52.514838. Long.=13.349045. Alt.=45.000000m. Speed=34Km/h. Course=225deg.</desc>
+    </wpt>
+    <wpt lat="52.514598" lon="13.348878">
+        <ele>45.000000</ele>
+        <time>2011-09-20T17:15:51Z</time>
+        <desc>Lat.=52.514598. Long.=13.348878. Alt.=45.000000m. Speed=34Km/h. Course=203deg.</desc>
+    </wpt>
+    <wpt lat="52.514333" lon="13.348874">
+        <ele>44.000000</ele>
+        <time>2011-09-20T17:15:54Z</time>
+        <desc>Lat.=52.514333. Long.=13.348874. Alt.=44.000000m. Speed=35Km/h. Course=180deg.</desc>
+    </wpt>
+    <wpt lat="52.514077" lon="13.349056">
+        <ele>44.000000</ele>
+        <time>2011-09-20T17:15:57Z</time>
+        <desc>Lat.=52.514077. Long.=13.349056. Alt.=44.000000m. Speed=37Km/h. Course=157deg.</desc>
+    </wpt>
+    <wpt lat="52.513885" lon="13.349393">
+        <ele>43.000000</ele>
+        <time>2011-09-20T17:16:00Z</time>
+        <desc>Lat.=52.513885. Long.=13.349393. Alt.=43.000000m. Speed=37Km/h. Course=133deg.</desc>
+    </wpt>
+    <wpt lat="52.513786" lon="13.349781">
+        <ele>42.000000</ele>
+        <time>2011-09-20T17:16:03Z</time>
+        <desc>Lat.=52.513786. Long.=13.349781. Alt.=42.000000m. Speed=34Km/h. Course=113deg.</desc>
+    </wpt>
+    <wpt lat="52.513622" lon="13.350078">
+        <ele>42.000000</ele>
+        <time>2011-09-20T17:16:07Z</time>
+        <desc>Lat.=52.513622. Long.=13.350078. Alt.=42.000000m. Speed=24Km/h. Course=132deg.</desc>
+    </wpt>
+    <wpt lat="52.513344" lon="13.350144">
+        <ele>42.000000</ele>
+        <time>2011-09-20T17:16:11Z</time>
+        <desc>Lat.=52.513344. Long.=13.350144. Alt.=42.000000m. Speed=28Km/h. Course=172deg.</desc>
+    </wpt>
+    <wpt lat="52.513062" lon="13.350220">
+        <ele>41.000000</ele>
+        <time>2011-09-20T17:16:14Z</time>
+        <desc>Lat.=52.513062. Long.=13.350220. Alt.=41.000000m. Speed=38Km/h. Course=171deg.</desc>
+    </wpt>
+    <wpt lat="52.512733" lon="13.350320">
+        <ele>40.000000</ele>
+        <time>2011-09-20T17:16:17Z</time>
+        <desc>Lat.=52.512733. Long.=13.350320. Alt.=40.000000m. Speed=44Km/h. Course=170deg.</desc>
+    </wpt>
+    <wpt lat="52.512493" lon="13.350401">
+        <ele>40.000000</ele>
+        <time>2011-09-20T17:16:19Z</time>
+        <desc>Lat.=52.512493. Long.=13.350401. Alt.=40.000000m. Speed=49Km/h. Course=168deg.</desc>
+    </wpt>
+    <wpt lat="52.512240" lon="13.350493">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:16:21Z</time>
+        <desc>Lat.=52.512240. Long.=13.350493. Alt.=39.000000m. Speed=51Km/h. Course=168deg.</desc>
+    </wpt>
+    <wpt lat="52.512006" lon="13.350586">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:16:23Z</time>
+        <desc>Lat.=52.512006. Long.=13.350586. Alt.=39.000000m. Speed=48Km/h. Course=166deg.</desc>
+    </wpt>
+    <wpt lat="52.511770" lon="13.350682">
+        <ele>38.000000</ele>
+        <time>2011-09-20T17:16:25Z</time>
+        <desc>Lat.=52.511770. Long.=13.350682. Alt.=38.000000m. Speed=48Km/h. Course=166deg.</desc>
+    </wpt>
+    <wpt lat="52.511533" lon="13.350759">
+        <ele>38.000000</ele>
+        <time>2011-09-20T17:16:27Z</time>
+        <desc>Lat.=52.511533. Long.=13.350759. Alt.=38.000000m. Speed=48Km/h. Course=169deg.</desc>
+    </wpt>
+    <wpt lat="52.511299" lon="13.350829">
+        <ele>37.000000</ele>
+        <time>2011-09-20T17:16:29Z</time>
+        <desc>Lat.=52.511299. Long.=13.350829. Alt.=37.000000m. Speed=47Km/h. Course=170deg.</desc>
+    </wpt>
+    <wpt lat="52.511069" lon="13.350905">
+        <ele>37.000000</ele>
+        <time>2011-09-20T17:16:31Z</time>
+        <desc>Lat.=52.511069. Long.=13.350905. Alt.=37.000000m. Speed=47Km/h. Course=169deg.</desc>
+    </wpt>
+    <wpt lat="52.510848" lon="13.350971">
+        <ele>37.000000</ele>
+        <time>2011-09-20T17:16:33Z</time>
+        <desc>Lat.=52.510848. Long.=13.350971. Alt.=37.000000m. Speed=44Km/h. Course=170deg.</desc>
+    </wpt>
+    <wpt lat="52.510541" lon="13.351062">
+        <ele>36.000000</ele>
+        <time>2011-09-20T17:16:36Z</time>
+        <desc>Lat.=52.510541. Long.=13.351062. Alt.=36.000000m. Speed=41Km/h. Course=170deg.</desc>
+    </wpt>
+    <wpt lat="52.510285" lon="13.351148">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:16:39Z</time>
+        <desc>Lat.=52.510285. Long.=13.351148. Alt.=35.000000m. Speed=34Km/h. Course=168deg.</desc>
+    </wpt>
+    <wpt lat="52.510029" lon="13.351165">
+        <ele>33.000000</ele>
+        <time>2011-09-20T17:16:43Z</time>
+        <desc>Lat.=52.510029. Long.=13.351165. Alt.=33.000000m. Speed=25Km/h. Course=178deg.</desc>
+    </wpt>
+    <wpt lat="52.509798" lon="13.351211">
+        <ele>32.000000</ele>
+        <time>2011-09-20T17:17:00Z</time>
+        <desc>Lat.=52.509798. Long.=13.351211. Alt.=32.000000m. Speed=5Km/h. Course=173deg.</desc>
+    </wpt>
+    <wpt lat="52.509536" lon="13.351258">
+        <ele>32.000000</ele>
+        <time>2011-09-20T17:17:07Z</time>
+        <desc>Lat.=52.509536. Long.=13.351258. Alt.=32.000000m. Speed=15Km/h. Course=174deg.</desc>
+    </wpt>
+    <wpt lat="52.509270" lon="13.351306">
+        <ele>32.000000</ele>
+        <time>2011-09-20T17:17:11Z</time>
+        <desc>Lat.=52.509270. Long.=13.351306. Alt.=32.000000m. Speed=26Km/h. Course=174deg.</desc>
+    </wpt>
+    <wpt lat="52.509043" lon="13.351348">
+        <ele>32.000000</ele>
+        <time>2011-09-20T17:17:20Z</time>
+        <desc>Lat.=52.509043. Long.=13.351348. Alt.=32.000000m. Speed=10Km/h. Course=174deg.</desc>
+    </wpt>
+    <wpt lat="52.508816" lon="13.351422">
+        <ele>31.000000</ele>
+        <time>2011-09-20T17:17:25Z</time>
+        <desc>Lat.=52.508816. Long.=13.351422. Alt.=31.000000m. Speed=18Km/h. Course=169deg.</desc>
+    </wpt>
+    <wpt lat="52.508576" lon="13.351471">
+        <ele>31.000000</ele>
+        <time>2011-09-20T17:17:28Z</time>
+        <desc>Lat.=52.508576. Long.=13.351471. Alt.=31.000000m. Speed=32Km/h. Course=173deg.</desc>
+    </wpt>
+    <wpt lat="52.508282" lon="13.351533">
+        <ele>31.000000</ele>
+        <time>2011-09-20T17:17:31Z</time>
+        <desc>Lat.=52.508282. Long.=13.351533. Alt.=31.000000m. Speed=39Km/h. Course=173deg.</desc>
+    </wpt>
+    <wpt lat="52.507949" lon="13.351613">
+        <ele>31.000000</ele>
+        <time>2011-09-20T17:17:34Z</time>
+        <desc>Lat.=52.507949. Long.=13.351613. Alt.=31.000000m. Speed=44Km/h. Course=172deg.</desc>
+    </wpt>
+    <wpt lat="52.507712" lon="13.351671">
+        <ele>31.000000</ele>
+        <time>2011-09-20T17:17:36Z</time>
+        <desc>Lat.=52.507712. Long.=13.351671. Alt.=31.000000m. Speed=47Km/h. Course=171deg.</desc>
+    </wpt>
+    <wpt lat="52.507472" lon="13.351721">
+        <ele>31.000000</ele>
+        <time>2011-09-20T17:17:38Z</time>
+        <desc>Lat.=52.507472. Long.=13.351721. Alt.=31.000000m. Speed=48Km/h. Course=173deg.</desc>
+    </wpt>
+    <wpt lat="52.507245" lon="13.351766">
+        <ele>31.000000</ele>
+        <time>2011-09-20T17:17:40Z</time>
+        <desc>Lat.=52.507245. Long.=13.351766. Alt.=31.000000m. Speed=45Km/h. Course=173deg.</desc>
+    </wpt>
+    <wpt lat="52.507018" lon="13.351790">
+        <ele>31.000000</ele>
+        <time>2011-09-20T17:17:42Z</time>
+        <desc>Lat.=52.507018. Long.=13.351790. Alt.=31.000000m. Speed=45Km/h. Course=176deg.</desc>
+    </wpt>
+    <wpt lat="52.506790" lon="13.351811">
+        <ele>31.000000</ele>
+        <time>2011-09-20T17:17:44Z</time>
+        <desc>Lat.=52.506790. Long.=13.351811. Alt.=31.000000m. Speed=45Km/h. Course=177deg.</desc>
+    </wpt>
+    <wpt lat="52.506560" lon="13.351831">
+        <ele>30.000000</ele>
+        <time>2011-09-20T17:17:46Z</time>
+        <desc>Lat.=52.506560. Long.=13.351831. Alt.=30.000000m. Speed=46Km/h. Course=177deg.</desc>
+    </wpt>
+    <wpt lat="52.506336" lon="13.351831">
+        <ele>29.000000</ele>
+        <time>2011-09-20T17:17:48Z</time>
+        <desc>Lat.=52.506336. Long.=13.351831. Alt.=29.000000m. Speed=44Km/h. Course=180deg.</desc>
+    </wpt>
+    <wpt lat="52.506102" lon="13.351821">
+        <ele>30.000000</ele>
+        <time>2011-09-20T17:17:50Z</time>
+        <desc>Lat.=52.506102. Long.=13.351821. Alt.=30.000000m. Speed=46Km/h. Course=182deg.</desc>
+    </wpt>
+    <wpt lat="52.505878" lon="13.351798">
+        <ele>32.000000</ele>
+        <time>2011-09-20T17:17:52Z</time>
+        <desc>Lat.=52.505878. Long.=13.351798. Alt.=32.000000m. Speed=44Km/h. Course=183deg.</desc>
+    </wpt>
+    <wpt lat="52.505565" lon="13.351693">
+        <ele>32.000000</ele>
+        <time>2011-09-20T17:17:55Z</time>
+        <desc>Lat.=52.505565. Long.=13.351693. Alt.=32.000000m. Speed=42Km/h. Course=192deg.</desc>
+    </wpt>
+    <wpt lat="52.505302" lon="13.351556">
+        <ele>33.000000</ele>
+        <time>2011-09-20T17:17:58Z</time>
+        <desc>Lat.=52.505302. Long.=13.351556. Alt.=33.000000m. Speed=36Km/h. Course=198deg.</desc>
+    </wpt>
+    <wpt lat="52.505059" lon="13.351403">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:18:02Z</time>
+        <desc>Lat.=52.505059. Long.=13.351403. Alt.=34.000000m. Speed=26Km/h. Course=201deg.</desc>
+    </wpt>
+    <wpt lat="52.504829" lon="13.351241">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:18:25Z</time>
+        <desc>Lat.=52.504829. Long.=13.351241. Alt.=34.000000m. Speed=4Km/h. Course=203deg.</desc>
+    </wpt>
+    <wpt lat="52.504560" lon="13.351041">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:18:29Z</time>
+        <desc>Lat.=52.504560. Long.=13.351041. Alt.=34.000000m. Speed=29Km/h. Course=204deg.</desc>
+    </wpt>
+    <wpt lat="52.504326" lon="13.350876">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:18:32Z</time>
+        <desc>Lat.=52.504326. Long.=13.350876. Alt.=34.000000m. Speed=33Km/h. Course=203deg.</desc>
+    </wpt>
+    <wpt lat="52.504067" lon="13.350718">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:18:35Z</time>
+        <desc>Lat.=52.504067. Long.=13.350718. Alt.=34.000000m. Speed=36Km/h. Course=200deg.</desc>
+    </wpt>
+    <wpt lat="52.503808" lon="13.350505">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:18:38Z</time>
+        <desc>Lat.=52.503808. Long.=13.350505. Alt.=35.000000m. Speed=38Km/h. Course=207deg.</desc>
+    </wpt>
+    <wpt lat="52.503536" lon="13.350265">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:18:41Z</time>
+        <desc>Lat.=52.503536. Long.=13.350265. Alt.=35.000000m. Speed=41Km/h. Course=208deg.</desc>
+    </wpt>
+    <wpt lat="52.503318" lon="13.349959">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:18:44Z</time>
+        <desc>Lat.=52.503318. Long.=13.349959. Alt.=35.000000m. Speed=38Km/h. Course=221deg.</desc>
+    </wpt>
+    <wpt lat="52.503229" lon="13.349546">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:18:49Z</time>
+        <desc>Lat.=52.503229. Long.=13.349546. Alt.=35.000000m. Speed=21Km/h. Course=250deg.</desc>
+    </wpt>
+    <wpt lat="52.503309" lon="13.349165">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:18:54Z</time>
+        <desc>Lat.=52.503309. Long.=13.349165. Alt.=35.000000m. Speed=19Km/h. Course=289deg.</desc>
+    </wpt>
+    <wpt lat="52.503389" lon="13.348762">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:19:18Z</time>
+        <desc>Lat.=52.503389. Long.=13.348762. Alt.=35.000000m. Speed=4Km/h. Course=288deg.</desc>
+    </wpt>
+    <wpt lat="52.503472" lon="13.348305">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:19:22Z</time>
+        <desc>Lat.=52.503472. Long.=13.348305. Alt.=35.000000m. Speed=29Km/h. Course=287deg.</desc>
+    </wpt>
+    <wpt lat="52.503536" lon="13.347874">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:19:25Z</time>
+        <desc>Lat.=52.503536. Long.=13.347874. Alt.=35.000000m. Speed=35Km/h. Course=284deg.</desc>
+    </wpt>
+    <wpt lat="52.503568" lon="13.347454">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:19:28Z</time>
+        <desc>Lat.=52.503568. Long.=13.347454. Alt.=35.000000m. Speed=34Km/h. Course=277deg.</desc>
+    </wpt>
+    <wpt lat="52.503558" lon="13.347058">
+        <ele>36.000000</ele>
+        <time>2011-09-20T17:19:31Z</time>
+        <desc>Lat.=52.503558. Long.=13.347058. Alt.=36.000000m. Speed=32Km/h. Course=268deg.</desc>
+    </wpt>
+    <wpt lat="52.503686" lon="13.346685">
+        <ele>37.000000</ele>
+        <time>2011-09-20T17:19:35Z</time>
+        <desc>Lat.=52.503686. Long.=13.346685. Alt.=37.000000m. Speed=26Km/h. Course=299deg.</desc>
+    </wpt>
+    <wpt lat="52.503872" lon="13.346356">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:19:40Z</time>
+        <desc>Lat.=52.503872. Long.=13.346356. Alt.=39.000000m. Speed=21Km/h. Course=313deg.</desc>
+    </wpt>
+    <wpt lat="52.504026" lon="13.345966">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:19:45Z</time>
+        <desc>Lat.=52.504026. Long.=13.345966. Alt.=39.000000m. Speed=22Km/h. Course=303deg.</desc>
+    </wpt>
+    <wpt lat="52.504109" lon="13.345603">
+        <ele>37.000000</ele>
+        <time>2011-09-20T17:19:48Z</time>
+        <desc>Lat.=52.504109. Long.=13.345603. Alt.=37.000000m. Speed=31Km/h. Course=291deg.</desc>
+    </wpt>
+    <wpt lat="52.504173" lon="13.345188">
+        <ele>37.000000</ele>
+        <time>2011-09-20T17:19:51Z</time>
+        <desc>Lat.=52.504173. Long.=13.345188. Alt.=37.000000m. Speed=34Km/h. Course=284deg.</desc>
+    </wpt>
+    <wpt lat="52.504237" lon="13.344801">
+        <ele>36.000000</ele>
+        <time>2011-09-20T17:19:54Z</time>
+        <desc>Lat.=52.504237. Long.=13.344801. Alt.=36.000000m. Speed=32Km/h. Course=285deg.</desc>
+    </wpt>
+    <wpt lat="52.504346" lon="13.344313">
+        <ele>37.000000</ele>
+        <time>2011-09-20T17:19:57Z</time>
+        <desc>Lat.=52.504346. Long.=13.344313. Alt.=37.000000m. Speed=42Km/h. Course=290deg.</desc>
+    </wpt>
+    <wpt lat="52.504448" lon="13.343862">
+        <ele>38.000000</ele>
+        <time>2011-09-20T17:20:00Z</time>
+        <desc>Lat.=52.504448. Long.=13.343862. Alt.=38.000000m. Speed=39Km/h. Course=290deg.</desc>
+    </wpt>
+    <wpt lat="52.504502" lon="13.343496">
+        <ele>38.000000</ele>
+        <time>2011-09-20T17:20:03Z</time>
+        <desc>Lat.=52.504502. Long.=13.343496. Alt.=38.000000m. Speed=30Km/h. Course=284deg.</desc>
+    </wpt>
+    <wpt lat="52.504608" lon="13.343148">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:20:25Z</time>
+        <desc>Lat.=52.504608. Long.=13.343148. Alt.=39.000000m. Speed=4Km/h. Course=296deg.</desc>
+    </wpt>
+    <wpt lat="52.504653" lon="13.342710">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:20:30Z</time>
+        <desc>Lat.=52.504653. Long.=13.342710. Alt.=39.000000m. Speed=21Km/h. Course=280deg.</desc>
+    </wpt>
+    <wpt lat="52.504758" lon="13.342297">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:20:33Z</time>
+        <desc>Lat.=52.504758. Long.=13.342297. Alt.=39.000000m. Speed=36Km/h. Course=293deg.</desc>
+    </wpt>
+    <wpt lat="52.504845" lon="13.341833">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:20:36Z</time>
+        <desc>Lat.=52.504845. Long.=13.341833. Alt.=39.000000m. Speed=39Km/h. Course=287deg.</desc>
+    </wpt>
+    <wpt lat="52.505018" lon="13.341421">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:20:39Z</time>
+        <desc>Lat.=52.505018. Long.=13.341421. Alt.=39.000000m. Speed=40Km/h. Course=305deg.</desc>
+    </wpt>
+    <wpt lat="52.505146" lon="13.341026">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:20:42Z</time>
+        <desc>Lat.=52.505146. Long.=13.341026. Alt.=39.000000m. Speed=36Km/h. Course=298deg.</desc>
+    </wpt>
+    <wpt lat="52.505226" lon="13.340605">
+        <ele>39.000000</ele>
+        <time>2011-09-20T17:20:45Z</time>
+        <desc>Lat.=52.505226. Long.=13.340605. Alt.=39.000000m. Speed=35Km/h. Course=287deg.</desc>
+    </wpt>
+    <wpt lat="52.505344" lon="13.340276">
+        <ele>38.000000</ele>
+        <time>2011-09-20T17:20:47Z</time>
+        <desc>Lat.=52.505344. Long.=13.340276. Alt.=38.000000m. Speed=46Km/h. Course=301deg.</desc>
+    </wpt>
+    <wpt lat="52.505376" lon="13.339766">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:20:50Z</time>
+        <desc>Lat.=52.505376. Long.=13.339766. Alt.=35.000000m. Speed=41Km/h. Course=276deg.</desc>
+    </wpt>
+    <wpt lat="52.505379" lon="13.339256">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:20:53Z</time>
+        <desc>Lat.=52.505379. Long.=13.339256. Alt.=34.000000m. Speed=41Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.505379" lon="13.338858">
+        <ele>32.000000</ele>
+        <time>2011-09-20T17:20:56Z</time>
+        <desc>Lat.=52.505379. Long.=13.338858. Alt.=32.000000m. Speed=32Km/h. Course=270deg.</desc>
+    </wpt>
+    <wpt lat="52.505414" lon="13.338398">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:20:59Z</time>
+        <desc>Lat.=52.505414. Long.=13.338398. Alt.=34.000000m. Speed=37Km/h. Course=277deg.</desc>
+    </wpt>
+    <wpt lat="52.505408" lon="13.337878">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:21:02Z</time>
+        <desc>Lat.=52.505408. Long.=13.337878. Alt.=34.000000m. Speed=42Km/h. Course=269deg.</desc>
+    </wpt>
+    <wpt lat="52.505414" lon="13.337410">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:21:05Z</time>
+        <desc>Lat.=52.505414. Long.=13.337410. Alt.=35.000000m. Speed=38Km/h. Course=271deg.</desc>
+    </wpt>
+    <wpt lat="52.505395" lon="13.337021">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:21:08Z</time>
+        <desc>Lat.=52.505395. Long.=13.337021. Alt.=35.000000m. Speed=31Km/h. Course=265deg.</desc>
+    </wpt>
+    <wpt lat="52.505386" lon="13.336604">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:21:13Z</time>
+        <desc>Lat.=52.505386. Long.=13.336604. Alt.=34.000000m. Speed=20Km/h. Course=268deg.</desc>
+    </wpt>
+    <wpt lat="52.505347" lon="13.336234">
+        <ele>33.000000</ele>
+        <time>2011-09-20T17:21:54Z</time>
+        <desc>Lat.=52.505347. Long.=13.336234. Alt.=33.000000m. Speed=2Km/h. Course=260deg.</desc>
+    </wpt>
+    <wpt lat="52.505370" lon="13.335853">
+        <ele>33.000000</ele>
+        <time>2011-09-20T17:21:58Z</time>
+        <desc>Lat.=52.505370. Long.=13.335853. Alt.=33.000000m. Speed=23Km/h. Course=276deg.</desc>
+    </wpt>
+    <wpt lat="52.505405" lon="13.335482">
+        <ele>33.000000</ele>
+        <time>2011-09-20T17:22:01Z</time>
+        <desc>Lat.=52.505405. Long.=13.335482. Alt.=33.000000m. Speed=30Km/h. Course=279deg.</desc>
+    </wpt>
+    <wpt lat="52.505418" lon="13.335093">
+        <ele>33.000000</ele>
+        <time>2011-09-20T17:22:04Z</time>
+        <desc>Lat.=52.505418. Long.=13.335093. Alt.=33.000000m. Speed=31Km/h. Course=273deg.</desc>
+    </wpt>
+    <wpt lat="52.505466" lon="13.334722">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:22:07Z</time>
+        <desc>Lat.=52.505466. Long.=13.334722. Alt.=34.000000m. Speed=30Km/h. Course=282deg.</desc>
+    </wpt>
+    <wpt lat="52.505523" lon="13.334359">
+        <ele>34.000000</ele>
+        <time>2011-09-20T17:22:10Z</time>
+        <desc>Lat.=52.505523. Long.=13.334359. Alt.=34.000000m. Speed=30Km/h. Course=285deg.</desc>
+    </wpt>
+    <wpt lat="52.505616" lon="13.334016">
+        <ele>35.000000</ele>
+        <time>2011-09-20T17:22:13Z</time>
+        <desc>Lat.=52.505616. Long.=13.334016. Alt.=35.000000m. Speed=30Km/h. Course=294deg.</desc>
+    </wpt>
+    <wpt lat="52.505686" lon="13.333639">
+        <ele>36.000000</ele>
+        <time>2011-09-20T17:22:19Z</time>
+        <desc>Lat.=52.505686. Long.=13.333639. Alt.=36.000000m. Speed=15Km/h. Course=287deg.</desc>
+    </wpt>
+    <wpt lat="52.505901" lon="13.333256">
+        <ele>36.000000</ele>
+        <time>2011-09-20T17:22:24Z</time>
+        <desc>Lat.=52.505901. Long.=13.333256. Alt.=36.000000m. Speed=25Km/h. Course=313deg.</desc>
+    </wpt>
+    <wpt lat="52.506093" lon="13.332961">
+        <ele>36.000000</ele>
+        <time>2011-09-20T17:22:27Z</time>
+        <desc>Lat.=52.506093. Long.=13.332961. Alt.=36.000000m. Speed=35Km/h. Course=317deg.</desc>
+    </wpt>
+    <wpt lat="52.506182" lon="13.332582">
+        <ele>36.000000</ele>
+        <time>2011-09-20T17:22:47Z</time>
+        <desc>Lat.=52.506182. Long.=13.332582. Alt.=36.000000m. Speed=4Km/h. Course=291deg.</desc>
+    </wpt>
+    <wpt lat="52.506275" lon="13.332168">
+        <ele>36.000000</ele>
+        <time>2011-09-20T17:22:52Z</time>
+        <desc>Lat.=52.506275. Long.=13.332168. Alt.=36.000000m. Speed=21Km/h. Course=290deg.</desc>
+    </wpt>
+    <wpt lat="52.506371" lon="13.331822">
+        <ele>37.000000</ele>
+        <time>2011-09-20T17:22:58Z</time>
+        <desc>Lat.=52.506371. Long.=13.331822. Alt.=37.000000m. Speed=15Km/h. Course=295deg.</desc>
+    </wpt>
+</gpx>

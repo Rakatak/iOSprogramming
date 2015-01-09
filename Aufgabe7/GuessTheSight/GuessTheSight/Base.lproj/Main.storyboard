@@ -63,7 +63,7 @@
                                     <action selector="pressAnswer:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="paE-r0-S9f"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="Loz-ZM-nr1">
+                            <mapView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" mapType="hybrid" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsBuildings="NO" id="Loz-ZM-nr1">
                                 <rect key="frame" x="11" y="83" width="298" height="284"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
