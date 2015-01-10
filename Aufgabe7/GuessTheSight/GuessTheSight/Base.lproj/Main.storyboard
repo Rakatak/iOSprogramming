@@ -63,7 +63,7 @@
                                     <action selector="pressAnswer:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="paE-r0-S9f"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" mapType="hybrid" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsBuildings="NO" id="Loz-ZM-nr1">
+                            <mapView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" mapType="hybrid" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" id="Loz-ZM-nr1">
                                 <rect key="frame" x="11" y="83" width="298" height="284"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
@@ -79,6 +79,22 @@
                                     <action selector="pressAnswer:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZZT-bu-4X7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hit-Rate: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FVL-iy-UYe">
+                                <rect key="frame" x="16" y="26" width="109" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;percentage&gt;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ecw-pL-Djs">
+                                <rect key="frame" x="117" y="26" width="147" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Nho-8F-KtQ">
+                                <rect key="frame" x="258" y="32" width="41" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <color key="tintColor" red="0.84564393940000004" green="0.10400464500000001" blue="0.035147579429999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -86,6 +102,8 @@
                     <connections>
                         <outlet property="StartButton" destination="oPk-Cl-WfM" id="F6Z-Fn-dsT"/>
                         <outlet property="mapView" destination="Loz-ZM-nr1" id="v4S-gG-5ca"/>
+                        <outlet property="percentage" destination="Ecw-pL-Djs" id="QVT-7n-3Kw"/>
+                        <outlet property="smilyImage" destination="Nho-8F-KtQ" id="cju-VD-yjw"/>
                         <outlet property="startButton" destination="oPk-Cl-WfM" id="SXk-b2-r4q"/>
                         <outletCollection property="AnswerButtons" destination="jlM-Uo-D8T" collectionClass="NSMutableArray" id="bIM-wY-vPl"/>
                         <outletCollection property="AnswerButtons" destination="Ab8-Vi-Cv3" collectionClass="NSMutableArray" id="g0d-AM-FOp"/>

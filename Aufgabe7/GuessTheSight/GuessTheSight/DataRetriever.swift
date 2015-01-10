@@ -63,13 +63,15 @@ class DataRetriever {
         var rightBool = false
         
         while rightBool == false{
-            for elem in exArray {
+            for (index, elem) in enumerate(exArray) {
                 if randomNumber == elem{
                     rightBool = false
                     randomNumber = Int(arc4random_uniform(length))
                     continue
                 } else {
-                    rightBool = true
+                    if index == exArray.count - 1 {
+                        rightBool = true
+                    }
                 }
                 continue
             }
@@ -131,9 +133,9 @@ class DataRetriever {
         var city = String()
         var street = String()
         
+        print("Gathering Adress : ")
         while streetBool == false || zipBool == false{
-            println("-----Gathering Adresses-----")
-        
+            print("-")
             if streetBool == false {
                 var streetNode = adressDoc.body?.descendantsWithClass("street-address")
                 if streetNode?.count != nil {
@@ -153,35 +155,40 @@ class DataRetriever {
         }
         
         var adress = "\(street), Berlin, \(zip)"
-        println("\nRetrieved following Adress: \(adress)\n")
+        println("\n\nRetrieved following Adress: \(adress)\n")
         return adress
     }
     
     
     func prepExArray() -> [Int] {
         var array = [Int]()
-        
-        array.append(235)
-        array.append(267)
-        array.append(245)
-        array.append(176)
-        array.append(172)
-        array.append(64)
-        array.append(88)
-        array.append(182)
-        array.append(152)
         array.append(24)
-        array.append(160)
-        array.append(231)
+        array.append(44)
+        array.append(66)
+        array.append(87)
+        array.append(88)
         array.append(94)
-        array.append(175)
         array.append(95)
-        array.append(150)
         array.append(96)
+        array.append(126)
+        array.append(150)
+        array.append(152)
+        array.append(159)
+        array.append(160)
         array.append(162)
-        array.append(233)
+        array.append(172)
         array.append(173)
-        
+        array.append(175)
+        array.append(176)
+        array.append(182)
+        array.append(194)
+        array.append(231)
+        array.append(233)
+        array.append(235)
+        array.append(244)
+        array.append(245)
+        array.append(267)
+
         return array
         
     }

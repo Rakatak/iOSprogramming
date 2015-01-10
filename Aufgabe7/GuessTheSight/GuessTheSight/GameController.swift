@@ -12,9 +12,12 @@ class GameController {
     
     var rightAnswer: HTMLNode!
     var wrongAnswers: [String]!
+    var rightAnswers: Double!
+    var totalAnswers: Double!
     
     init(){
-        
+        rightAnswers = 0.0
+        totalAnswers = 0.0
     }
     
     func reset(){

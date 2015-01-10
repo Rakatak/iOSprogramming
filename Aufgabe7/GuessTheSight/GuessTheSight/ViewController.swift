@@ -17,6 +17,8 @@ class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDel
     @IBOutlet var answerButtons: [UIButton]!
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var percentage: UILabel!
+    @IBOutlet weak var smilyImage: UIImageView!
     
     var retriever : DataRetriever!
     var gameController: GameController!
@@ -27,19 +29,21 @@ class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDel
     var poi : Waypoint!
 
     override func viewDidLoad() {
+        retrieveData()
+        sleep(2)
         super.viewDidLoad()
+        self.view.addSubview(smilyImage)
+        
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         mapView.hidden = true
         self.mapView.delegate = self
         geoCoder = CLGeocoder()
+        percentage.text = "0%"
         
         for button in answerButtons {
             button.hidden = true
         }
-        
-//        var timer = NSTimer.scheduledTimerWithTimeInterval(3 , target: self, selector: Selector("retrieveData"), userInfo: nil, repeats: false)
-        retrieveData()
     }
     
     func retrieveData(){
@@ -56,7 +60,10 @@ class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDel
     @IBAction func StartGame(sender: UIButton) {
         
         println("-------------------  Starting Game first Time  -------------------\n")
+        gameController = GameController()
+
         prepareGame()
+        
 
         sleep(1)
 
@@ -74,8 +81,10 @@ class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDel
         var answer = sender.titleForState(UIControlState.Normal)!
         
         println("Button pressed: \(answer)\n")
+        gameController.totalAnswers = gameController.totalAnswers + 1.0
         
         if gameController.validate(answer) {
+            gameController.rightAnswers = gameController.rightAnswers + 1.0
             println("Right Answer was Selected\n")
             println("-------------------------------------------------\n")
 
@@ -89,6 +98,22 @@ class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDel
             sender.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
         }
         
+        var perc = gameController.rightAnswers / gameController.totalAnswers
+        var percText = NSString(format: "%.0f", perc * 100)
+        percentage.text = "\(percText)%"
+        
+        if perc > 0.49 {
+            var image = UIImage(named: "Messaging-Happy-icon.png")
+            smilyImage.image = image
+        } else {
+            var image =  UIImage(named: "Messaging-Sad-icon.png")
+            smilyImage.image = image
+        }
+        
+        for button in answerButtons {
+            button.enabled = false
+        }
+        
         var timer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: Selector("prepareGame"), userInfo: nil, repeats: false)
         
     }
@@ -99,7 +124,6 @@ class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDel
         }
         
         println("\nPrepare new round")
-        gameController = GameController()
         
         //Setting the button with the right answer
         randomNumberId = Int(arc4random_uniform(4))

@@ -19,6 +19,8 @@
 		AF868C3F1A56E22F006CD2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF868C3E1A56E22F006CD2DE /* Images.xcassets */; };
 		AF868C421A56E22F006CD2DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF868C401A56E22F006CD2DE /* LaunchScreen.xib */; };
 		AF868C4E1A56E22F006CD2DE /* GuessTheSightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF868C4D1A56E22F006CD2DE /* GuessTheSightTests.swift */; };
+		AFA03DE81A614873009437FF /* Messaging-Happy-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA03DE61A614873009437FF /* Messaging-Happy-icon.png */; };
+		AFA03DE91A614873009437FF /* Messaging-Sad-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA03DE71A614873009437FF /* Messaging-Sad-icon.png */; };
 		AFB81B111A58415D00530899 /* DataRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB81B101A58415D00530899 /* DataRetriever.swift */; };
 		AFB81B131A59B66D00530899 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB81B121A59B66D00530899 /* GameController.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +53,10 @@
 		AF868C471A56E22F006CD2DE /* GuessTheSightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheSightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF868C4C1A56E22F006CD2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF868C4D1A56E22F006CD2DE /* GuessTheSightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheSightTests.swift; sourceTree = "<group>"; };
+		AFA03DE61A614873009437FF /* Messaging-Happy-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Messaging-Happy-icon.png"; sourceTree = "<group>"; };
+		AFA03DE71A614873009437FF /* Messaging-Sad-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Messaging-Sad-icon.png"; sourceTree = "<group>"; };
+		AFA03DEA1A61487D009437FF /* Messaging-Happy-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Messaging-Happy-icon.png"; path = "Images.xcassets/Messaging-Happy-icon.png"; sourceTree = "<group>"; };
+		AFA03DEB1A61487D009437FF /* Messaging-Sad-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Messaging-Sad-icon.png"; path = "Images.xcassets/Messaging-Sad-icon.png"; sourceTree = "<group>"; };
 		AFB81B101A58415D00530899 /* DataRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRetriever.swift; sourceTree = "<group>"; };
 		AFB81B121A59B66D00530899 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +107,10 @@
 				AF868C391A56E22F006CD2DE /* ViewController.swift */,
 				AFB81B121A59B66D00530899 /* GameController.swift */,
 				AF2C42861A5C42A5004C1FAF /* Waypoint.swift */,
+				AFA03DEA1A61487D009437FF /* Messaging-Happy-icon.png */,
+				AFA03DEB1A61487D009437FF /* Messaging-Sad-icon.png */,
+				AFA03DE61A614873009437FF /* Messaging-Happy-icon.png */,
+				AFA03DE71A614873009437FF /* Messaging-Sad-icon.png */,
 				AF868C3B1A56E22F006CD2DE /* Main.storyboard */,
 				AF42412E1A56F35600BEB7B0 /* GuessTheSight-Bridging-Header.h */,
 				AF42412F1A56F35600BEB7B0 /* HTMLDocument.swift */,
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF868C3D1A56E22F006CD2DE /* Main.storyboard in Resources */,
+				AFA03DE91A614873009437FF /* Messaging-Sad-icon.png in Resources */,
 				AF868C421A56E22F006CD2DE /* LaunchScreen.xib in Resources */,
+				AFA03DE81A614873009437FF /* Messaging-Happy-icon.png in Resources */,
 				AF868C3F1A56E22F006CD2DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
