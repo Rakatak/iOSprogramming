@@ -111,13 +111,11 @@ class DataRetriever {
     func getAdress(node: HTMLNode) -> String {
         
         var newUrl = NSURL(string:"http://www.berlin.de" + node.hrefValue!)
-//        var newUrl = NSURL(string:"http://www.berlin.de/orte/sehenswuerdigkeiten/mauergedenkstaette-brandenburger-tor/")
 
         println("Retrieving adress of sight on: \(newUrl!)\n")
         
         var adressDoc = HTMLDocument(contentsOfURL: newUrl!, encoding:NSUTF8StringEncoding, error: &err)!
         
-//        println(adressDoc.body?.HTMLString)
         
         return misc(adressDoc, sight: node)
         
@@ -126,11 +124,9 @@ class DataRetriever {
     func misc(adressDoc: HTMLDocument, sight: HTMLNode) -> String {
         
         var zipBool = false
-        var cityBool = false
         var streetBool = false
         
         var zip = String()
-        var city = String()
         var street = String()
         
         print("Gathering Adress : ")
@@ -163,6 +159,7 @@ class DataRetriever {
     func prepExArray() -> [Int] {
         var array = [Int]()
         array.append(24)
+        array.append(35)
         array.append(44)
         array.append(66)
         array.append(87)
@@ -170,6 +167,8 @@ class DataRetriever {
         array.append(94)
         array.append(95)
         array.append(96)
+        array.append(99)
+        array.append(115)
         array.append(126)
         array.append(150)
         array.append(152)
@@ -182,6 +181,7 @@ class DataRetriever {
         array.append(176)
         array.append(182)
         array.append(194)
+        array.append(230)
         array.append(231)
         array.append(233)
         array.append(235)

@@ -63,17 +63,12 @@ class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDel
         gameController = GameController()
 
         prepareGame()
-        
-
         sleep(1)
 
         self.view.backgroundColor = UIColor.whiteColor()
         startButton.hidden = true
         startButton.enabled = false
         mapView.hidden = false
-        
-        
-
         
     }
 
@@ -114,6 +109,7 @@ class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDel
             button.enabled = false
         }
         
+        
         var timer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: Selector("prepareGame"), userInfo: nil, repeats: false)
         
     }
@@ -151,12 +147,12 @@ class ViewController: UIViewController , CLLocationManagerDelegate, MKMapViewDel
     func prepareMap(){
         var answer = gameController.rightAnswer
         
-        var address = retriever.getAdress(answer)
+        gameController.setAddress(retriever.getAdress(answer))
         
         var geoCoder = CLGeocoder()
         var latlong = [Double]()
         
-        geoCoder.geocodeAddressString(address, completionHandler: { (placemarks, error) -> Void in
+        geoCoder.geocodeAddressString(gameController.adress, completionHandler: { (placemarks, error) -> Void in
             
             println("Getting lat and lon values")
             var placemark: CLPlacemark = placemarks[0] as CLPlacemark

@@ -14,6 +14,7 @@ class GameController {
     var wrongAnswers: [String]!
     var rightAnswers: Double!
     var totalAnswers: Double!
+    var adress : String!
     
     init(){
         rightAnswers = 0.0
@@ -23,13 +24,18 @@ class GameController {
     func reset(){
         rightAnswer = nil
         wrongAnswers = nil
-        
+        adress = nil
     }
     
     func set(rightA: HTMLNode, wrongAs: [String]){
         self.rightAnswer = rightA
         self.wrongAnswers = wrongAs
     }
+    
+    func setAddress(address: String){
+        self.adress = address
+    }
+    
     
     func validate(answer: String) -> Bool{
         return answer == rightAnswer.rawStringValue!
